@@ -1,0 +1,4 @@
+wheel==0.45.1
+llama-cpp-python>=0.3.8,<1.0
+Pillow>=10.0.0,<12.0
+langcodes>=3.4.0,<4.0

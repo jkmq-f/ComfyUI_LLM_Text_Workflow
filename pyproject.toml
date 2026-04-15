@@ -1,0 +1,16 @@
+[project]
+name = "comfyui-llm-text-workflow"
+version = "0.1.0"
+description = "ComfyUI local LLM text workflow nodes for stories, cuts, tags, prompt conversion, text viewing, and text saving"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+    "llama-cpp-python>=0.3.9",
+    "torch",
+]
+
+[tool.comfy]
+PublisherId = "openai"
+DisplayName = "LLM Text Workflow"
+Icon = ""
