@@ -48,6 +48,7 @@ python -m pip install -r requirements.txt
 5. 必要に応じて **LLM Story Tags** で物語全体のタグを生成
 6. 必要に応じて **LLM Cut Tags** でカットごとのタグを生成
 7. **LLM Video Prompt** でカットごとの動画プロンプトを生成
+8. 必要に応じて **LLM Prompt Converter** / **LLM Prompt Converter 8** でモデル別プロンプトへ変換
 
 推奨の接続例:
 
@@ -55,6 +56,7 @@ python -m pip install -r requirements.txt
 Story -> Story Cuts -> Video Prompt
      \-> Story Tags
      \-> Cut Tags
+     \-> Prompt Converter
 ```
 
 ## ノード一覧
@@ -72,6 +74,8 @@ Story -> Story Cuts -> Video Prompt
 - `length`
 - `language`
 - `extra_requirements`
+- `save_dir`
+- `save_name`
 - `model_path`
 - `load_strategy`
 - `max_tokens`
@@ -80,6 +84,8 @@ Story -> Story Cuts -> Video Prompt
 
 **出力**
 - `story_text`
+- `save_name_out`
+- `story_json_path`
 
 不足している情報があっても、自然に補いながら直接物語を書きます。
 
@@ -95,6 +101,8 @@ Story -> Story Cuts -> Video Prompt
 - `language`
 - `style`
 - `extra_requirements`
+- `save_dir`
+- `save_name`
 - `model_path`
 - `load_strategy`
 - `max_tokens`
@@ -110,6 +118,9 @@ Story -> Story Cuts -> Video Prompt
 - `cut_6`
 - `cut_7`
 - `cut_8`
+- `save_name_out`
+- `cut_count_out`
+- `cuts_json_path`
 
 `cut_count` で生成するカット数を決めます。未使用の出力は空のままになります。
 
@@ -132,6 +143,8 @@ Story -> Story Cuts -> Video Prompt
 - `language`
 - `max_tags`
 - `extra_requirements`
+- `save_dir`
+- `save_name`
 - `model_path`
 - `load_strategy`
 - `max_tokens`
@@ -140,6 +153,8 @@ Story -> Story Cuts -> Video Prompt
 
 **出力**
 - `tags_text`
+- `save_name_out`
+- `tags_json_path`
 
 **`tag_mode` の選択肢**
 - `general_keywords`
@@ -192,9 +207,12 @@ Story -> Story Cuts -> Video Prompt
 - `cut_6`
 - `cut_7`
 - `cut_8`
+- `cut_count`
 - `language`
 - `prompt_style`
 - `extra_requirements`
+- `save_dir`
+- `save_name`
 - `model_path`
 - `load_strategy`
 - `max_tokens`
@@ -211,6 +229,9 @@ Story -> Story Cuts -> Video Prompt
 - `prompt_7`
 - `prompt_8`
 - `all_prompts`
+- `save_name_out`
+- `cut_count_out`
+- `video_prompts_json_path`
 
 **`prompt_style` の選択肢**
 - `cinematic_video_prompt`
@@ -230,8 +251,10 @@ Story -> Story Cuts -> Video Prompt
 - `input_type`
 - `mode`
 - `language`
+- `max_tags`
 - `extra_requirements`
-- `include_debug_text`
+- `save_dir`
+- `save_name`
 - `model_path`
 - `load_strategy`
 - `max_tokens`
@@ -240,7 +263,8 @@ Story -> Story Cuts -> Video Prompt
 
 **出力**
 - `selected_output`
-- `optional_debug_text`
+- `save_name_out`
+- `prompt_json_path`
 
 **`mode` の選択肢**
 - `Illustrious`
@@ -249,23 +273,89 @@ Story -> Story Cuts -> Video Prompt
 
 モデル別のプロンプト変換を 1 ノードで行いたい時に使います。
 
+---
+
+### 5a. LLM Prompt Converter 8
+
+複数の入力テキストをまとめて、特定モデル向けのプロンプトへ変換するノードです。
+
+**入力**
+- `input_1` ～ `input_8`
+- `input_count`
+- `input_type`
+- `mode`
+- `language`
+- `max_tags`
+- `extra_requirements`
+- `save_dir`
+- `save_name`
+- `model_path`
+- `load_strategy`
+- `max_tokens`
+- `temperature`
+- `top_p`
+
+**出力**
+- `output_1` ～ `output_8`
+- `all_outputs`
+- `save_name_out`
+- `prompt_json_path`
+
+複数カットをまとめて画像向けタグやモデル別プロンプトへ変換したい時に使います。
+
 ## 保存機能
 
 すべての主要ノードは `save_dir` と `save_name` に対応しています。
 
 - `save_dir`: `.json` や `.txt` を保存するフォルダ
 - `save_name`: 共通のプロジェクト名。空欄の場合は自動生成
+- `save_name_out`: 次ノードへ渡すための確定済み保存名
 
-**主な出力**
+### 保存名のつなぎ方
+
+`save_name_out` は、次ノードの `save_name` にそのままつないでください。  
+この保存名は **すでに確定済みの名前** として扱われ、後段ノードで再度タイムスタンプを付け直さない仕様です。
+
+そのため、たとえば `LLM Story Generator` の `save_name_out` を `LLM Prompt Converter` の `save_name` へつないだ場合でも、親名は崩れません。
+
+例:
+
+```text
+20260416_001212_story_story.txt
+20260416_001212_story_story.json
+20260416_001212_story_prompt.txt
+20260416_001212_story_prompt.json
+```
+
+### 対応ノード
+
+保存名の連鎖処理は、以下のノードで共通化されています。
+
+- `LLMStoryNode`
+- `LLMStoryCutsNode`
+- `LLMCutTagsNode`
+- `LLMStoryTagsNode`
+- `LLMPromptConverter`
+- `LLMPromptConverter8`
+- `LLMVideoPromptNode`
+
+### 主な保存系出力
+
 - `LLM Story Generator` → `save_name_out`, `story_json_path`
 - `LLM Story Cuts` → `save_name_out`, `cut_count_out`, `cuts_json_path`
 - `LLM Story Tags` → `save_name_out`, `tags_json_path`
+- `LLM Cut Tags` → `save_name_out`, `cut_count_out`, `cut_tags_json_path`
 - `LLM Video Prompt` → `save_name_out`, `cut_count_out`, `video_prompts_json_path`
+- `LLM Prompt Converter` → `save_name_out`, `prompt_json_path`
+- `LLM Prompt Converter 8` → `save_name_out`, `prompt_json_path`
 
-**推奨のつなぎ方**
+### 推奨のつなぎ方
+
 - Story の `save_name_out` → Cuts の `save_name`
 - Story の `save_name_out` → Tags の `save_name`
 - Story の `save_name_out` → Video Prompt の `save_name`
+- Story の `save_name_out` → Prompt Converter の `save_name`
+- Story の `save_name_out` → Prompt Converter 8 の `save_name`
 - Cuts の `cut_count_out` → Video Prompt の `cut_count`
 
 ## 表示ノード
