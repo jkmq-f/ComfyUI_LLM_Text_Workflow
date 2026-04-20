@@ -1,0 +1,1196 @@
+{
+  "archetypes": {
+    "construction_workwear": {
+      "workwear": {
+        "tops": [
+          "reinforced work shirt",
+          "heavy-duty work hoodie",
+          "utility overshirt",
+          "work polo shirt"
+        ],
+        "bottoms": [
+          "reinforced cargo pants",
+          "heavy work trousers",
+          "straight work denim"
+        ],
+        "outers": [
+          "canvas chore jacket",
+          "work vest",
+          "weather-resistant shell",
+          "none"
+        ],
+        "shoes": [
+          "safety-toe work boots",
+          "protective work boots",
+          "rugged high-top work shoes"
+        ],
+        "accessories": [
+          "durable belt",
+          "work cap",
+          "none"
+        ],
+        "silhouette": "practical and movement-ready"
+      },
+      "off_duty": {
+        "tops": [
+          "washed tee",
+          "henley shirt",
+          "utility shirt"
+        ],
+        "bottoms": [
+          "straight denim",
+          "work chinos",
+          "easy cargo pants"
+        ],
+        "outers": [
+          "hooded work jacket",
+          "none"
+        ],
+        "shoes": [
+          "work boots",
+          "rugged sneakers"
+        ],
+        "accessories": [
+          "cap",
+          "none"
+        ],
+        "silhouette": "relaxed durable"
+      }
+    },
+    "medical_clean": {
+      "workwear": {
+        "tops": [
+          "clean scrub top",
+          "medical tunic",
+          "buttoned clinic top"
+        ],
+        "bottoms": [
+          "scrub pants",
+          "straight medical trousers"
+        ],
+        "outers": [
+          "light cardigan",
+          "lab coat",
+          "none"
+        ],
+        "shoes": [
+          "closed medical shoes",
+          "supportive work sneakers"
+        ],
+        "accessories": [
+          "name badge",
+          "simple watch",
+          "none"
+        ],
+        "silhouette": "clean functional"
+      },
+      "off_duty": {
+        "tops": [
+          "soft knit top",
+          "clean hoodie",
+          "cotton shirt"
+        ],
+        "bottoms": [
+          "easy trousers",
+          "straight denim",
+          "relaxed slacks"
+        ],
+        "outers": [
+          "cardigan",
+          "none"
+        ],
+        "shoes": [
+          "clean sneakers",
+          "flat loafers"
+        ],
+        "accessories": [
+          "tote bag",
+          "none"
+        ],
+        "silhouette": "soft relaxed"
+      }
+    },
+    "office_clean": {
+      "workwear": {
+        "tops": [
+          "dress shirt",
+          "fine knit top",
+          "clean blouse"
+        ],
+        "bottoms": [
+          "pressed slacks",
+          "straight office trousers",
+          "clean ankle trousers"
+        ],
+        "outers": [
+          "tailored jacket",
+          "structured cardigan",
+          "none"
+        ],
+        "shoes": [
+          "leather loafers",
+          "dress shoes",
+          "clean pumps"
+        ],
+        "accessories": [
+          "structured tote bag",
+          "simple watch",
+          "leather belt",
+          "none"
+        ],
+        "silhouette": "clean and controlled"
+      },
+      "off_duty": {
+        "tops": [
+          "relaxed knit",
+          "casual shirt",
+          "simple tee"
+        ],
+        "bottoms": [
+          "straight denim",
+          "easy trousers",
+          "relaxed chinos"
+        ],
+        "outers": [
+          "light coat",
+          "none"
+        ],
+        "shoes": [
+          "clean sneakers",
+          "loafers"
+        ],
+        "accessories": [
+          "shoulder bag",
+          "none"
+        ],
+        "silhouette": "slightly relaxed"
+      }
+    },
+    "retail_service": {
+      "workwear": {
+        "tops": [
+          "clean polo shirt",
+          "button-up shirt",
+          "store uniform knit"
+        ],
+        "bottoms": [
+          "straight slacks",
+          "dark chinos",
+          "clean ankle trousers"
+        ],
+        "outers": [
+          "light cardigan",
+          "store jacket",
+          "none"
+        ],
+        "shoes": [
+          "clean sneakers",
+          "loafers",
+          "comfortable flats"
+        ],
+        "accessories": [
+          "name badge",
+          "simple watch",
+          "none"
+        ],
+        "silhouette": "tidy and approachable"
+      },
+      "off_duty": {
+        "tops": [
+          "simple knit",
+          "casual shirt",
+          "tee"
+        ],
+        "bottoms": [
+          "straight denim",
+          "easy trousers",
+          "relaxed chinos"
+        ],
+        "outers": [
+          "light jacket",
+          "none"
+        ],
+        "shoes": [
+          "sneakers",
+          "loafers"
+        ],
+        "accessories": [
+          "shoulder bag",
+          "none"
+        ],
+        "silhouette": "clean relaxed"
+      }
+    },
+    "kitchen_service": {
+      "workwear": {
+        "tops": [
+          "double-breasted chef jacket",
+          "short-sleeve chef coat",
+          "clean kitchen jacket"
+        ],
+        "bottoms": [
+          "straight kitchen pants",
+          "dark work slacks",
+          "check kitchen trousers"
+        ],
+        "outers": [
+          "apron",
+          "none"
+        ],
+        "shoes": [
+          "slip-resistant kitchen shoes",
+          "closed-toe work shoes"
+        ],
+        "accessories": [
+          "waist apron",
+          "none"
+        ],
+        "silhouette": "clean and easy to move in"
+      },
+      "off_duty": {
+        "tops": [
+          "clean knit polo",
+          "plain tee",
+          "light cardigan"
+        ],
+        "bottoms": [
+          "straight trousers",
+          "dark denim",
+          "relaxed chinos"
+        ],
+        "outers": [
+          "light jacket",
+          "none"
+        ],
+        "shoes": [
+          "simple leather sneakers",
+          "loafers",
+          "clean sneakers"
+        ],
+        "accessories": [
+          "none",
+          "simple watch"
+        ],
+        "silhouette": "clean relaxed"
+      }
+    },
+    "lab_research": {
+      "workwear": {
+        "tops": [
+          "clean button shirt",
+          "fine knit top",
+          "lab-ready polo shirt"
+        ],
+        "bottoms": [
+          "straight slacks",
+          "clean work trousers",
+          "ankle pants"
+        ],
+        "outers": [
+          "lab coat",
+          "light cardigan",
+          "none"
+        ],
+        "shoes": [
+          "closed lab shoes",
+          "clean loafers",
+          "supportive sneakers"
+        ],
+        "accessories": [
+          "ID badge",
+          "simple watch",
+          "none"
+        ],
+        "silhouette": "clean and controlled"
+      },
+      "off_duty": {
+        "tops": [
+          "knit sweater",
+          "button shirt",
+          "plain tee"
+        ],
+        "bottoms": [
+          "straight denim",
+          "easy trousers",
+          "slacks"
+        ],
+        "outers": [
+          "cardigan",
+          "light coat",
+          "none"
+        ],
+        "shoes": [
+          "sneakers",
+          "loafers"
+        ],
+        "accessories": [
+          "shoulder bag",
+          "none"
+        ],
+        "silhouette": "quiet neat"
+      }
+    },
+    "media_mobile": {
+      "workwear": {
+        "tops": [
+          "utility shirt",
+          "dark overshirt",
+          "light technical jacket"
+        ],
+        "bottoms": [
+          "utility cargo pants",
+          "dark outdoor trousers",
+          "flex work pants"
+        ],
+        "outers": [
+          "utility vest",
+          "weather shell",
+          "none"
+        ],
+        "shoes": [
+          "trail shoes",
+          "rugged sneakers",
+          "light hiking boots"
+        ],
+        "accessories": [
+          "crossbody gear bag",
+          "cap",
+          "none"
+        ],
+        "silhouette": "mobile and layered"
+      },
+      "off_duty": {
+        "tops": [
+          "washed tee",
+          "hoodie",
+          "overshirt"
+        ],
+        "bottoms": [
+          "cargo pants",
+          "denim pants",
+          "easy trousers"
+        ],
+        "outers": [
+          "light jacket",
+          "none"
+        ],
+        "shoes": [
+          "sneakers",
+          "trail shoes"
+        ],
+        "accessories": [
+          "small sling bag",
+          "none"
+        ],
+        "silhouette": "relaxed practical"
+      }
+    },
+    "security_uniform": {
+      "workwear": {
+        "tops": [
+          "structured uniform shirt",
+          "dark duty polo shirt",
+          "patrol uniform top"
+        ],
+        "bottoms": [
+          "duty trousers",
+          "dark uniform pants"
+        ],
+        "outers": [
+          "duty jacket",
+          "light duty vest",
+          "none"
+        ],
+        "shoes": [
+          "duty boots",
+          "polished patrol boots",
+          "black duty shoes"
+        ],
+        "accessories": [
+          "duty belt",
+          "cap",
+          "none"
+        ],
+        "silhouette": "clean and authoritative"
+      },
+      "off_duty": {
+        "tops": [
+          "dark hoodie",
+          "plain polo",
+          "tee"
+        ],
+        "bottoms": [
+          "straight denim",
+          "cargo pants",
+          "work chinos"
+        ],
+        "outers": [
+          "light jacket",
+          "none"
+        ],
+        "shoes": [
+          "black sneakers",
+          "boots"
+        ],
+        "accessories": [
+          "cap",
+          "none"
+        ],
+        "silhouette": "simple relaxed"
+      }
+    },
+    "care_soft": {
+      "workwear": {
+        "tops": [
+          "soft care tunic",
+          "clean scrub top",
+          "light knit top"
+        ],
+        "bottoms": [
+          "straight care pants",
+          "scrub pants",
+          "easy work trousers"
+        ],
+        "outers": [
+          "cardigan",
+          "light care jacket",
+          "none"
+        ],
+        "shoes": [
+          "supportive sneakers",
+          "closed work shoes"
+        ],
+        "accessories": [
+          "name badge",
+          "none"
+        ],
+        "silhouette": "soft and functional"
+      },
+      "off_duty": {
+        "tops": [
+          "soft hoodie",
+          "knit top",
+          "cotton shirt"
+        ],
+        "bottoms": [
+          "easy trousers",
+          "straight denim",
+          "relaxed slacks"
+        ],
+        "outers": [
+          "cardigan",
+          "none"
+        ],
+        "shoes": [
+          "clean sneakers",
+          "flats"
+        ],
+        "accessories": [
+          "tote bag",
+          "none"
+        ],
+        "silhouette": "soft relaxed"
+      }
+    },
+    "creative_relaxed": {
+      "workwear": {
+        "tops": [
+          "paint-marked overshirt",
+          "soft work tee",
+          "loose button shirt"
+        ],
+        "bottoms": [
+          "relaxed work pants",
+          "wide denim",
+          "utility apron pants"
+        ],
+        "outers": [
+          "canvas apron",
+          "light chore jacket",
+          "none"
+        ],
+        "shoes": [
+          "paint-splattered sneakers",
+          "work clogs",
+          "simple boots"
+        ],
+        "accessories": [
+          "canvas tote bag",
+          "bandana",
+          "none"
+        ],
+        "silhouette": "relaxed and expressive"
+      },
+      "off_duty": {
+        "tops": [
+          "draped shirt",
+          "soft knit",
+          "washed tee"
+        ],
+        "bottoms": [
+          "wide trousers",
+          "relaxed denim",
+          "cropped pants"
+        ],
+        "outers": [
+          "light coat",
+          "none"
+        ],
+        "shoes": [
+          "sneakers",
+          "minimal boots",
+          "slip-ons"
+        ],
+        "accessories": [
+          "shoulder bag",
+          "silver ring",
+          "none"
+        ],
+        "silhouette": "creative relaxed"
+      }
+    },
+    "field_outdoor": {
+      "workwear": {
+        "tops": [
+          "sun-faded work shirt",
+          "breathable long-sleeve field shirt",
+          "rugged henley",
+          "lightweight work hoodie"
+        ],
+        "bottoms": [
+          "field work pants",
+          "durable straight denim",
+          "utility farm trousers"
+        ],
+        "outers": [
+          "canvas vest",
+          "weathered chore jacket",
+          "none"
+        ],
+        "shoes": [
+          "mud-resistant work boots",
+          "rubber work boots",
+          "rugged field shoes"
+        ],
+        "accessories": [
+          "work cap",
+          "wide-brim hat",
+          "none"
+        ],
+        "silhouette": "practical and sun-ready"
+      },
+      "off_duty": {
+        "tops": [
+          "washed plaid shirt",
+          "soft hoodie",
+          "faded tee"
+        ],
+        "bottoms": [
+          "straight denim",
+          "work chinos",
+          "relaxed utility pants"
+        ],
+        "outers": [
+          "canvas jacket",
+          "none"
+        ],
+        "shoes": [
+          "work boots",
+          "rugged sneakers"
+        ],
+        "accessories": [
+          "cap",
+          "none"
+        ],
+        "silhouette": "relaxed durable"
+      }
+    },
+    "bar_service": {
+      "workwear": {
+        "tops": [
+          "apron-ready oxford shirt",
+          "clean tee",
+          "dark knit top"
+        ],
+        "bottoms": [
+          "straight chinos",
+          "dark work trousers",
+          "clean denim"
+        ],
+        "outers": [
+          "waist apron",
+          "bib apron",
+          "none"
+        ],
+        "shoes": [
+          "slip-resistant sneakers",
+          "closed-toe work shoes",
+          "simple leather sneakers"
+        ],
+        "accessories": [
+          "apron",
+          "cap",
+          "none"
+        ],
+        "silhouette": "clean and easy to move in"
+      },
+      "off_duty": {
+        "tops": [
+          "hoodie",
+          "knit polo",
+          "washed tee"
+        ],
+        "bottoms": [
+          "straight denim",
+          "relaxed trousers",
+          "easy chinos"
+        ],
+        "outers": [
+          "light cardigan",
+          "none"
+        ],
+        "shoes": [
+          "sneakers",
+          "loafers"
+        ],
+        "accessories": [
+          "tote bag",
+          "none"
+        ],
+        "silhouette": "soft casual"
+      }
+    },
+    "idol_stage": {
+      "workwear": {
+        "tops": [
+          "fitted stage top",
+          "cropped performance jacket",
+          "idol stage blouse",
+          "sparkle-trim performance shirt"
+        ],
+        "bottoms": [
+          "pleated mini skirt",
+          "high-waist stage shorts",
+          "slim performance trousers",
+          "layered stage skirt"
+        ],
+        "outers": [
+          "short performance jacket",
+          "light stage bolero",
+          "idol stage coat",
+          "none"
+        ],
+        "shoes": [
+          "stage ankle boots",
+          "platform sneakers",
+          "dance sneakers",
+          "heeled ankle boots"
+        ],
+        "accessories": [
+          "wireless mic belt pack",
+          "in-ear case pouch",
+          "hair ribbon",
+          "statement earrings",
+          "none"
+        ],
+        "silhouette": "camera-ready and movement-friendly"
+      },
+      "off_duty": {
+        "tops": [
+          "clean crop hoodie",
+          "fitted knit top",
+          "graphic tee",
+          "oversized rehearsal hoodie"
+        ],
+        "bottoms": [
+          "pleated skirt",
+          "straight denim",
+          "training joggers",
+          "easy shorts"
+        ],
+        "outers": [
+          "light bomber jacket",
+          "cardigan",
+          "none"
+        ],
+        "shoes": [
+          "clean sneakers",
+          "dance sneakers",
+          "ankle boots"
+        ],
+        "accessories": [
+          "small crossbody bag",
+          "cap",
+          "none"
+        ],
+        "silhouette": "styled but easy to move in"
+      }
+    },
+    "fantasy_adventure": {
+      "workwear": {
+        "tops": [
+          "lace-up tunic",
+          "travel cloak layer",
+          "leather-strapped adventurer shirt",
+          "ranger field tunic"
+        ],
+        "bottoms": [
+          "belted utility trousers",
+          "adventurer riding pants",
+          "layered travel skirt",
+          "reinforced fantasy trousers"
+        ],
+        "outers": [
+          "short travel cloak",
+          "weathered capelet",
+          "leather vest",
+          "none"
+        ],
+        "shoes": [
+          "adventurer boots",
+          "riding boots",
+          "lace-up field boots",
+          "traveler shoes"
+        ],
+        "accessories": [
+          "utility belt",
+          "satchel",
+          "gloves",
+          "none"
+        ],
+        "silhouette": "practical fantasy travel silhouette"
+      },
+      "off_duty": {
+        "tops": [
+          "soft linen shirt",
+          "simple tunic",
+          "henley shirt"
+        ],
+        "bottoms": [
+          "relaxed trousers",
+          "straight denim",
+          "easy skirt"
+        ],
+        "outers": [
+          "hooded cloak",
+          "none"
+        ],
+        "shoes": [
+          "simple boots",
+          "leather shoes"
+        ],
+        "accessories": [
+          "satchel",
+          "none"
+        ],
+        "silhouette": "relaxed traveler"
+      }
+    },
+    "fantasy_magic": {
+      "workwear": {
+        "tops": [
+          "high-collar mage robe top",
+          "embroidered spellcaster tunic",
+          "layered alchemist shirt",
+          "scholar vest"
+        ],
+        "bottoms": [
+          "slim robe trousers",
+          "layered arcane skirt",
+          "straight scholar pants"
+        ],
+        "outers": [
+          "long robe coat",
+          "hooded mantle",
+          "short cape",
+          "none"
+        ],
+        "shoes": [
+          "soft leather boots",
+          "arcane ankle boots",
+          "scholar shoes"
+        ],
+        "accessories": [
+          "potion satchel",
+          "rune belt",
+          "pendant",
+          "none"
+        ],
+        "silhouette": "layered and arcane"
+      },
+      "off_duty": {
+        "tops": [
+          "soft blouse",
+          "clean shirt",
+          "fine knit top"
+        ],
+        "bottoms": [
+          "easy trousers",
+          "long skirt",
+          "relaxed pants"
+        ],
+        "outers": [
+          "light robe",
+          "cardigan",
+          "none"
+        ],
+        "shoes": [
+          "simple boots",
+          "slippers",
+          "leather shoes"
+        ],
+        "accessories": [
+          "book satchel",
+          "none"
+        ],
+        "silhouette": "quiet scholarly"
+      }
+    },
+    "fantasy_royal": {
+      "workwear": {
+        "tops": [
+          "structured royal jacket",
+          "ornate blouse",
+          "formal noble tunic",
+          "tailored ceremonial top"
+        ],
+        "bottoms": [
+          "tailored trousers",
+          "layered formal skirt",
+          "ceremonial slacks"
+        ],
+        "outers": [
+          "formal cape",
+          "ornate coat",
+          "short mantle",
+          "none"
+        ],
+        "shoes": [
+          "polished riding boots",
+          "formal boots",
+          "ornate shoes"
+        ],
+        "accessories": [
+          "brooch",
+          "gloves",
+          "structured sash",
+          "none"
+        ],
+        "silhouette": "formal and commanding"
+      },
+      "off_duty": {
+        "tops": [
+          "fine knit top",
+          "silk blouse",
+          "soft shirt"
+        ],
+        "bottoms": [
+          "tailored pants",
+          "long skirt",
+          "clean trousers"
+        ],
+        "outers": [
+          "light coat",
+          "none"
+        ],
+        "shoes": [
+          "dress shoes",
+          "ankle boots",
+          "flats"
+        ],
+        "accessories": [
+          "brooch",
+          "small bag",
+          "none"
+        ],
+        "silhouette": "elegant refined"
+      }
+    },
+    "fantasy_craft": {
+      "workwear": {
+        "tops": [
+          "worksmith shirt",
+          "rolled-sleeve craft tunic",
+          "apron-ready shirt",
+          "sturdy leather apron top"
+        ],
+        "bottoms": [
+          "reinforced work trousers",
+          "straight craft pants",
+          "heavy utility skirt"
+        ],
+        "outers": [
+          "smith apron",
+          "work vest",
+          "none"
+        ],
+        "shoes": [
+          "heavy leather boots",
+          "work boots",
+          "sturdy shoes"
+        ],
+        "accessories": [
+          "thick belt",
+          "gloves",
+          "tool satchel",
+          "none"
+        ],
+        "silhouette": "sturdy and practical"
+      },
+      "off_duty": {
+        "tops": [
+          "henley shirt",
+          "washed tee",
+          "simple shirt"
+        ],
+        "bottoms": [
+          "work chinos",
+          "relaxed pants",
+          "straight denim"
+        ],
+        "outers": [
+          "hooded jacket",
+          "none"
+        ],
+        "shoes": [
+          "boots",
+          "simple shoes"
+        ],
+        "accessories": [
+          "belt pouch",
+          "none"
+        ],
+        "silhouette": "relaxed durable"
+      }
+    },
+    "sci_fi_field": {
+      "workwear": {
+        "tops": [
+          "technical field jacket",
+          "panelled utility top",
+          "mission shirt",
+          "light armor vest layer"
+        ],
+        "bottoms": [
+          "tactical utility pants",
+          "panel cargo trousers",
+          "mobility field pants"
+        ],
+        "outers": [
+          "weather shell",
+          "light tactical coat",
+          "none"
+        ],
+        "shoes": [
+          "tactical boots",
+          "technical sneakers",
+          "field boots"
+        ],
+        "accessories": [
+          "modular sling bag",
+          "comms earpiece",
+          "utility harness",
+          "none"
+        ],
+        "silhouette": "mobile and mission-ready"
+      },
+      "off_duty": {
+        "tops": [
+          "tech hoodie",
+          "clean tee",
+          "utility overshirt"
+        ],
+        "bottoms": [
+          "cargo pants",
+          "joggers",
+          "easy trousers"
+        ],
+        "outers": [
+          "light bomber jacket",
+          "none"
+        ],
+        "shoes": [
+          "technical sneakers",
+          "boots"
+        ],
+        "accessories": [
+          "sling bag",
+          "none"
+        ],
+        "silhouette": "relaxed technical"
+      }
+    },
+    "sci_fi_command": {
+      "workwear": {
+        "tops": [
+          "structured command jacket",
+          "high-collar uniform shirt",
+          "officer tunic"
+        ],
+        "bottoms": [
+          "command trousers",
+          "uniform slacks",
+          "clean fitted pants"
+        ],
+        "outers": [
+          "command coat",
+          "short mantle",
+          "none"
+        ],
+        "shoes": [
+          "polished duty boots",
+          "uniform shoes",
+          "structured boots"
+        ],
+        "accessories": [
+          "rank insignia",
+          "gloves",
+          "belt",
+          "none"
+        ],
+        "silhouette": "clean and authoritative"
+      },
+      "off_duty": {
+        "tops": [
+          "fine knit top",
+          "clean polo",
+          "simple shirt"
+        ],
+        "bottoms": [
+          "straight trousers",
+          "dark denim",
+          "relaxed slacks"
+        ],
+        "outers": [
+          "light coat",
+          "none"
+        ],
+        "shoes": [
+          "clean sneakers",
+          "loafers",
+          "boots"
+        ],
+        "accessories": [
+          "small shoulder bag",
+          "none"
+        ],
+        "silhouette": "controlled neat"
+      }
+    },
+    "sci_fi_tech": {
+      "workwear": {
+        "tops": [
+          "technical lab jacket",
+          "clean utility shirt",
+          "high-neck tech top",
+          "engineer overshirt"
+        ],
+        "bottoms": [
+          "straight tech trousers",
+          "utility slacks",
+          "clean cargo pants"
+        ],
+        "outers": [
+          "light lab coat",
+          "technical shell",
+          "none"
+        ],
+        "shoes": [
+          "technical sneakers",
+          "closed work shoes",
+          "utility boots"
+        ],
+        "accessories": [
+          "tablet sling pouch",
+          "ID badge",
+          "tool wrist pouch",
+          "none"
+        ],
+        "silhouette": "clean functional technical"
+      },
+      "off_duty": {
+        "tops": [
+          "minimal tee",
+          "clean hoodie",
+          "light knit"
+        ],
+        "bottoms": [
+          "easy trousers",
+          "straight denim",
+          "joggers"
+        ],
+        "outers": [
+          "cardigan",
+          "light jacket",
+          "none"
+        ],
+        "shoes": [
+          "sneakers",
+          "technical sneakers"
+        ],
+        "accessories": [
+          "crossbody pouch",
+          "none"
+        ],
+        "silhouette": "clean technical casual"
+      }
+    },
+    "hospitality_host": {
+      "workwear": {
+        "tops": [
+          "fine gauge knit top",
+          "button-up shirt",
+          "clean knit polo"
+        ],
+        "bottoms": [
+          "pressed slacks",
+          "tailored service trousers",
+          "clean straight slacks"
+        ],
+        "outers": [
+          "service vest",
+          "tailored cardigan",
+          "waist apron",
+          "none"
+        ],
+        "shoes": [
+          "service shoes",
+          "dress shoes",
+          "clean loafers"
+        ],
+        "accessories": [
+          "simple watch",
+          "name badge",
+          "none"
+        ],
+        "silhouette": "clean and easy to move in"
+      },
+      "off_duty": {
+        "tops": [
+          "fine knit top",
+          "casual shirt",
+          "simple tee"
+        ],
+        "bottoms": [
+          "straight chinos",
+          "easy trousers",
+          "clean denim"
+        ],
+        "outers": [
+          "light cardigan",
+          "none"
+        ],
+        "shoes": [
+          "clean loafers",
+          "simple sneakers"
+        ],
+        "accessories": [
+          "shoulder bag",
+          "simple watch",
+          "none"
+        ],
+        "silhouette": "tidy relaxed"
+      }
+    }
+  }
+}

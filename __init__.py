@@ -6,6 +6,13 @@ from .nodes.video_prompt_node import LLMVideoPromptNode
 from .nodes.text_view_node import LLMTextViewNode
 from .nodes.model_prompt_converter_node import LLMPromptConverterNode, LLMPromptConverter8Node
 from .nodes.save_text_node import LLMSaveTextNode, LLMSaveText8Node
+from .nodes.character_generator_node import LLMCharacterGeneratorNode
+from .nodes.random_persona_speech_node import LLMRandomPersonaSpeechNode
+from .nodes.outfit_generator_node import LLMOutfitGeneratorNode
+from .nodes.outfit_texture_node import LLMOutfitTextureNode
+from .nodes.outfit_color_node import LLMOutfitColorNode
+from .nodes.story_to_lyrics_node import LLMStoryToLyricsNode
+from .nodes.translate_simple_node import LLMSimpleTranslateNode
 
 WEB_DIRECTORY = "./js"
 
@@ -20,6 +27,13 @@ NODE_CLASS_MAPPINGS = {
     "LLMPromptConverter8": LLMPromptConverter8Node,
     "LLMSaveText": LLMSaveTextNode,
     "LLMSaveText8": LLMSaveText8Node,
+    "LLMCharacterGenerator": LLMCharacterGeneratorNode,
+    "LLMRandomPersonaSpeech": LLMRandomPersonaSpeechNode,
+    "LLMOutfitGenerator": LLMOutfitGeneratorNode,
+    "LLMOutfitTexture": LLMOutfitTextureNode,
+    "LLMOutfitColor": LLMOutfitColorNode,
+    "LLMStoryToLyrics": LLMStoryToLyricsNode,
+    "LLMSimpleTranslate": LLMSimpleTranslateNode,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
@@ -33,6 +47,13 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "LLMPromptConverter8": "LLM Prompt Converter 8",
     "LLMSaveText": "LLM Save Text",
     "LLMSaveText8": "LLM Save Text 8",
+    "LLMCharacterGenerator": "LLM Character Generator",
+    "LLMRandomPersonaSpeech": "LLM Random Persona Speech",
+    "LLMOutfitGenerator": "LLM Outfit Generator",
+    "LLMOutfitTexture": "LLM Outfit Texture",
+    "LLMOutfitColor": "LLM Outfit Color",
+    "LLMStoryToLyrics": "LLM Story To Lyrics",
+    "LLMSimpleTranslate": "LLM Simple Translate",
 }
 
 __all__ = ["NODE_CLASS_MAPPINGS", "NODE_DISPLAY_NAME_MAPPINGS", "WEB_DIRECTORY"]

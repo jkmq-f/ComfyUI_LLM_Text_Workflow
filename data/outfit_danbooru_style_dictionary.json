@@ -1,0 +1,1783 @@
+{
+  "meta": {
+    "name": "outfit_danbooru_style_dictionary",
+    "version": "2026-04-18",
+    "format": "safe_general_tags_only",
+    "language": "en",
+    "tag_style": "danbooru_like_underscored_tags",
+    "style_count": 25,
+    "flat_tag_count": 369,
+    "note": "Broad curated starting dictionary for outfit generation and random style selection. Not a literal dump of every Danbooru clothing tag."
+  },
+  "styles": {
+    "casual": {
+      "core_tags": [
+        "casual",
+        "everyday_clothes",
+        "simple_background_ready"
+      ],
+      "tops": [
+        "t-shirt",
+        "shirt",
+        "hoodie",
+        "sweater",
+        "cardigan",
+        "polo_shirt",
+        "tank_top",
+        "henley_shirt",
+        "turtleneck",
+        "vest"
+      ],
+      "bottoms": [
+        "jeans",
+        "pants",
+        "shorts",
+        "skirt",
+        "long_skirt",
+        "miniskirt",
+        "denim_shorts",
+        "cargo_pants",
+        "chino_pants"
+      ],
+      "outerwear": [
+        "jacket",
+        "denim_jacket",
+        "bomber_jacket",
+        "blouson",
+        "coat",
+        "hooded_jacket",
+        "zip-up_jacket"
+      ],
+      "footwear": [
+        "sneakers",
+        "slip-on_shoes",
+        "ankle_boots",
+        "loafers",
+        "sandals"
+      ],
+      "accessories": [
+        "backpack",
+        "messenger_bag",
+        "shoulder_bag",
+        "wristwatch",
+        "beanie",
+        "baseball_cap",
+        "earrings",
+        "necklace"
+      ]
+    },
+    "streetwear": {
+      "core_tags": [
+        "street_fashion",
+        "layered_clothing",
+        "oversized_clothes"
+      ],
+      "tops": [
+        "oversized_hoodie",
+        "graphic_shirt",
+        "hoodie",
+        "sweatshirt",
+        "jersey",
+        "track_jacket",
+        "crop_top",
+        "tank_top"
+      ],
+      "bottoms": [
+        "cargo_pants",
+        "baggy_pants",
+        "jogger_pants",
+        "track_pants",
+        "ripped_jeans",
+        "short_shorts",
+        "miniskirt"
+      ],
+      "outerwear": [
+        "bomber_jacket",
+        "puffer_jacket",
+        "varsity_jacket",
+        "windbreaker",
+        "anorak",
+        "oversized_jacket"
+      ],
+      "footwear": [
+        "high_tops",
+        "sneakers",
+        "platform_shoes",
+        "boots",
+        "skate_shoes"
+      ],
+      "accessories": [
+        "bucket_hat",
+        "beanie",
+        "chain_necklace",
+        "choker",
+        "crossbody_bag",
+        "waist_pouch",
+        "fingerless_gloves"
+      ]
+    },
+    "formal": {
+      "core_tags": [
+        "formal_clothes",
+        "neat_clothes",
+        "tailored_clothes"
+      ],
+      "tops": [
+        "dress_shirt",
+        "blouse",
+        "vest",
+        "turtleneck",
+        "buttoned_shirt",
+        "lace_blouse"
+      ],
+      "bottoms": [
+        "dress_pants",
+        "pencil_skirt",
+        "pleated_skirt",
+        "long_skirt",
+        "slacks"
+      ],
+      "outerwear": [
+        "blazer",
+        "suit_jacket",
+        "long_coat",
+        "trench_coat",
+        "pea_coat"
+      ],
+      "footwear": [
+        "oxfords",
+        "loafers",
+        "pumps",
+        "heels",
+        "dress_shoes"
+      ],
+      "accessories": [
+        "necktie",
+        "bowtie",
+        "brooch",
+        "cufflinks",
+        "gloves",
+        "handbag",
+        "pearl_necklace"
+      ]
+    },
+    "business": {
+      "core_tags": [
+        "business_attire",
+        "office_wear",
+        "tidy_clothes"
+      ],
+      "tops": [
+        "dress_shirt",
+        "blouse",
+        "buttoned_shirt",
+        "knit_top",
+        "vest"
+      ],
+      "bottoms": [
+        "slacks",
+        "pencil_skirt",
+        "straight_pants",
+        "long_skirt"
+      ],
+      "outerwear": [
+        "blazer",
+        "suit",
+        "cardigan",
+        "trench_coat",
+        "coat"
+      ],
+      "footwear": [
+        "loafers",
+        "heels",
+        "dress_shoes",
+        "ankle_boots"
+      ],
+      "accessories": [
+        "briefcase",
+        "handbag",
+        "glasses",
+        "wristwatch",
+        "tie_clip",
+        "name_tag"
+      ]
+    },
+    "mode": {
+      "core_tags": [
+        "fashion_focus",
+        "minimalist_clothes",
+        "monochrome"
+      ],
+      "tops": [
+        "turtleneck",
+        "asymmetrical_top",
+        "high-neck_dress",
+        "blouse",
+        "shirt",
+        "knit_top"
+      ],
+      "bottoms": [
+        "wide_pants",
+        "flared_pants",
+        "long_skirt",
+        "pencil_skirt",
+        "culottes"
+      ],
+      "outerwear": [
+        "long_coat",
+        "tailcoat",
+        "cape_coat",
+        "blazer",
+        "trench_coat"
+      ],
+      "footwear": [
+        "ankle_boots",
+        "heels",
+        "platform_boots",
+        "loafers"
+      ],
+      "accessories": [
+        "beret",
+        "earrings",
+        "gloves",
+        "scarf",
+        "necklace",
+        "sunglasses"
+      ]
+    },
+    "techwear": {
+      "core_tags": [
+        "techwear",
+        "functional_clothes",
+        "black_clothes"
+      ],
+      "tops": [
+        "hoodie",
+        "bodysuit",
+        "compression_shirt",
+        "tactical_vest",
+        "mock_turtleneck"
+      ],
+      "bottoms": [
+        "cargo_pants",
+        "tactical_pants",
+        "jogger_pants",
+        "leggings",
+        "bike_shorts"
+      ],
+      "outerwear": [
+        "hooded_jacket",
+        "windbreaker",
+        "cloak",
+        "poncho",
+        "puffer_jacket",
+        "utility_jacket"
+      ],
+      "footwear": [
+        "combat_boots",
+        "sneakers",
+        "hiking_boots",
+        "knee_boots"
+      ],
+      "accessories": [
+        "backpack",
+        "face_mask",
+        "gloves",
+        "goggles",
+        "belt",
+        "thigh_strap",
+        "arm_warmers"
+      ]
+    },
+    "outdoor": {
+      "core_tags": [
+        "outdoor_clothes",
+        "practical_clothes",
+        "layered_clothing"
+      ],
+      "tops": [
+        "fleece",
+        "hoodie",
+        "shirt",
+        "t-shirt",
+        "thermal_shirt"
+      ],
+      "bottoms": [
+        "cargo_pants",
+        "shorts",
+        "leggings",
+        "hiking_pants"
+      ],
+      "outerwear": [
+        "parka",
+        "anorak",
+        "windbreaker",
+        "down_jacket",
+        "raincoat",
+        "poncho"
+      ],
+      "footwear": [
+        "hiking_boots",
+        "boots",
+        "trail_shoes",
+        "sneakers"
+      ],
+      "accessories": [
+        "backpack",
+        "cap",
+        "beanie",
+        "gloves",
+        "scarf",
+        "canteen",
+        "waist_pouch"
+      ]
+    },
+    "sportswear": {
+      "core_tags": [
+        "sportswear",
+        "athletic_clothes",
+        "activewear"
+      ],
+      "tops": [
+        "sports_bra",
+        "tank_top",
+        "jersey",
+        "track_jacket",
+        "compression_shirt",
+        "hoodie"
+      ],
+      "bottoms": [
+        "shorts",
+        "bike_shorts",
+        "leggings",
+        "track_pants",
+        "tennis_skirt",
+        "bloomers"
+      ],
+      "outerwear": [
+        "track_jacket",
+        "windbreaker",
+        "hooded_jacket"
+      ],
+      "footwear": [
+        "running_shoes",
+        "sneakers",
+        "trainers"
+      ],
+      "accessories": [
+        "visor_cap",
+        "headband",
+        "wristband",
+        "gym_bag",
+        "water_bottle"
+      ]
+    },
+    "military": {
+      "core_tags": [
+        "military_uniform",
+        "combat_style",
+        "camouflage"
+      ],
+      "tops": [
+        "military_jacket",
+        "dress_shirt",
+        "uniform",
+        "cape",
+        "armor"
+      ],
+      "bottoms": [
+        "cargo_pants",
+        "uniform_pants",
+        "pleated_skirt",
+        "shorts"
+      ],
+      "outerwear": [
+        "trench_coat",
+        "military_coat",
+        "cape",
+        "greatcoat",
+        "armor"
+      ],
+      "footwear": [
+        "combat_boots",
+        "boots",
+        "knee_boots"
+      ],
+      "accessories": [
+        "gloves",
+        "belt",
+        "beret",
+        "military_hat",
+        "epaulettes",
+        "armband"
+      ]
+    },
+    "punk": {
+      "core_tags": [
+        "punk_fashion",
+        "edgy_clothes",
+        "layered_clothing"
+      ],
+      "tops": [
+        "graphic_shirt",
+        "crop_top",
+        "band_shirt",
+        "off_shoulder",
+        "hoodie",
+        "leather_jacket"
+      ],
+      "bottoms": [
+        "ripped_jeans",
+        "miniskirt",
+        "plaid_skirt",
+        "short_shorts",
+        "skinny_pants"
+      ],
+      "outerwear": [
+        "leather_jacket",
+        "biker_jacket",
+        "hooded_jacket",
+        "denim_jacket"
+      ],
+      "footwear": [
+        "combat_boots",
+        "platform_boots",
+        "ankle_boots",
+        "sneakers"
+      ],
+      "accessories": [
+        "choker",
+        "chain_necklace",
+        "studded_belt",
+        "fingerless_gloves",
+        "ear_piercing",
+        "bracelet"
+      ]
+    },
+    "gothic": {
+      "core_tags": [
+        "goth_fashion",
+        "black_clothes",
+        "elegant_dark_clothes"
+      ],
+      "tops": [
+        "blouse",
+        "corset",
+        "high-neck_dress",
+        "frilled_shirt",
+        "lace_top",
+        "vest"
+      ],
+      "bottoms": [
+        "long_skirt",
+        "frilled_skirt",
+        "pencil_skirt",
+        "shorts",
+        "leggings"
+      ],
+      "outerwear": [
+        "long_coat",
+        "cloak",
+        "cape",
+        "jacket"
+      ],
+      "footwear": [
+        "platform_boots",
+        "heels",
+        "mary_janes",
+        "ankle_boots"
+      ],
+      "accessories": [
+        "choker",
+        "lace_gloves",
+        "cross_necklace",
+        "hairband",
+        "brooch",
+        "parasol"
+      ]
+    },
+    "lolita": {
+      "core_tags": [
+        "lolita_fashion",
+        "frills",
+        "lace_trim"
+      ],
+      "tops": [
+        "blouse",
+        "frilled_shirt",
+        "peter_pan_collar",
+        "cardigan"
+      ],
+      "bottoms": [
+        "jumper_skirt",
+        "petticoat",
+        "frilled_skirt",
+        "dress"
+      ],
+      "outerwear": [
+        "bolero",
+        "capelet",
+        "coat"
+      ],
+      "footwear": [
+        "mary_janes",
+        "platform_shoes",
+        "ankle_boots"
+      ],
+      "accessories": [
+        "bonnet",
+        "head_bow",
+        "wrist_cuffs",
+        "parasol",
+        "brooch",
+        "lace_gloves"
+      ]
+    },
+    "school": {
+      "core_tags": [
+        "school_uniform",
+        "clean_clothes",
+        "youthful_clothes"
+      ],
+      "tops": [
+        "sailor_collar",
+        "blazer",
+        "dress_shirt",
+        "cardigan",
+        "sweater_vest",
+        "hoodie"
+      ],
+      "bottoms": [
+        "pleated_skirt",
+        "slacks",
+        "shorts",
+        "checkered_skirt"
+      ],
+      "outerwear": [
+        "blazer",
+        "cardigan",
+        "coat",
+        "hooded_jacket"
+      ],
+      "footwear": [
+        "loafers",
+        "uwabaki",
+        "sneakers",
+        "ankle_boots"
+      ],
+      "accessories": [
+        "necktie",
+        "ribbon",
+        "school_bag",
+        "backpack",
+        "hair_ribbon"
+      ]
+    },
+    "idol_stage": {
+      "core_tags": [
+        "stage_clothes",
+        "frilled_clothes",
+        "performance_costume"
+      ],
+      "tops": [
+        "idol_clothes",
+        "frilled_dress",
+        "off_shoulder",
+        "corset",
+        "crop_top",
+        "military_jacket"
+      ],
+      "bottoms": [
+        "frilled_skirt",
+        "layered_skirt",
+        "shorts",
+        "bloomers"
+      ],
+      "outerwear": [
+        "cape",
+        "bolero",
+        "tailcoat",
+        "jacket"
+      ],
+      "footwear": [
+        "knee_boots",
+        "heels",
+        "ankle_boots",
+        "mary_janes"
+      ],
+      "accessories": [
+        "hair_bow",
+        "microphone",
+        "gloves",
+        "thighhighs",
+        "garter_straps",
+        "ribbon"
+      ]
+    },
+    "maid_cafe": {
+      "core_tags": [
+        "maid",
+        "apron",
+        "frills"
+      ],
+      "tops": [
+        "maid_headdress",
+        "blouse",
+        "dress",
+        "corset"
+      ],
+      "bottoms": [
+        "apron",
+        "frilled_skirt",
+        "puffy_skirt"
+      ],
+      "outerwear": [
+        "dress",
+        "capelet"
+      ],
+      "footwear": [
+        "mary_janes",
+        "heels",
+        "ankle_boots"
+      ],
+      "accessories": [
+        "maid_headdress",
+        "lace_gloves",
+        "ribbon",
+        "choker",
+        "wrist_cuffs"
+      ]
+    },
+    "nurse_medical": {
+      "core_tags": [
+        "nurse",
+        "medical_uniform",
+        "clean_clothes"
+      ],
+      "tops": [
+        "scrubs",
+        "blouse",
+        "dress_shirt",
+        "labcoat",
+        "cardigan"
+      ],
+      "bottoms": [
+        "scrub_pants",
+        "pencil_skirt",
+        "slacks"
+      ],
+      "outerwear": [
+        "labcoat",
+        "cardigan",
+        "apron"
+      ],
+      "footwear": [
+        "nurse_cap",
+        "sneakers",
+        "loafers",
+        "clogs"
+      ],
+      "accessories": [
+        "stethoscope",
+        "name_tag",
+        "gloves",
+        "clipboard"
+      ]
+    },
+    "chef": {
+      "core_tags": [
+        "chef",
+        "kitchen_clothes",
+        "clean_uniform"
+      ],
+      "tops": [
+        "chef_uniform",
+        "double-breasted",
+        "dress_shirt",
+        "apron"
+      ],
+      "bottoms": [
+        "slacks",
+        "pants",
+        "checkered_pants"
+      ],
+      "outerwear": [
+        "apron",
+        "chef_hat"
+      ],
+      "footwear": [
+        "clogs",
+        "work_shoes",
+        "loafers"
+      ],
+      "accessories": [
+        "chef_hat",
+        "apron",
+        "gloves",
+        "towel"
+      ]
+    },
+    "mechanic": {
+      "core_tags": [
+        "mechanic",
+        "work_clothes",
+        "practical_clothes"
+      ],
+      "tops": [
+        "coveralls",
+        "jumpsuit",
+        "work_shirt",
+        "tank_top"
+      ],
+      "bottoms": [
+        "cargo_pants",
+        "work_pants",
+        "jeans"
+      ],
+      "outerwear": [
+        "work_jacket",
+        "hoodie",
+        "apron"
+      ],
+      "footwear": [
+        "work_boots",
+        "boots",
+        "sneakers"
+      ],
+      "accessories": [
+        "gloves",
+        "tool_belt",
+        "cap",
+        "goggles"
+      ]
+    },
+    "carpenter": {
+      "core_tags": [
+        "work_clothes",
+        "practical_clothes",
+        "apron"
+      ],
+      "tops": [
+        "flannel",
+        "work_shirt",
+        "tank_top",
+        "t-shirt",
+        "hoodie"
+      ],
+      "bottoms": [
+        "cargo_pants",
+        "jeans",
+        "overalls",
+        "work_pants"
+      ],
+      "outerwear": [
+        "tool_belt",
+        "work_jacket",
+        "apron",
+        "vest"
+      ],
+      "footwear": [
+        "work_boots",
+        "boots",
+        "sneakers"
+      ],
+      "accessories": [
+        "tool_belt",
+        "gloves",
+        "beanie",
+        "cap"
+      ]
+    },
+    "photographer": {
+      "core_tags": [
+        "practical_clothes",
+        "outdoor_clothes",
+        "casual"
+      ],
+      "tops": [
+        "shirt",
+        "hoodie",
+        "turtleneck",
+        "sweater",
+        "vest"
+      ],
+      "bottoms": [
+        "cargo_pants",
+        "jeans",
+        "shorts",
+        "slacks"
+      ],
+      "outerwear": [
+        "utility_vest",
+        "jacket",
+        "windbreaker",
+        "coat"
+      ],
+      "footwear": [
+        "boots",
+        "sneakers",
+        "trail_shoes"
+      ],
+      "accessories": [
+        "camera",
+        "camera_strap",
+        "messenger_bag",
+        "backpack",
+        "gloves"
+      ]
+    },
+    "security_guard": {
+      "core_tags": [
+        "uniform",
+        "practical_clothes",
+        "neat_clothes"
+      ],
+      "tops": [
+        "uniform",
+        "dress_shirt",
+        "polo_shirt",
+        "jacket"
+      ],
+      "bottoms": [
+        "slacks",
+        "uniform_pants",
+        "cargo_pants"
+      ],
+      "outerwear": [
+        "jacket",
+        "coat",
+        "vest"
+      ],
+      "footwear": [
+        "boots",
+        "dress_shoes",
+        "loafers"
+      ],
+      "accessories": [
+        "belt",
+        "gloves",
+        "name_tag",
+        "cap",
+        "radio"
+      ]
+    },
+    "kimono_japanese": {
+      "core_tags": [
+        "kimono",
+        "traditional_clothes",
+        "japanese_clothes"
+      ],
+      "tops": [
+        "kimono",
+        "furisode",
+        "yukata",
+        "haori",
+        "hakama"
+      ],
+      "bottoms": [
+        "hakama",
+        "long_skirt"
+      ],
+      "outerwear": [
+        "haori",
+        "shawl",
+        "coat"
+      ],
+      "footwear": [
+        "geta",
+        "zouri",
+        "sandals",
+        "boots"
+      ],
+      "accessories": [
+        "obi",
+        "kanzashi",
+        "hair_ornament",
+        "drawstring_bag",
+        "tabi"
+      ]
+    },
+    "chinese_fashion": {
+      "core_tags": [
+        "china_dress",
+        "traditional_clothes",
+        "eastern_clothes"
+      ],
+      "tops": [
+        "china_dress",
+        "qipao",
+        "hanfu",
+        "jacket",
+        "blouse"
+      ],
+      "bottoms": [
+        "long_skirt",
+        "pants",
+        "shorts"
+      ],
+      "outerwear": [
+        "jacket",
+        "coat",
+        "cape"
+      ],
+      "footwear": [
+        "heels",
+        "flats",
+        "ankle_boots",
+        "sandals"
+      ],
+      "accessories": [
+        "hairpin",
+        "earrings",
+        "bracelet",
+        "hand_fan",
+        "shawl"
+      ]
+    },
+    "fantasy": {
+      "core_tags": [
+        "fantasy_clothes",
+        "adventurer",
+        "ornate_clothes"
+      ],
+      "tops": [
+        "tunic",
+        "corset",
+        "cloak",
+        "armor",
+        "robe",
+        "vest"
+      ],
+      "bottoms": [
+        "leggings",
+        "skirt",
+        "pants",
+        "shorts",
+        "hakama"
+      ],
+      "outerwear": [
+        "cloak",
+        "cape",
+        "mantle",
+        "armor",
+        "robe"
+      ],
+      "footwear": [
+        "boots",
+        "thigh_boots",
+        "sandals",
+        "armored_boots"
+      ],
+      "accessories": [
+        "belt",
+        "gloves",
+        "hood",
+        "amulet",
+        "pauldrons",
+        "gauntlets"
+      ]
+    },
+    "sci_fi": {
+      "core_tags": [
+        "bodysuit",
+        "science_fiction",
+        "futuristic_clothes"
+      ],
+      "tops": [
+        "bodysuit",
+        "jacket",
+        "uniform",
+        "crop_top",
+        "armor"
+      ],
+      "bottoms": [
+        "leggings",
+        "shorts",
+        "pants",
+        "skirt"
+      ],
+      "outerwear": [
+        "cloak",
+        "jacket",
+        "cape",
+        "armor"
+      ],
+      "footwear": [
+        "boots",
+        "platform_boots",
+        "sneakers"
+      ],
+      "accessories": [
+        "visor",
+        "gloves",
+        "goggles",
+        "headset",
+        "belt",
+        "armband"
+      ]
+    }
+  },
+  "global": {
+    "season_tags": {
+      "spring": [
+        "spring_clothes",
+        "cardigan",
+        "light_jacket",
+        "pastel_clothes",
+        "floral_print"
+      ],
+      "summer": [
+        "summer_clothes",
+        "sleeveless",
+        "tank_top",
+        "sandals",
+        "sun_hat",
+        "shorts"
+      ],
+      "autumn": [
+        "autumn_clothes",
+        "sweater",
+        "coat",
+        "scarf",
+        "boots",
+        "brown_clothes"
+      ],
+      "winter": [
+        "winter_clothes",
+        "coat",
+        "scarf",
+        "gloves",
+        "boots",
+        "puffer_jacket",
+        "turtleneck"
+      ]
+    },
+    "color_tags": [
+      "black_clothes",
+      "white_clothes",
+      "red_clothes",
+      "blue_clothes",
+      "green_clothes",
+      "yellow_clothes",
+      "pink_clothes",
+      "purple_clothes",
+      "orange_clothes",
+      "brown_clothes",
+      "gray_clothes",
+      "navy_clothes",
+      "beige_clothes",
+      "monochrome",
+      "pastel_clothes",
+      "earth_tones"
+    ],
+    "pattern_tags": [
+      "plaid",
+      "checkered",
+      "striped",
+      "polka_dot",
+      "argyle",
+      "animal_print",
+      "camouflage",
+      "floral_print",
+      "paisley",
+      "houndstooth",
+      "gingham",
+      "gradient_clothes",
+      "color_blocking"
+    ],
+    "material_tags": [
+      "denim",
+      "leather",
+      "latex",
+      "silk",
+      "satin",
+      "velvet",
+      "wool",
+      "fur_trim",
+      "sheer_fabric",
+      "lace_trim",
+      "ribbed_sweater",
+      "knitwear",
+      "mesh",
+      "translucent",
+      "puffy_sleeves"
+    ],
+    "fit_and_silhouette_tags": [
+      "oversized_clothes",
+      "baggy_clothes",
+      "tight_clothes",
+      "loose_clothes",
+      "form-fitting_clothes",
+      "cropped_jacket",
+      "high_waist",
+      "low_waist",
+      "off_shoulder",
+      "open_jacket",
+      "open_shirt",
+      "layered_clothing",
+      "asymmetrical_clothes",
+      "long_sleeves",
+      "short_sleeves",
+      "sleeveless",
+      "bare_shoulders"
+    ],
+    "universal_tops": [
+      "apron",
+      "armor",
+      "asymmetrical_top",
+      "band_shirt",
+      "blazer",
+      "blouse",
+      "bodysuit",
+      "buttoned_shirt",
+      "cape",
+      "cardigan",
+      "chef_uniform",
+      "china_dress",
+      "cloak",
+      "compression_shirt",
+      "corset",
+      "coveralls",
+      "crop_top",
+      "double-breasted",
+      "dress",
+      "dress_shirt",
+      "flannel",
+      "fleece",
+      "frilled_dress",
+      "frilled_shirt",
+      "furisode",
+      "graphic_shirt",
+      "hakama",
+      "hanfu",
+      "haori",
+      "henley_shirt",
+      "high-neck_dress",
+      "hoodie",
+      "idol_clothes",
+      "jacket",
+      "jersey",
+      "jumpsuit",
+      "kimono",
+      "knit_top",
+      "labcoat",
+      "lace_blouse",
+      "lace_top",
+      "leather_jacket",
+      "maid_headdress",
+      "military_jacket",
+      "mock_turtleneck",
+      "off_shoulder",
+      "oversized_hoodie",
+      "peter_pan_collar",
+      "polo_shirt",
+      "qipao",
+      "robe",
+      "sailor_collar",
+      "scrubs",
+      "shirt",
+      "sports_bra",
+      "sweater",
+      "sweater_vest",
+      "sweatshirt",
+      "t-shirt",
+      "tactical_vest",
+      "tank_top",
+      "thermal_shirt",
+      "track_jacket",
+      "tunic",
+      "turtleneck",
+      "uniform",
+      "vest",
+      "work_shirt",
+      "yukata"
+    ],
+    "universal_bottoms": [
+      "apron",
+      "baggy_pants",
+      "bike_shorts",
+      "bloomers",
+      "cargo_pants",
+      "checkered_pants",
+      "checkered_skirt",
+      "chino_pants",
+      "culottes",
+      "denim_shorts",
+      "dress",
+      "dress_pants",
+      "flared_pants",
+      "frilled_skirt",
+      "hakama",
+      "hiking_pants",
+      "jeans",
+      "jogger_pants",
+      "jumper_skirt",
+      "layered_skirt",
+      "leggings",
+      "long_skirt",
+      "miniskirt",
+      "overalls",
+      "pants",
+      "pencil_skirt",
+      "petticoat",
+      "plaid_skirt",
+      "pleated_skirt",
+      "puffy_skirt",
+      "ripped_jeans",
+      "scrub_pants",
+      "short_shorts",
+      "shorts",
+      "skinny_pants",
+      "skirt",
+      "slacks",
+      "straight_pants",
+      "tactical_pants",
+      "tennis_skirt",
+      "track_pants",
+      "uniform_pants",
+      "wide_pants",
+      "work_pants"
+    ],
+    "universal_outerwear": [
+      "anorak",
+      "apron",
+      "armor",
+      "biker_jacket",
+      "blazer",
+      "blouson",
+      "bolero",
+      "bomber_jacket",
+      "cape",
+      "cape_coat",
+      "capelet",
+      "cardigan",
+      "chef_hat",
+      "cloak",
+      "coat",
+      "denim_jacket",
+      "down_jacket",
+      "dress",
+      "greatcoat",
+      "haori",
+      "hooded_jacket",
+      "hoodie",
+      "jacket",
+      "labcoat",
+      "leather_jacket",
+      "long_coat",
+      "mantle",
+      "military_coat",
+      "oversized_jacket",
+      "parka",
+      "pea_coat",
+      "poncho",
+      "puffer_jacket",
+      "raincoat",
+      "robe",
+      "shawl",
+      "suit",
+      "suit_jacket",
+      "tailcoat",
+      "tool_belt",
+      "track_jacket",
+      "trench_coat",
+      "utility_jacket",
+      "utility_vest",
+      "varsity_jacket",
+      "vest",
+      "windbreaker",
+      "work_jacket",
+      "zip-up_jacket"
+    ],
+    "universal_footwear": [
+      "ankle_boots",
+      "armored_boots",
+      "boots",
+      "clogs",
+      "combat_boots",
+      "dress_shoes",
+      "flats",
+      "geta",
+      "heels",
+      "high_tops",
+      "hiking_boots",
+      "knee_boots",
+      "loafers",
+      "mary_janes",
+      "nurse_cap",
+      "oxfords",
+      "platform_boots",
+      "platform_shoes",
+      "pumps",
+      "running_shoes",
+      "sandals",
+      "skate_shoes",
+      "slip-on_shoes",
+      "sneakers",
+      "thigh_boots",
+      "trail_shoes",
+      "trainers",
+      "uwabaki",
+      "work_boots",
+      "work_shoes",
+      "zouri"
+    ],
+    "universal_accessories": [
+      "amulet",
+      "apron",
+      "arm_warmers",
+      "armband",
+      "backpack",
+      "baseball_cap",
+      "beanie",
+      "belt",
+      "beret",
+      "bonnet",
+      "bowtie",
+      "bracelet",
+      "briefcase",
+      "brooch",
+      "bucket_hat",
+      "camera",
+      "camera_strap",
+      "canteen",
+      "cap",
+      "chain_necklace",
+      "chef_hat",
+      "choker",
+      "clipboard",
+      "cross_necklace",
+      "crossbody_bag",
+      "cufflinks",
+      "drawstring_bag",
+      "ear_piercing",
+      "earrings",
+      "epaulettes",
+      "face_mask",
+      "fingerless_gloves",
+      "garter_straps",
+      "gauntlets",
+      "glasses",
+      "gloves",
+      "goggles",
+      "gym_bag",
+      "hair_bow",
+      "hair_ornament",
+      "hair_ribbon",
+      "hairband",
+      "hairpin",
+      "hand_fan",
+      "handbag",
+      "head_bow",
+      "headband",
+      "headset",
+      "hood",
+      "kanzashi",
+      "lace_gloves",
+      "maid_headdress",
+      "messenger_bag",
+      "microphone",
+      "military_hat",
+      "name_tag",
+      "necklace",
+      "necktie",
+      "obi",
+      "parasol",
+      "pauldrons",
+      "pearl_necklace",
+      "radio",
+      "ribbon",
+      "scarf",
+      "school_bag",
+      "shawl",
+      "shoulder_bag",
+      "stethoscope",
+      "studded_belt",
+      "sunglasses",
+      "tabi",
+      "thigh_strap",
+      "thighhighs",
+      "tie_clip",
+      "tool_belt",
+      "towel",
+      "visor",
+      "visor_cap",
+      "waist_pouch",
+      "water_bottle",
+      "wrist_cuffs",
+      "wristband",
+      "wristwatch"
+    ]
+  },
+  "all_tags_flat": [
+    "activewear",
+    "adventurer",
+    "amulet",
+    "animal_print",
+    "ankle_boots",
+    "anorak",
+    "apron",
+    "argyle",
+    "arm_warmers",
+    "armband",
+    "armor",
+    "armored_boots",
+    "asymmetrical_clothes",
+    "asymmetrical_top",
+    "athletic_clothes",
+    "autumn_clothes",
+    "backpack",
+    "baggy_clothes",
+    "baggy_pants",
+    "band_shirt",
+    "bare_shoulders",
+    "baseball_cap",
+    "beanie",
+    "beige_clothes",
+    "belt",
+    "beret",
+    "bike_shorts",
+    "biker_jacket",
+    "black_clothes",
+    "blazer",
+    "bloomers",
+    "blouse",
+    "blouson",
+    "blue_clothes",
+    "bodysuit",
+    "bolero",
+    "bomber_jacket",
+    "bonnet",
+    "boots",
+    "bowtie",
+    "bracelet",
+    "briefcase",
+    "brooch",
+    "brown_clothes",
+    "bucket_hat",
+    "business_attire",
+    "buttoned_shirt",
+    "camera",
+    "camera_strap",
+    "camouflage",
+    "canteen",
+    "cap",
+    "cape",
+    "cape_coat",
+    "capelet",
+    "cardigan",
+    "cargo_pants",
+    "casual",
+    "chain_necklace",
+    "checkered",
+    "checkered_pants",
+    "checkered_skirt",
+    "chef",
+    "chef_hat",
+    "chef_uniform",
+    "china_dress",
+    "chino_pants",
+    "choker",
+    "clean_clothes",
+    "clean_uniform",
+    "clipboard",
+    "cloak",
+    "clogs",
+    "coat",
+    "color_blocking",
+    "combat_boots",
+    "combat_style",
+    "compression_shirt",
+    "corset",
+    "coveralls",
+    "crop_top",
+    "cropped_jacket",
+    "cross_necklace",
+    "crossbody_bag",
+    "cufflinks",
+    "culottes",
+    "denim",
+    "denim_jacket",
+    "denim_shorts",
+    "double-breasted",
+    "down_jacket",
+    "drawstring_bag",
+    "dress",
+    "dress_pants",
+    "dress_shirt",
+    "dress_shoes",
+    "ear_piercing",
+    "earrings",
+    "earth_tones",
+    "eastern_clothes",
+    "edgy_clothes",
+    "elegant_dark_clothes",
+    "epaulettes",
+    "everyday_clothes",
+    "face_mask",
+    "fantasy_clothes",
+    "fashion_focus",
+    "fingerless_gloves",
+    "flannel",
+    "flared_pants",
+    "flats",
+    "fleece",
+    "floral_print",
+    "form-fitting_clothes",
+    "formal_clothes",
+    "frilled_clothes",
+    "frilled_dress",
+    "frilled_shirt",
+    "frilled_skirt",
+    "frills",
+    "functional_clothes",
+    "fur_trim",
+    "furisode",
+    "futuristic_clothes",
+    "garter_straps",
+    "gauntlets",
+    "geta",
+    "gingham",
+    "glasses",
+    "gloves",
+    "goggles",
+    "goth_fashion",
+    "gradient_clothes",
+    "graphic_shirt",
+    "gray_clothes",
+    "greatcoat",
+    "green_clothes",
+    "gym_bag",
+    "hair_bow",
+    "hair_ornament",
+    "hair_ribbon",
+    "hairband",
+    "hairpin",
+    "hakama",
+    "hand_fan",
+    "handbag",
+    "hanfu",
+    "haori",
+    "head_bow",
+    "headband",
+    "headset",
+    "heels",
+    "henley_shirt",
+    "high-neck_dress",
+    "high_tops",
+    "high_waist",
+    "hiking_boots",
+    "hiking_pants",
+    "hood",
+    "hooded_jacket",
+    "hoodie",
+    "houndstooth",
+    "idol_clothes",
+    "jacket",
+    "japanese_clothes",
+    "jeans",
+    "jersey",
+    "jogger_pants",
+    "jumper_skirt",
+    "jumpsuit",
+    "kanzashi",
+    "kimono",
+    "kitchen_clothes",
+    "knee_boots",
+    "knit_top",
+    "knitwear",
+    "labcoat",
+    "lace_blouse",
+    "lace_gloves",
+    "lace_top",
+    "lace_trim",
+    "latex",
+    "layered_clothing",
+    "layered_skirt",
+    "leather",
+    "leather_jacket",
+    "leggings",
+    "light_jacket",
+    "loafers",
+    "lolita_fashion",
+    "long_coat",
+    "long_skirt",
+    "long_sleeves",
+    "loose_clothes",
+    "low_waist",
+    "maid",
+    "maid_headdress",
+    "mantle",
+    "mary_janes",
+    "mechanic",
+    "medical_uniform",
+    "mesh",
+    "messenger_bag",
+    "microphone",
+    "military_coat",
+    "military_hat",
+    "military_jacket",
+    "military_uniform",
+    "minimalist_clothes",
+    "miniskirt",
+    "mock_turtleneck",
+    "monochrome",
+    "name_tag",
+    "navy_clothes",
+    "neat_clothes",
+    "necklace",
+    "necktie",
+    "nurse",
+    "nurse_cap",
+    "obi",
+    "off_shoulder",
+    "office_wear",
+    "open_jacket",
+    "open_shirt",
+    "orange_clothes",
+    "ornate_clothes",
+    "outdoor_clothes",
+    "overalls",
+    "oversized_clothes",
+    "oversized_hoodie",
+    "oversized_jacket",
+    "oxfords",
+    "paisley",
+    "pants",
+    "parasol",
+    "parka",
+    "pastel_clothes",
+    "pauldrons",
+    "pea_coat",
+    "pearl_necklace",
+    "pencil_skirt",
+    "performance_costume",
+    "peter_pan_collar",
+    "petticoat",
+    "pink_clothes",
+    "plaid",
+    "plaid_skirt",
+    "platform_boots",
+    "platform_shoes",
+    "pleated_skirt",
+    "polka_dot",
+    "polo_shirt",
+    "poncho",
+    "practical_clothes",
+    "puffer_jacket",
+    "puffy_skirt",
+    "puffy_sleeves",
+    "pumps",
+    "punk_fashion",
+    "purple_clothes",
+    "qipao",
+    "radio",
+    "raincoat",
+    "red_clothes",
+    "ribbed_sweater",
+    "ribbon",
+    "ripped_jeans",
+    "robe",
+    "running_shoes",
+    "sailor_collar",
+    "sandals",
+    "satin",
+    "scarf",
+    "school_bag",
+    "school_uniform",
+    "science_fiction",
+    "scrub_pants",
+    "scrubs",
+    "shawl",
+    "sheer_fabric",
+    "shirt",
+    "short_shorts",
+    "short_sleeves",
+    "shorts",
+    "shoulder_bag",
+    "silk",
+    "simple_background_ready",
+    "skate_shoes",
+    "skinny_pants",
+    "skirt",
+    "slacks",
+    "sleeveless",
+    "slip-on_shoes",
+    "sneakers",
+    "sports_bra",
+    "sportswear",
+    "spring_clothes",
+    "stage_clothes",
+    "stethoscope",
+    "straight_pants",
+    "street_fashion",
+    "striped",
+    "studded_belt",
+    "suit",
+    "suit_jacket",
+    "summer_clothes",
+    "sun_hat",
+    "sunglasses",
+    "sweater",
+    "sweater_vest",
+    "sweatshirt",
+    "t-shirt",
+    "tabi",
+    "tactical_pants",
+    "tactical_vest",
+    "tailcoat",
+    "tailored_clothes",
+    "tank_top",
+    "techwear",
+    "tennis_skirt",
+    "thermal_shirt",
+    "thigh_boots",
+    "thigh_strap",
+    "thighhighs",
+    "tidy_clothes",
+    "tie_clip",
+    "tight_clothes",
+    "tool_belt",
+    "towel",
+    "track_jacket",
+    "track_pants",
+    "traditional_clothes",
+    "trail_shoes",
+    "trainers",
+    "translucent",
+    "trench_coat",
+    "tunic",
+    "turtleneck",
+    "uniform",
+    "uniform_pants",
+    "utility_jacket",
+    "utility_vest",
+    "uwabaki",
+    "varsity_jacket",
+    "velvet",
+    "vest",
+    "visor",
+    "visor_cap",
+    "waist_pouch",
+    "water_bottle",
+    "white_clothes",
+    "wide_pants",
+    "windbreaker",
+    "winter_clothes",
+    "wool",
+    "work_boots",
+    "work_clothes",
+    "work_jacket",
+    "work_pants",
+    "work_shirt",
+    "work_shoes",
+    "wrist_cuffs",
+    "wristband",
+    "wristwatch",
+    "yellow_clothes",
+    "youthful_clothes",
+    "yukata",
+    "zip-up_jacket",
+    "zouri"
+  ]
+}

@@ -1,7 +1,7 @@
 # ComfyUI-LLM-Text-Workflow
 
 ComfyUI 用のローカル LLM テキストワークフローです。  
-ローカルの `.gguf` モデルを直接読み込み、物語生成、カット分割、タグ化、動画プロンプト化、モデル別プロンプト変換を ComfyUI 上でまとめて扱えます。
+ローカルの `.gguf` モデルを直接読み込み、物語生成、カット分割、タグ化、動画プロンプト化、モデル別プロンプト変換、歌詞生成、キャラクター生成、服装生成、簡易翻訳までを ComfyUI 上でまとめて扱えます。
 
 ![](ui1.png)
 
@@ -57,6 +57,14 @@ Story -> Story Cuts -> Video Prompt
      \-> Story Tags
      \-> Cut Tags
      \-> Prompt Converter
+```
+
+追加ワークフロー例:
+
+```text
+Story -> Story To Lyrics
+Character Generator -> Outfit Generator -> Outfit Color -> Outfit Texture
+Any Text -> Simple Translate
 ```
 
 ## ノード一覧
@@ -303,6 +311,265 @@ Story -> Story Cuts -> Video Prompt
 
 複数カットをまとめて画像向けタグやモデル別プロンプトへ変換したい時に使います。
 
+---
+
+### 6. LLM Character Generator
+
+キャラクター設定をまとめて生成するノードです。  
+性別、年齢、性格、服装、髪型、職業、外見、雰囲気、話し方などを入力し、1 キャラクター分のまとまった設定文と JSON を出力します。
+
+**入力**
+- `gender`
+- `age`
+- `personality`
+- `clothing`
+- `hairstyle`
+- `occupation`
+- `appearance`
+- `atmosphere`
+- `speech_style`
+- `world_type`
+- `extra_requirements`
+- `language`
+- `save_dir`
+- `save_name`
+- `model_path`
+- `load_strategy`
+- `max_tokens`
+- `temperature`
+- `top_p`
+
+**出力**
+- `character_text`
+- `character_json`
+- `save_name_out`
+- `character_json_path`
+
+未入力の項目は無理に埋めず、入力された条件を中心に自然なキャラクター像へ整理します。
+
+---
+
+### 7. LLM Random Persona Speech
+
+ランダムな人格コアを作るノードです。  
+性格と話し方の核だけを軽量に作りたい時に向いています。
+
+**入力**
+- `seed`
+- `language`
+- `extra_requirements`
+- `save_dir`
+- `save_name`
+- `model_path`
+- `load_strategy`
+- `max_tokens`
+- `temperature`
+- `top_p`
+
+**出力**
+- `personality`
+- `speech_style`
+- `save_name_out`
+- `persona_json_path`
+
+キャラクター全文設定を作る前段として使うこともできます。
+
+---
+
+### 8. LLM Outfit Generator
+
+服装案を生成するノードです。  
+性別、季節、スタイル、職業、年齢帯、気分、靴、靴下、アウター条件などから、実用寄りにも創作寄りにも服装を組み立てられます。
+
+**入力**
+- `gender_mode`
+- `gender`
+- `season_mode`
+- `season`
+- `style_mode`
+- `style`
+- `profession_mode_select`
+- `profession`
+- `mood`
+- `age_range`
+- `avoid_items`
+- `outerwear_mode`
+- `outerwear_type`
+- `socks_mode`
+- `shoe_mode`
+- `include_shoes`
+- `shoe_type`
+- `shoe_avoid`
+- `randomness`
+- `detail_strength`
+- `seed`
+- `language`
+- `save_dir`
+- `save_name`
+- `model_path`
+- `load_strategy`
+- `max_tokens`
+- `temperature`
+- `top_p`
+
+**出力**
+- `outfit_text`
+- `outfit_json`
+- `save_name_out`
+- `outfit_json_path`
+
+ランダム生成と入力指定を混ぜられるのが特徴です。  
+たとえば「季節は固定、職業だけランダム」のような使い方ができます。
+
+---
+
+### 9. LLM Outfit Color
+
+既存の服装文に配色情報を加えるノードです。
+
+**入力**
+- `outfit_text`
+- `language`
+- `palette_mode`
+- `color_strength`
+- `model_path`
+- `load_strategy`
+- `max_tokens`
+- `temperature`
+- `top_p`
+- `save_dir`
+- `save_name`
+- `custom_hint`（任意）
+
+**出力**
+- `colored_outfit_text`
+- `color_summary`
+- `color_tags`
+
+**`palette_mode` の選択肢**
+- `neutral`
+- `warm`
+- `cool`
+- `muted`
+- `earth`
+- `monotone`
+- `high_contrast`
+- `auto`
+
+服の種類を変えず、配色方針だけを足したい時に使います。
+
+---
+
+### 10. LLM Outfit Texture
+
+既存の服装文に素材感や表面感を加えるノードです。  
+色ではなく、編み地、光沢、厚み、乾いた質感、滑らかさなどの情報を補います。
+
+**入力**
+- `outfit_text`
+- `language`
+- `material_focus`
+- `surface_condition`
+- `texture_strength`
+- `model_path`
+- `load_strategy`
+- `max_tokens`
+- `temperature`
+- `top_p`
+- `save_dir`
+- `save_name`
+- `custom_hint`（任意）
+
+**出力**
+- `textured_outfit_text`
+- `texture_summary`
+- `material_tags`
+
+服装文の解像度を上げたい時に、`LLM Outfit Color` の後段へつなぐ構成が使いやすいです。
+
+推奨例:
+
+```text
+Outfit Generator -> Outfit Color -> Outfit Texture
+```
+
+---
+
+### 11. LLM Story To Lyrics
+
+物語や設定文から、歌詞とセクション時間を生成するノードです。  
+歌える形を優先し、単なるあらすじ列挙になりにくいように設計されています。
+
+**入力**
+- `story_text`
+- `target_duration_sec`
+- `language`
+- `song_structure`
+- `syllable_density`
+- `theme_focus`
+- `include_section_labels`
+- `section_label_style`
+- `extra_requirements`
+- `save_dir`
+- `save_name`
+- `model_path`
+- `load_strategy`
+- `max_tokens`
+- `temperature`
+- `top_p`
+
+**出力**
+- `lyrics_text`
+- `timing_text`
+- `total_duration_sec`
+- `save_name_out`
+- `lyrics_json_path`
+
+**`song_structure` の選択肢**
+- `short_hook_loop`
+- `verse_chorus`
+- `verse_verse_chorus`
+- `verse_chorus_verse_chorus`
+- `verse_chorus_bridge`
+- `verse_prechorus_chorus`
+- `verse_prechorus_chorus_outro`
+- `intro_verse_prechorus_chorus`
+- `intro_verse_chorus_verse_chorus_bridge_final`
+- `full_jpop`
+- `hook_verse_hook`
+- `spoken_verse_chorus`
+- `ambient_intro_verse_drop_outro`
+- `free`
+
+**`section_label_style` の選択肢**
+- `internal_keys`
+- `bracket_pretty`
+- `ace_suno`
+
+`ace_suno` を使うと、`[verse_1]` や `[chorus]` のような形で出しやすく、ACE-Step や Suno 向けの下書きとして扱いやすくなります。
+
+---
+
+### 12. LLM Simple Translate
+
+シンプルな翻訳ノードです。  
+長いワークフローを挟まず、単体テキストを軽く翻訳したい時に使います。
+
+**入力**
+- `input_text`
+- `source_language`
+- `target_language`
+- `model_path`
+- `load_strategy`
+- `max_tokens`
+- `temperature`
+- `top_p`
+
+**出力**
+- `translated_text`
+
+`source_language` は自動判定にも対応しています。
+
 ## 保存機能
 
 すべての主要ノードは `save_dir` と `save_name` に対応しています。
@@ -338,6 +605,10 @@ Story -> Story Cuts -> Video Prompt
 - `LLMPromptConverter`
 - `LLMPromptConverter8`
 - `LLMVideoPromptNode`
+- `LLMCharacterGeneratorNode`
+- `LLMRandomPersonaSpeechNode`
+- `LLMOutfitGeneratorNode`
+- `LLMStoryToLyricsNode`
 
 ### 主な保存系出力
 
@@ -348,6 +619,10 @@ Story -> Story Cuts -> Video Prompt
 - `LLM Video Prompt` → `save_name_out`, `cut_count_out`, `video_prompts_json_path`
 - `LLM Prompt Converter` → `save_name_out`, `prompt_json_path`
 - `LLM Prompt Converter 8` → `save_name_out`, `prompt_json_path`
+- `LLM Character Generator` → `save_name_out`, `character_json_path`
+- `LLM Random Persona Speech` → `save_name_out`, `persona_json_path`
+- `LLM Outfit Generator` → `save_name_out`, `outfit_json_path`
+- `LLM Story To Lyrics` → `save_name_out`, `lyrics_json_path`
 
 ### 推奨のつなぎ方
 
@@ -356,7 +631,14 @@ Story -> Story Cuts -> Video Prompt
 - Story の `save_name_out` → Video Prompt の `save_name`
 - Story の `save_name_out` → Prompt Converter の `save_name`
 - Story の `save_name_out` → Prompt Converter 8 の `save_name`
+- Story の `save_name_out` → Story To Lyrics の `save_name`
 - Cuts の `cut_count_out` → Video Prompt の `cut_count`
+
+キャラクター系の例:
+
+```text
+Character Generator -> Outfit Generator -> Outfit Color -> Outfit Texture
+```
 
 ## 表示ノード
 
@@ -382,8 +664,18 @@ Story -> Story Cuts -> Video Prompt
 最大 8 本のテキストをまとめて保存するノードです。  
 複数カットや複数タグの一括保存に向いています。
 
+歌詞の保存例:
+
+- `lyrics_text` を `LLM Save Text` へ接続して `.txt` 保存
+- `timing_text` を別名で保存
+- もしくは `lyrics_json_path` を参照して JSON をそのまま利用
+
 ## メモ
 
 - このワークフローは `llama-cpp-python` を使用します。
 - `reload_every_run` を使うと、実行ごとにメモリを解放します。
 - `<end_of_turn>` のような停止マーカーは出力から取り除かれます。
+- `keep_loaded` は再ロード回数を減らせますが、VRAM / RAM に余裕がない環境では不安定になることがあります。
+- `LLM Story To Lyrics` はセクションごとの秒数を内部で再配分します。
+- `section_label_style = ace_suno` と `include_section_labels = true` を使うと、歌詞生成後の整形が楽です。
+- `LLM Outfit Color` と `LLM Outfit Texture` は服の種類を変えるためのノードではなく、既存の服装文を補強するノードです。
