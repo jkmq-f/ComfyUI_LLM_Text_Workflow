@@ -1,0 +1,3080 @@
+{
+  "base": [
+    {
+      "tag": "amber_hair",
+      "label_ja": "amber hair",
+      "label_en": "amber hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "amber_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "amethyst_hair",
+      "label_ja": "amethyst hair",
+      "label_en": "amethyst hair",
+      "source": "extended",
+      "aliases": [
+        "amethyst_hair",
+        "amethyst hair",
+        "amethyst",
+        "amethyst",
+        "amethyst hair",
+        "amethyst hair",
+        "amethyst hair"
+      ]
+    },
+    {
+      "tag": "apricot_hair",
+      "label_ja": "apricot hair",
+      "label_en": "apricot hair",
+      "source": "extended",
+      "aliases": [
+        "apricot_hair",
+        "apricot hair",
+        "apricot",
+        "apricot",
+        "apricot hair",
+        "apricot hair",
+        "apricot hair"
+      ]
+    },
+    {
+      "tag": "aqua_blue_hair",
+      "label_ja": "aqua blue hair",
+      "label_en": "aqua blue hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "aqua_blue_hair",
+        "青髪髪"
+      ]
+    },
+    {
+      "tag": "aqua_hair",
+      "label_ja": "アクアヘア",
+      "label_en": "aqua hair",
+      "source": "extended",
+      "aliases": [
+        "aqua_hair",
+        "aqua hair",
+        "水色髪",
+        "アクアヘア"
+      ]
+    },
+    {
+      "tag": "ash_beige_hair",
+      "label_ja": "ash beige hair",
+      "label_en": "ash beige hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "ash_beige_hair",
+        "アッシュ髪"
+      ]
+    },
+    {
+      "tag": "ash_blonde_hair",
+      "label_ja": "アッシュブロンド",
+      "label_en": "ash blonde hair",
+      "source": "extended",
+      "aliases": [
+        "ash_blonde_hair",
+        "ash blonde hair",
+        "アッシュ金髪",
+        "アッシュブロンド"
+      ]
+    },
+    {
+      "tag": "ash_brown_hair",
+      "label_ja": "アッシュブラウン",
+      "label_en": "ash brown hair",
+      "source": "extended",
+      "aliases": [
+        "ash_brown_hair",
+        "ash brown hair",
+        "アッシュ系ブラウン",
+        "アッシュブラウン"
+      ]
+    },
+    {
+      "tag": "auburn_hair",
+      "label_ja": "オーバーン",
+      "label_en": "auburn hair",
+      "source": "extended",
+      "aliases": [
+        "auburn_hair",
+        "auburn hair",
+        "赤茶髪",
+        "オーバーン"
+      ]
+    },
+    {
+      "tag": "banana_hair",
+      "label_ja": "banana hair",
+      "label_en": "banana hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "banana_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "beige_blonde_hair",
+      "label_ja": "ベージュブロンド",
+      "label_en": "beige blonde hair",
+      "source": "extended",
+      "aliases": [
+        "beige_blonde_hair",
+        "beige blonde hair",
+        "ベージュ系金髪",
+        "ベージュブロンド"
+      ]
+    },
+    {
+      "tag": "beige_brown_hair",
+      "label_ja": "beige brown hair",
+      "label_en": "beige brown hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "beige_brown_hair",
+        "ブラウン髪"
+      ]
+    },
+    {
+      "tag": "berry_red_hair",
+      "label_ja": "berry red hair",
+      "label_en": "berry red hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "berry_red_hair",
+        "赤髪髪"
+      ]
+    },
+    {
+      "tag": "black_hair",
+      "label_ja": "黒髪",
+      "label_en": "black hair",
+      "source": "danbooru",
+      "aliases": [
+        "black_hair",
+        "black hair",
+        "黒い髪",
+        "黒髪"
+      ]
+    },
+    {
+      "tag": "blonde_hair",
+      "label_ja": "ブロンド",
+      "label_en": "blonde hair",
+      "source": "danbooru",
+      "aliases": [
+        "blonde_hair",
+        "blonde hair",
+        "金髪",
+        "ブロンド"
+      ]
+    },
+    {
+      "tag": "blue_black_hair",
+      "label_ja": "ブルーブラック髪",
+      "label_en": "blue black hair",
+      "source": "extended",
+      "aliases": [
+        "blue_black_hair",
+        "blue black hair",
+        "blue_black",
+        "blue black",
+        "blue black hair",
+        "ブルーブラック髪",
+        "blue black hair",
+        "blue black hair"
+      ]
+    },
+    {
+      "tag": "blue_black_hair_deep",
+      "label_ja": "blue black hair deep",
+      "label_en": "blue black hair deep",
+      "source": "knowledge_base",
+      "aliases": [
+        "blue_black_hair_deep",
+        "青髪黒髪髪"
+      ]
+    },
+    {
+      "tag": "blue_hair",
+      "label_ja": "青髪",
+      "label_en": "blue hair",
+      "source": "danbooru",
+      "aliases": [
+        "blue_hair",
+        "blue hair",
+        "青い髪",
+        "青髪"
+      ]
+    },
+    {
+      "tag": "brown_hair",
+      "label_ja": "茶髪",
+      "label_en": "brown hair",
+      "source": "danbooru",
+      "aliases": [
+        "brown_hair",
+        "brown hair",
+        "茶色の髪",
+        "茶髪"
+      ]
+    },
+    {
+      "tag": "bubblegum_pink_hair",
+      "label_ja": "bubblegum pink hair",
+      "label_en": "bubblegum pink hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "bubblegum_pink_hair",
+        "ピンク髪髪"
+      ]
+    },
+    {
+      "tag": "burgundy_hair",
+      "label_ja": "バーガンディ",
+      "label_en": "burgundy hair",
+      "source": "extended",
+      "aliases": [
+        "burgundy_hair",
+        "burgundy hair",
+        "ワインレッド髪",
+        "バーガンディ"
+      ]
+    },
+    {
+      "tag": "burnt_orange_hair",
+      "label_ja": "burnt orange hair",
+      "label_en": "burnt orange hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "burnt_orange_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "butter_blonde_hair",
+      "label_ja": "butter blonde hair",
+      "label_en": "butter blonde hair",
+      "source": "extended",
+      "aliases": [
+        "butter_blonde_hair",
+        "butter blonde hair",
+        "butter_blonde",
+        "butter blonde",
+        "butter blonde hair",
+        "butter blonde hair",
+        "butter blonde hair"
+      ]
+    },
+    {
+      "tag": "caramel_blonde_hair",
+      "label_ja": "caramel blonde hair",
+      "label_en": "caramel blonde hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "caramel_blonde_hair",
+        "ブロンド髪"
+      ]
+    },
+    {
+      "tag": "caramel_hair",
+      "label_ja": "caramel hair",
+      "label_en": "caramel hair",
+      "source": "extended",
+      "aliases": [
+        "caramel_hair",
+        "caramel hair",
+        "caramel",
+        "caramel",
+        "caramel hair",
+        "caramel hair",
+        "caramel hair"
+      ]
+    },
+    {
+      "tag": "champagne_blonde_hair",
+      "label_ja": "champagne blonde hair",
+      "label_en": "champagne blonde hair",
+      "source": "extended",
+      "aliases": [
+        "champagne_blonde_hair",
+        "champagne blonde hair",
+        "champagne_blonde",
+        "champagne blonde",
+        "champagne blonde hair",
+        "champagne blonde hair",
+        "champagne blonde hair"
+      ]
+    },
+    {
+      "tag": "charcoal_black_hair",
+      "label_ja": "charcoal black hair",
+      "label_en": "charcoal black hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "charcoal_black_hair",
+        "黒髪髪"
+      ]
+    },
+    {
+      "tag": "chartreuse_hair",
+      "label_ja": "chartreuse hair",
+      "label_en": "chartreuse hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "chartreuse_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "cherry_red_hair",
+      "label_ja": "cherry red hair",
+      "label_en": "cherry red hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "cherry_red_hair",
+        "赤髪髪"
+      ]
+    },
+    {
+      "tag": "chestnut_hair",
+      "label_ja": "栗色ヘア",
+      "label_en": "chestnut hair",
+      "source": "extended",
+      "aliases": [
+        "chestnut_hair",
+        "chestnut hair",
+        "栗色の髪",
+        "栗色ヘア"
+      ]
+    },
+    {
+      "tag": "chocolate_brown_hair",
+      "label_ja": "チョコレートブラウン",
+      "label_en": "chocolate brown hair",
+      "source": "extended",
+      "aliases": [
+        "chocolate_brown_hair",
+        "chocolate brown hair",
+        "チョコレートブラウン"
+      ]
+    },
+    {
+      "tag": "cinnamon_hair",
+      "label_ja": "cinnamon hair",
+      "label_en": "cinnamon hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "cinnamon_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "cool_beige_hair",
+      "label_ja": "cool beige hair",
+      "label_en": "cool beige hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "cool_beige_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "cool_white_hair",
+      "label_ja": "cool white hair",
+      "label_en": "cool white hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "cool_white_hair",
+        "白髪髪"
+      ]
+    },
+    {
+      "tag": "copper_hair",
+      "label_ja": "コッパー",
+      "label_en": "copper hair",
+      "source": "extended",
+      "aliases": [
+        "copper_hair",
+        "copper hair",
+        "銅色の髪",
+        "コッパー"
+      ]
+    },
+    {
+      "tag": "coral_hair",
+      "label_ja": "coral hair",
+      "label_en": "coral hair",
+      "source": "extended",
+      "aliases": [
+        "coral_hair",
+        "coral hair",
+        "coral",
+        "coral",
+        "coral hair",
+        "coral hair",
+        "coral hair"
+      ]
+    },
+    {
+      "tag": "cream_blonde_hair",
+      "label_ja": "cream blonde hair",
+      "label_en": "cream blonde hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "cream_blonde_hair",
+        "ブロンド髪"
+      ]
+    },
+    {
+      "tag": "cream_white_hair",
+      "label_ja": "cream white hair",
+      "label_en": "cream white hair",
+      "source": "extended",
+      "aliases": [
+        "cream_white_hair",
+        "cream white hair",
+        "cream_white",
+        "cream white",
+        "cream white hair",
+        "cream white hair",
+        "cream white hair"
+      ]
+    },
+    {
+      "tag": "crimson_hair",
+      "label_ja": "crimson hair",
+      "label_en": "crimson hair",
+      "source": "extended",
+      "aliases": [
+        "crimson_hair",
+        "crimson hair",
+        "crimson",
+        "crimson",
+        "crimson hair",
+        "crimson hair",
+        "crimson hair"
+      ]
+    },
+    {
+      "tag": "cyan_hair",
+      "label_ja": "cyan hair",
+      "label_en": "cyan hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "cyan_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "dark_brown_hair",
+      "label_ja": "ダークブラウン",
+      "label_en": "dark brown hair",
+      "source": "extended",
+      "aliases": [
+        "dark_brown_hair",
+        "dark brown hair",
+        "暗い茶髪",
+        "ダークブラウン"
+      ]
+    },
+    {
+      "tag": "dark_espresso_hair",
+      "label_ja": "dark espresso hair",
+      "label_en": "dark espresso hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "dark_espresso_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "denim_blue_hair",
+      "label_ja": "denim blue hair",
+      "label_en": "denim blue hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "denim_blue_hair",
+        "青髪髪"
+      ]
+    },
+    {
+      "tag": "desaturated_brown_hair",
+      "label_ja": "desaturated brown hair",
+      "label_en": "desaturated brown hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "desaturated_brown_hair",
+        "ブラウン髪"
+      ]
+    },
+    {
+      "tag": "dirty_blonde_hair",
+      "label_ja": "ダーティーブロンド",
+      "label_en": "dirty blonde hair",
+      "source": "extended",
+      "aliases": [
+        "dirty_blonde_hair",
+        "dirty blonde hair",
+        "ダーティーブロンド"
+      ]
+    },
+    {
+      "tag": "dusty_blue_hair",
+      "label_ja": "dusty blue hair",
+      "label_en": "dusty blue hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "dusty_blue_hair",
+        "青髪髪"
+      ]
+    },
+    {
+      "tag": "dusty_rose_hair",
+      "label_ja": "dusty rose hair",
+      "label_en": "dusty rose hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "dusty_rose_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "electric_blue_hair",
+      "label_ja": "electric blue hair",
+      "label_en": "electric blue hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "electric_blue_hair",
+        "青髪髪"
+      ]
+    },
+    {
+      "tag": "emerald_hair",
+      "label_ja": "emerald hair",
+      "label_en": "emerald hair",
+      "source": "extended",
+      "aliases": [
+        "emerald_hair",
+        "emerald hair",
+        "emerald",
+        "emerald",
+        "emerald hair",
+        "emerald hair",
+        "emerald hair"
+      ]
+    },
+    {
+      "tag": "espresso_hair",
+      "label_ja": "エスプレッソ髪",
+      "label_en": "espresso hair",
+      "source": "extended",
+      "aliases": [
+        "espresso_hair",
+        "espresso hair",
+        "espresso",
+        "espresso",
+        "espresso hair",
+        "エスプレッソ髪",
+        "espresso hair",
+        "espresso hair"
+      ]
+    },
+    {
+      "tag": "flaxen_hair",
+      "label_ja": "flaxen hair",
+      "label_en": "flaxen hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "flaxen_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "forest_green_hair",
+      "label_ja": "forest green hair",
+      "label_en": "forest green hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "forest_green_hair",
+        "緑髪髪"
+      ]
+    },
+    {
+      "tag": "fuchsia_hair",
+      "label_ja": "fuchsia hair",
+      "label_en": "fuchsia hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "fuchsia_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "ginger_hair",
+      "label_ja": "ginger hair",
+      "label_en": "ginger hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "ginger_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "gold_hair",
+      "label_ja": "gold hair",
+      "label_en": "gold hair",
+      "source": "extended",
+      "aliases": [
+        "gold_hair",
+        "gold hair",
+        "gold",
+        "gold",
+        "gold hair",
+        "gold hair",
+        "gold hair"
+      ]
+    },
+    {
+      "tag": "golden_blonde_hair",
+      "label_ja": "golden blonde hair",
+      "label_en": "golden blonde hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "golden_blonde_hair",
+        "ブロンド髪"
+      ]
+    },
+    {
+      "tag": "graphite_hair",
+      "label_ja": "graphite hair",
+      "label_en": "graphite hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "graphite_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "green_hair",
+      "label_ja": "緑髪",
+      "label_en": "green hair",
+      "source": "danbooru",
+      "aliases": [
+        "green_hair",
+        "green hair",
+        "緑の髪",
+        "緑髪"
+      ]
+    },
+    {
+      "tag": "greige_hair",
+      "label_ja": "greige hair",
+      "label_en": "greige hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "greige_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "grey_hair",
+      "label_ja": "灰髪",
+      "label_en": "grey hair",
+      "source": "extended",
+      "aliases": [
+        "grey_hair",
+        "grey hair",
+        "gray hair",
+        "灰色の髪",
+        "灰髪"
+      ]
+    },
+    {
+      "tag": "gunmetal_hair",
+      "label_ja": "gunmetal hair",
+      "label_en": "gunmetal hair",
+      "source": "extended",
+      "aliases": [
+        "gunmetal_hair",
+        "gunmetal hair",
+        "gunmetal",
+        "gunmetal",
+        "gunmetal hair",
+        "gunmetal hair",
+        "gunmetal hair"
+      ]
+    },
+    {
+      "tag": "hazelnut_hair",
+      "label_ja": "hazelnut hair",
+      "label_en": "hazelnut hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "hazelnut_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "honey_blonde_hair",
+      "label_ja": "ハニーブロンド髪",
+      "label_en": "honey blonde hair",
+      "source": "extended",
+      "aliases": [
+        "honey_blonde_hair",
+        "honey blonde hair",
+        "honey_blonde",
+        "honey blonde",
+        "honey blonde hair",
+        "ハニーブロンド髪",
+        "honey blonde hair",
+        "honey blonde hair"
+      ]
+    },
+    {
+      "tag": "honey_brown_hair",
+      "label_ja": "honey brown hair",
+      "label_en": "honey brown hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "honey_brown_hair",
+        "ブラウン髪"
+      ]
+    },
+    {
+      "tag": "hot_pink_hair",
+      "label_ja": "hot pink hair",
+      "label_en": "hot pink hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "hot_pink_hair",
+        "ピンク髪髪"
+      ]
+    },
+    {
+      "tag": "ice_blonde_hair",
+      "label_ja": "ice blonde hair",
+      "label_en": "ice blonde hair",
+      "source": "extended",
+      "aliases": [
+        "ice_blonde_hair",
+        "ice blonde hair",
+        "ice_blonde",
+        "ice blonde",
+        "ice blonde hair",
+        "ice blonde hair",
+        "ice blonde hair"
+      ]
+    },
+    {
+      "tag": "ice_blue_hair",
+      "label_ja": "ice blue hair",
+      "label_en": "ice blue hair",
+      "source": "extended",
+      "aliases": [
+        "ice_blue_hair",
+        "ice blue hair",
+        "ice_blue",
+        "ice blue",
+        "ice blue hair",
+        "ice blue hair",
+        "ice blue hair"
+      ]
+    },
+    {
+      "tag": "ice_white_hair",
+      "label_ja": "ice white hair",
+      "label_en": "ice white hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "ice_white_hair",
+        "白髪髪"
+      ]
+    },
+    {
+      "tag": "icy_blonde_hair",
+      "label_ja": "icy blonde hair",
+      "label_en": "icy blonde hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "icy_blonde_hair",
+        "ブロンド髪"
+      ]
+    },
+    {
+      "tag": "indigo_hair",
+      "label_ja": "indigo hair",
+      "label_en": "indigo hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "indigo_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "ink_black_hair",
+      "label_ja": "ink black hair",
+      "label_en": "ink black hair",
+      "source": "extended",
+      "aliases": [
+        "ink_black_hair",
+        "ink black hair",
+        "ink_black",
+        "ink black",
+        "ink black hair",
+        "ink black hair",
+        "ink black hair"
+      ]
+    },
+    {
+      "tag": "iris_hair",
+      "label_ja": "iris hair",
+      "label_en": "iris hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "iris_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "ivory_hair",
+      "label_ja": "ivory hair",
+      "label_en": "ivory hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "ivory_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "jade_hair",
+      "label_ja": "jade hair",
+      "label_en": "jade hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "jade_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "jet_black_hair",
+      "label_ja": "jet black hair",
+      "label_en": "jet black hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "jet_black_hair",
+        "黒髪髪"
+      ]
+    },
+    {
+      "tag": "latte_hair",
+      "label_ja": "latte hair",
+      "label_en": "latte hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "latte_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "lavender_gray_hair",
+      "label_ja": "lavender gray hair",
+      "label_en": "lavender gray hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "lavender_gray_hair",
+        "グレー髪髪"
+      ]
+    },
+    {
+      "tag": "lavender_hair",
+      "label_ja": "ラベンダー",
+      "label_en": "lavender hair",
+      "source": "extended",
+      "aliases": [
+        "lavender_hair",
+        "lavender hair",
+        "薄紫髪",
+        "ラベンダー"
+      ]
+    },
+    {
+      "tag": "lemon_hair",
+      "label_ja": "lemon hair",
+      "label_en": "lemon hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "lemon_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "light_brown_hair",
+      "label_ja": "ライトブラウン",
+      "label_en": "light brown hair",
+      "source": "extended",
+      "aliases": [
+        "light_brown_hair",
+        "light brown hair",
+        "明るい茶髪",
+        "ライトブラウン"
+      ]
+    },
+    {
+      "tag": "lilac_hair",
+      "label_ja": "ライラック",
+      "label_en": "lilac hair",
+      "source": "extended",
+      "aliases": [
+        "lilac_hair",
+        "lilac hair",
+        "ライラック"
+      ]
+    },
+    {
+      "tag": "lime_hair",
+      "label_ja": "lime hair",
+      "label_en": "lime hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "lime_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "linen_blonde_hair",
+      "label_ja": "linen blonde hair",
+      "label_en": "linen blonde hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "linen_blonde_hair",
+        "ブロンド髪"
+      ]
+    },
+    {
+      "tag": "magenta_hair",
+      "label_ja": "magenta hair",
+      "label_en": "magenta hair",
+      "source": "extended",
+      "aliases": [
+        "magenta_hair",
+        "magenta hair",
+        "magenta",
+        "magenta",
+        "magenta hair",
+        "magenta hair",
+        "magenta hair"
+      ]
+    },
+    {
+      "tag": "mahogany_hair",
+      "label_ja": "mahogany hair",
+      "label_en": "mahogany hair",
+      "source": "extended",
+      "aliases": [
+        "mahogany_hair",
+        "mahogany hair",
+        "mahogany",
+        "mahogany",
+        "mahogany hair",
+        "mahogany hair",
+        "mahogany hair"
+      ]
+    },
+    {
+      "tag": "maple_brown_hair",
+      "label_ja": "maple brown hair",
+      "label_en": "maple brown hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "maple_brown_hair",
+        "ブラウン髪"
+      ]
+    },
+    {
+      "tag": "matcha_hair",
+      "label_ja": "matcha hair",
+      "label_en": "matcha hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "matcha_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "mauve_hair",
+      "label_ja": "mauve hair",
+      "label_en": "mauve hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "mauve_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "milk_tea_brown_hair",
+      "label_ja": "milk tea brown hair",
+      "label_en": "milk tea brown hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "milk_tea_brown_hair",
+        "ブラウン髪"
+      ]
+    },
+    {
+      "tag": "mint_hair",
+      "label_ja": "ミントヘア",
+      "label_en": "mint hair",
+      "source": "extended",
+      "aliases": [
+        "mint_hair",
+        "mint hair",
+        "ミント色の髪",
+        "ミントヘア"
+      ]
+    },
+    {
+      "tag": "mocha_beige_hair",
+      "label_ja": "mocha beige hair",
+      "label_en": "mocha beige hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "mocha_beige_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "mocha_brown_hair",
+      "label_ja": "mocha brown hair",
+      "label_en": "mocha brown hair",
+      "source": "extended",
+      "aliases": [
+        "mocha_brown_hair",
+        "mocha brown hair",
+        "mocha_brown",
+        "mocha brown",
+        "mocha brown hair",
+        "mocha brown hair",
+        "mocha brown hair"
+      ]
+    },
+    {
+      "tag": "moon_blonde_hair",
+      "label_ja": "moon blonde hair",
+      "label_en": "moon blonde hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "moon_blonde_hair",
+        "ブロンド髪"
+      ]
+    },
+    {
+      "tag": "moon_silver_hair",
+      "label_ja": "moon silver hair",
+      "label_en": "moon silver hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "moon_silver_hair",
+        "シルバー髪"
+      ]
+    },
+    {
+      "tag": "mulberry_hair",
+      "label_ja": "mulberry hair",
+      "label_en": "mulberry hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "mulberry_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "multicolored_hair",
+      "label_ja": "多色髪",
+      "label_en": "multicolored hair",
+      "source": "danbooru",
+      "aliases": [
+        "multicolored_hair",
+        "multicolored hair",
+        "カラフルな髪",
+        "多色髪"
+      ]
+    },
+    {
+      "tag": "mushroom_brown_hair",
+      "label_ja": "マッシュルームブラウン髪",
+      "label_en": "mushroom brown hair",
+      "source": "extended",
+      "aliases": [
+        "mushroom_brown_hair",
+        "mushroom brown hair",
+        "mushroom_brown",
+        "mushroom brown",
+        "mushroom brown hair",
+        "マッシュルームブラウン髪",
+        "mushroom brown hair",
+        "mushroom brown hair"
+      ]
+    },
+    {
+      "tag": "mustard_hair",
+      "label_ja": "mustard hair",
+      "label_en": "mustard hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "mustard_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "navy_blue_hair",
+      "label_ja": "ネイビーブルー",
+      "label_en": "navy blue hair",
+      "source": "extended",
+      "aliases": [
+        "navy_blue_hair",
+        "navy blue hair",
+        "紺髪",
+        "ネイビーブルー"
+      ]
+    },
+    {
+      "tag": "neon_green_hair",
+      "label_ja": "neon green hair",
+      "label_en": "neon green hair",
+      "source": "extended",
+      "aliases": [
+        "neon_green_hair",
+        "neon green hair",
+        "neon_green",
+        "neon green",
+        "neon green hair",
+        "neon green hair",
+        "neon green hair"
+      ]
+    },
+    {
+      "tag": "neutral_brown_hair",
+      "label_ja": "neutral brown hair",
+      "label_en": "neutral brown hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "neutral_brown_hair",
+        "ブラウン髪"
+      ]
+    },
+    {
+      "tag": "off_white_hair",
+      "label_ja": "off white hair",
+      "label_en": "off white hair",
+      "source": "extended",
+      "aliases": [
+        "off_white_hair",
+        "off white hair",
+        "off_white",
+        "off white",
+        "off white hair",
+        "off white hair",
+        "off white hair"
+      ]
+    },
+    {
+      "tag": "olive_hair",
+      "label_ja": "olive hair",
+      "label_en": "olive hair",
+      "source": "extended",
+      "aliases": [
+        "olive_hair",
+        "olive hair",
+        "olive",
+        "olive",
+        "olive hair",
+        "olive hair",
+        "olive hair"
+      ]
+    },
+    {
+      "tag": "orange_hair",
+      "label_ja": "オレンジ髪",
+      "label_en": "orange hair",
+      "source": "danbooru",
+      "aliases": [
+        "orange_hair",
+        "orange hair",
+        "オレンジの髪",
+        "オレンジ髪"
+      ]
+    },
+    {
+      "tag": "orchid_hair",
+      "label_ja": "orchid hair",
+      "label_en": "orchid hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "orchid_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "pastel_pink_hair",
+      "label_ja": "pastel pink hair",
+      "label_en": "pastel pink hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "pastel_pink_hair",
+        "ピンク髪髪"
+      ]
+    },
+    {
+      "tag": "pastel_purple_hair",
+      "label_ja": "pastel purple hair",
+      "label_en": "pastel purple hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "pastel_purple_hair",
+        "紫髪髪"
+      ]
+    },
+    {
+      "tag": "peach_hair",
+      "label_ja": "peach hair",
+      "label_en": "peach hair",
+      "source": "extended",
+      "aliases": [
+        "peach_hair",
+        "peach hair",
+        "peach",
+        "peach",
+        "peach hair",
+        "peach hair",
+        "peach hair"
+      ]
+    },
+    {
+      "tag": "pearl_blonde_hair",
+      "label_ja": "パールブロンド髪",
+      "label_en": "pearl blonde hair",
+      "source": "extended",
+      "aliases": [
+        "pearl_blonde_hair",
+        "pearl blonde hair",
+        "pearl_blonde",
+        "pearl blonde",
+        "pearl blonde hair",
+        "パールブロンド髪",
+        "pearl blonde hair",
+        "pearl blonde hair"
+      ]
+    },
+    {
+      "tag": "pearl_silver_hair",
+      "label_ja": "pearl silver hair",
+      "label_en": "pearl silver hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "pearl_silver_hair",
+        "シルバー髪"
+      ]
+    },
+    {
+      "tag": "periwinkle_hair",
+      "label_ja": "periwinkle hair",
+      "label_en": "periwinkle hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "periwinkle_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "pink_hair",
+      "label_ja": "ピンク髪",
+      "label_en": "pink hair",
+      "source": "danbooru",
+      "aliases": [
+        "pink_hair",
+        "pink hair",
+        "ピンクの髪",
+        "ピンク髪"
+      ]
+    },
+    {
+      "tag": "platinum_blonde_hair",
+      "label_ja": "プラチナブロンド",
+      "label_en": "platinum blonde hair",
+      "source": "extended",
+      "aliases": [
+        "platinum_blonde_hair",
+        "platinum blonde hair",
+        "白金髪",
+        "プラチナブロンド"
+      ]
+    },
+    {
+      "tag": "plum_hair",
+      "label_ja": "plum hair",
+      "label_en": "plum hair",
+      "source": "extended",
+      "aliases": [
+        "plum_hair",
+        "plum hair",
+        "plum",
+        "plum",
+        "plum hair",
+        "plum hair",
+        "plum hair"
+      ]
+    },
+    {
+      "tag": "powder_blue_hair",
+      "label_ja": "powder blue hair",
+      "label_en": "powder blue hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "powder_blue_hair",
+        "青髪髪"
+      ]
+    },
+    {
+      "tag": "purple_hair",
+      "label_ja": "紫髪",
+      "label_en": "purple hair",
+      "source": "danbooru",
+      "aliases": [
+        "purple_hair",
+        "purple hair",
+        "紫の髪",
+        "紫髪"
+      ]
+    },
+    {
+      "tag": "red_hair",
+      "label_ja": "赤髪",
+      "label_en": "red hair",
+      "source": "danbooru",
+      "aliases": [
+        "red_hair",
+        "red hair",
+        "赤い髪",
+        "赤髪"
+      ]
+    },
+    {
+      "tag": "rose_beige_hair",
+      "label_ja": "rose beige hair",
+      "label_en": "rose beige hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "rose_beige_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "rose_brown_hair",
+      "label_ja": "rose brown hair",
+      "label_en": "rose brown hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "rose_brown_hair",
+        "ブラウン髪"
+      ]
+    },
+    {
+      "tag": "rose_gold_hair",
+      "label_ja": "ローズゴールド",
+      "label_en": "rose gold hair",
+      "source": "extended",
+      "aliases": [
+        "rose_gold_hair",
+        "rose gold hair",
+        "ローズゴールド"
+      ]
+    },
+    {
+      "tag": "rose_red_hair",
+      "label_ja": "rose red hair",
+      "label_en": "rose red hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "rose_red_hair",
+        "赤髪髪"
+      ]
+    },
+    {
+      "tag": "royal_blue_hair",
+      "label_ja": "royal blue hair",
+      "label_en": "royal blue hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "royal_blue_hair",
+        "青髪髪"
+      ]
+    },
+    {
+      "tag": "ruby_hair",
+      "label_ja": "ruby hair",
+      "label_en": "ruby hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "ruby_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "ruby_red_hair",
+      "label_ja": "ruby red hair",
+      "label_en": "ruby red hair",
+      "source": "extended",
+      "aliases": [
+        "ruby_red_hair",
+        "ruby red hair",
+        "ruby_red",
+        "ruby red",
+        "ruby red hair",
+        "ruby red hair",
+        "ruby red hair"
+      ]
+    },
+    {
+      "tag": "rust_hair",
+      "label_ja": "rust hair",
+      "label_en": "rust hair",
+      "source": "extended",
+      "aliases": [
+        "rust_hair",
+        "rust hair",
+        "rust",
+        "rust",
+        "rust hair",
+        "rust hair",
+        "rust hair"
+      ]
+    },
+    {
+      "tag": "sage_hair",
+      "label_ja": "sage hair",
+      "label_en": "sage hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "sage_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "salmon_hair",
+      "label_ja": "salmon hair",
+      "label_en": "salmon hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "salmon_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "sand_blonde_hair",
+      "label_ja": "sand blonde hair",
+      "label_en": "sand blonde hair",
+      "source": "extended",
+      "aliases": [
+        "sand_blonde_hair",
+        "sand blonde hair",
+        "sand_blonde",
+        "sand blonde",
+        "sand blonde hair",
+        "sand blonde hair",
+        "sand blonde hair"
+      ]
+    },
+    {
+      "tag": "sand_brown_hair",
+      "label_ja": "sand brown hair",
+      "label_en": "sand brown hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "sand_brown_hair",
+        "ブラウン髪"
+      ]
+    },
+    {
+      "tag": "sandy_blonde_hair",
+      "label_ja": "sandy blonde hair",
+      "label_en": "sandy blonde hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "sandy_blonde_hair",
+        "ブロンド髪"
+      ]
+    },
+    {
+      "tag": "scarlet_hair",
+      "label_ja": "scarlet hair",
+      "label_en": "scarlet hair",
+      "source": "extended",
+      "aliases": [
+        "scarlet_hair",
+        "scarlet hair",
+        "scarlet",
+        "scarlet",
+        "scarlet hair",
+        "scarlet hair",
+        "scarlet hair"
+      ]
+    },
+    {
+      "tag": "seafoam_hair",
+      "label_ja": "シーフォーム髪",
+      "label_en": "seafoam hair",
+      "source": "extended",
+      "aliases": [
+        "seafoam_hair",
+        "seafoam hair",
+        "seafoam",
+        "seafoam",
+        "seafoam hair",
+        "シーフォーム髪",
+        "seafoam hair",
+        "seafoam hair"
+      ]
+    },
+    {
+      "tag": "silver_blue_hair",
+      "label_ja": "silver blue hair",
+      "label_en": "silver blue hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "silver_blue_hair",
+        "シルバー青髪髪"
+      ]
+    },
+    {
+      "tag": "silver_hair",
+      "label_ja": "銀髪",
+      "label_en": "silver hair",
+      "source": "danbooru",
+      "aliases": [
+        "silver_hair",
+        "silver hair",
+        "シルバーヘア",
+        "銀髪"
+      ]
+    },
+    {
+      "tag": "silver_lilac_hair",
+      "label_ja": "silver lilac hair",
+      "label_en": "silver lilac hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "silver_lilac_hair",
+        "シルバー髪"
+      ]
+    },
+    {
+      "tag": "sky_blue_hair",
+      "label_ja": "sky blue hair",
+      "label_en": "sky blue hair",
+      "source": "extended",
+      "aliases": [
+        "sky_blue_hair",
+        "sky blue hair",
+        "sky_blue",
+        "sky blue",
+        "sky blue hair",
+        "sky blue hair",
+        "sky blue hair"
+      ]
+    },
+    {
+      "tag": "slate_grey_hair",
+      "label_ja": "slate grey hair",
+      "label_en": "slate grey hair",
+      "source": "extended",
+      "aliases": [
+        "slate_grey_hair",
+        "slate grey hair",
+        "slate_grey",
+        "slate grey",
+        "slate grey hair",
+        "slate grey hair",
+        "slate grey hair"
+      ]
+    },
+    {
+      "tag": "smoky_blonde_hair",
+      "label_ja": "smoky blonde hair",
+      "label_en": "smoky blonde hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "smoky_blonde_hair",
+        "ブロンド髪"
+      ]
+    },
+    {
+      "tag": "smoky_brown_hair",
+      "label_ja": "smoky brown hair",
+      "label_en": "smoky brown hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "smoky_brown_hair",
+        "ブラウン髪"
+      ]
+    },
+    {
+      "tag": "smoky_gray_hair",
+      "label_ja": "smoky gray hair",
+      "label_en": "smoky gray hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "smoky_gray_hair",
+        "グレー髪髪"
+      ]
+    },
+    {
+      "tag": "smoky_lilac_hair",
+      "label_ja": "スモーキーライラック髪",
+      "label_en": "smoky lilac hair",
+      "source": "extended",
+      "aliases": [
+        "smoky_lilac_hair",
+        "smoky lilac hair",
+        "smoky_lilac",
+        "smoky lilac",
+        "smoky lilac hair",
+        "スモーキーライラック髪",
+        "smoky lilac hair",
+        "smoky lilac hair"
+      ]
+    },
+    {
+      "tag": "smoky_pink_hair",
+      "label_ja": "スモーキーピンク",
+      "label_en": "smoky pink hair",
+      "source": "extended",
+      "aliases": [
+        "smoky_pink_hair",
+        "smoky pink hair",
+        "くすみピンク髪",
+        "スモーキーピンク"
+      ]
+    },
+    {
+      "tag": "smoky_rose_hair",
+      "label_ja": "smoky rose hair",
+      "label_en": "smoky rose hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "smoky_rose_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "snow_white_hair",
+      "label_ja": "snow white hair",
+      "label_en": "snow white hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "snow_white_hair",
+        "白髪髪"
+      ]
+    },
+    {
+      "tag": "soft_black_hair",
+      "label_ja": "soft black hair",
+      "label_en": "soft black hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "soft_black_hair",
+        "黒髪髪"
+      ]
+    },
+    {
+      "tag": "soft_brown_hair",
+      "label_ja": "soft brown hair",
+      "label_en": "soft brown hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "soft_brown_hair",
+        "ブラウン髪"
+      ]
+    },
+    {
+      "tag": "steel_gray_hair",
+      "label_ja": "steel gray hair",
+      "label_en": "steel gray hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "steel_gray_hair",
+        "グレー髪髪"
+      ]
+    },
+    {
+      "tag": "straw_blonde_hair",
+      "label_ja": "straw blonde hair",
+      "label_en": "straw blonde hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "straw_blonde_hair",
+        "ブロンド髪"
+      ]
+    },
+    {
+      "tag": "strawberry_blonde_hair",
+      "label_ja": "ストロベリーブロンド",
+      "label_en": "strawberry blonde hair",
+      "source": "extended",
+      "aliases": [
+        "strawberry_blonde_hair",
+        "strawberry blonde hair",
+        "赤みブロンド",
+        "ストロベリーブロンド"
+      ]
+    },
+    {
+      "tag": "strawberry_pink_hair",
+      "label_ja": "strawberry pink hair",
+      "label_en": "strawberry pink hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "strawberry_pink_hair",
+        "ピンク髪髪"
+      ]
+    },
+    {
+      "tag": "sunflower_hair",
+      "label_ja": "sunflower hair",
+      "label_en": "sunflower hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "sunflower_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "sunlit_blonde_hair",
+      "label_ja": "sunlit blonde hair",
+      "label_en": "sunlit blonde hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "sunlit_blonde_hair",
+        "ブロンド髪"
+      ]
+    },
+    {
+      "tag": "taupe_brown_hair",
+      "label_ja": "taupe brown hair",
+      "label_en": "taupe brown hair",
+      "source": "extended",
+      "aliases": [
+        "taupe_brown_hair",
+        "taupe brown hair",
+        "taupe_brown",
+        "taupe brown",
+        "taupe brown hair",
+        "taupe brown hair",
+        "taupe brown hair"
+      ]
+    },
+    {
+      "tag": "teal_hair",
+      "label_ja": "ティールヘア",
+      "label_en": "teal hair",
+      "source": "extended",
+      "aliases": [
+        "teal_hair",
+        "teal hair",
+        "青緑髪",
+        "ティールヘア"
+      ]
+    },
+    {
+      "tag": "toffee_hair",
+      "label_ja": "toffee hair",
+      "label_en": "toffee hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "toffee_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "turquoise_hair",
+      "label_ja": "ターコイズ",
+      "label_en": "turquoise hair",
+      "source": "extended",
+      "aliases": [
+        "turquoise_hair",
+        "turquoise hair",
+        "ターコイズ髪",
+        "ターコイズ"
+      ]
+    },
+    {
+      "tag": "vanilla_blonde_hair",
+      "label_ja": "vanilla blonde hair",
+      "label_en": "vanilla blonde hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "vanilla_blonde_hair",
+        "ブロンド髪"
+      ]
+    },
+    {
+      "tag": "violet_hair",
+      "label_ja": "violet hair",
+      "label_en": "violet hair",
+      "source": "extended",
+      "aliases": [
+        "violet_hair",
+        "violet hair",
+        "violet",
+        "violet",
+        "violet hair",
+        "violet hair",
+        "violet hair"
+      ]
+    },
+    {
+      "tag": "walnut_brown_hair",
+      "label_ja": "walnut brown hair",
+      "label_en": "walnut brown hair",
+      "source": "extended",
+      "aliases": [
+        "walnut_brown_hair",
+        "walnut brown hair",
+        "walnut_brown",
+        "walnut brown",
+        "walnut brown hair",
+        "walnut brown hair",
+        "walnut brown hair"
+      ]
+    },
+    {
+      "tag": "walnut_hair",
+      "label_ja": "walnut hair",
+      "label_en": "walnut hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "walnut_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "warm_beige_hair",
+      "label_ja": "warm beige hair",
+      "label_en": "warm beige hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "warm_beige_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "warm_white_hair",
+      "label_ja": "warm white hair",
+      "label_en": "warm white hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "warm_white_hair",
+        "白髪髪"
+      ]
+    },
+    {
+      "tag": "wheat_blonde_hair",
+      "label_ja": "wheat blonde hair",
+      "label_en": "wheat blonde hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "wheat_blonde_hair",
+        "ブロンド髪"
+      ]
+    },
+    {
+      "tag": "white_blonde_hair",
+      "label_ja": "white blonde hair",
+      "label_en": "white blonde hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "white_blonde_hair",
+        "白髪ブロンド髪"
+      ]
+    },
+    {
+      "tag": "white_hair",
+      "label_ja": "白髪",
+      "label_en": "white hair",
+      "source": "danbooru",
+      "aliases": [
+        "white_hair",
+        "white hair",
+        "白い髪",
+        "白髪"
+      ]
+    },
+    {
+      "tag": "wine_red_hair",
+      "label_ja": "wine red hair",
+      "label_en": "wine red hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "wine_red_hair",
+        "赤髪髪"
+      ]
+    },
+    {
+      "tag": "wisteria_hair",
+      "label_ja": "wisteria hair",
+      "label_en": "wisteria hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "wisteria_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "yellow_hair",
+      "label_ja": "イエローヘア",
+      "label_en": "yellow hair",
+      "source": "extended",
+      "aliases": [
+        "yellow_hair",
+        "yellow hair",
+        "黄色の髪",
+        "イエローヘア"
+      ]
+    }
+  ],
+  "pattern": [
+    {
+      "tag": "aurora_gradient_hair",
+      "label_ja": "aurora gradient hair",
+      "label_en": "aurora gradient hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "aurora_gradient_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "aurora_hair",
+      "label_ja": "aurora hair",
+      "label_en": "aurora hair",
+      "source": "extended",
+      "aliases": [
+        "aurora_hair",
+        "aurora hair",
+        "aurora",
+        "aurora",
+        "aurora hair",
+        "aurora hair",
+        "aurora hair"
+      ]
+    },
+    {
+      "tag": "babylights_hair",
+      "label_ja": "babylights hair",
+      "label_en": "babylights hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "babylights_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "balayage_hair",
+      "label_ja": "バレイヤージュ",
+      "label_en": "balayage hair",
+      "source": "extended",
+      "aliases": [
+        "balayage_hair",
+        "balayage hair",
+        "バレイヤージュ"
+      ]
+    },
+    {
+      "tag": "bicolor_ponytail",
+      "label_ja": "bicolor ponytail",
+      "label_en": "bicolor ponytail",
+      "source": "knowledge_base",
+      "aliases": [
+        "bicolor_ponytail",
+        "ポニーテール"
+      ]
+    },
+    {
+      "tag": "black_to_color_gradient",
+      "label_ja": "black to color gradient",
+      "label_en": "black to color gradient",
+      "source": "knowledge_base",
+      "aliases": [
+        "black_to_color_gradient",
+        "黒髪"
+      ]
+    },
+    {
+      "tag": "blonde_face_frame",
+      "label_ja": "blonde face frame",
+      "label_en": "blonde face frame",
+      "source": "knowledge_base",
+      "aliases": [
+        "blonde_face_frame",
+        "ブロンド顔"
+      ]
+    },
+    {
+      "tag": "blue_tips",
+      "label_ja": "blue tips",
+      "label_en": "blue tips",
+      "source": "knowledge_base",
+      "aliases": [
+        "blue_tips",
+        "青髪"
+      ]
+    },
+    {
+      "tag": "bronde_hair",
+      "label_ja": "bronde hair",
+      "label_en": "bronde hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "bronde_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "chunky_highlights",
+      "label_ja": "太めハイライト",
+      "label_en": "chunky highlights",
+      "source": "extended",
+      "aliases": [
+        "chunky_highlights",
+        "chunky highlights",
+        "太めハイライト",
+        "chunky highlights",
+        "chunky highlights"
+      ]
+    },
+    {
+      "tag": "chunky_money_piece",
+      "label_ja": "chunky money piece",
+      "label_en": "chunky money piece",
+      "source": "knowledge_base",
+      "aliases": [
+        "chunky_money_piece"
+      ]
+    },
+    {
+      "tag": "color_band_hair",
+      "label_ja": "color band hair",
+      "label_en": "color band hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "color_band_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "color_block_bangs",
+      "label_ja": "color block bangs",
+      "label_en": "color block bangs",
+      "source": "knowledge_base",
+      "aliases": [
+        "color_block_bangs",
+        "前髪"
+      ]
+    },
+    {
+      "tag": "color_block_hair",
+      "label_ja": "カラーブロック",
+      "label_en": "color block hair",
+      "source": "extended",
+      "aliases": [
+        "color_block_hair",
+        "color block hair",
+        "面で色分けされた髪",
+        "カラーブロック"
+      ]
+    },
+    {
+      "tag": "color_melt_hair",
+      "label_ja": "color melt hair",
+      "label_en": "color melt hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "color_melt_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "colored_face_frame",
+      "label_ja": "colored face frame",
+      "label_en": "colored face frame",
+      "source": "knowledge_base",
+      "aliases": [
+        "colored_face_frame",
+        "顔"
+      ]
+    },
+    {
+      "tag": "colored_tips",
+      "label_ja": "毛先カラー",
+      "label_en": "colored tips",
+      "source": "extended",
+      "aliases": [
+        "colored_tips",
+        "colored tips",
+        "毛先だけ色",
+        "毛先カラー"
+      ]
+    },
+    {
+      "tag": "contrast_bangs",
+      "label_ja": "contrast bangs",
+      "label_en": "contrast bangs",
+      "source": "knowledge_base",
+      "aliases": [
+        "contrast_bangs",
+        "前髪"
+      ]
+    },
+    {
+      "tag": "contrast_underlayer",
+      "label_ja": "contrast underlayer",
+      "label_en": "contrast underlayer",
+      "source": "knowledge_base",
+      "aliases": [
+        "contrast_underlayer"
+      ]
+    },
+    {
+      "tag": "contrasting_streaks",
+      "label_ja": "contrasting streaks",
+      "label_en": "contrasting streaks",
+      "source": "knowledge_base",
+      "aliases": [
+        "contrasting_streaks"
+      ]
+    },
+    {
+      "tag": "contrasting_underlayer",
+      "label_ja": "contrasting underlayer",
+      "label_en": "contrasting underlayer",
+      "source": "extended",
+      "aliases": [
+        "contrasting_underlayer",
+        "contrasting underlayer",
+        "contrasting underlayer",
+        "contrasting underlayer"
+      ]
+    },
+    {
+      "tag": "dark_roots",
+      "label_ja": "根元暗め",
+      "label_en": "dark roots",
+      "source": "extended",
+      "aliases": [
+        "dark_roots",
+        "dark roots",
+        "地毛風ルーツ",
+        "根元暗め"
+      ]
+    },
+    {
+      "tag": "dip_dye_hair",
+      "label_ja": "ディップダイ",
+      "label_en": "dip dye hair",
+      "source": "extended",
+      "aliases": [
+        "dip_dye_hair",
+        "dip dye hair",
+        "毛先染め",
+        "ディップダイ"
+      ]
+    },
+    {
+      "tag": "dual_highlights",
+      "label_ja": "dual highlights",
+      "label_en": "dual highlights",
+      "source": "knowledge_base",
+      "aliases": [
+        "dual_highlights"
+      ]
+    },
+    {
+      "tag": "dual_tone_bangs",
+      "label_ja": "dual tone bangs",
+      "label_en": "dual tone bangs",
+      "source": "extended",
+      "aliases": [
+        "dual_tone_bangs",
+        "dual tone bangs",
+        "dual tone bangs",
+        "dual tone bangs",
+        "dual tone bangs"
+      ]
+    },
+    {
+      "tag": "e_girl_streaks",
+      "label_ja": "e girl streaks",
+      "label_en": "e girl streaks",
+      "source": "knowledge_base",
+      "aliases": [
+        "e_girl_streaks"
+      ]
+    },
+    {
+      "tag": "face_frame_color",
+      "label_ja": "face frame color",
+      "label_en": "face frame color",
+      "source": "extended",
+      "aliases": [
+        "face_frame_color",
+        "face frame color",
+        "face frame color",
+        "face frame color"
+      ]
+    },
+    {
+      "tag": "face_frame_highlights",
+      "label_ja": "フェイスフレームハイライト",
+      "label_en": "face frame highlights",
+      "source": "extended",
+      "aliases": [
+        "face_frame_highlights",
+        "face frame highlights",
+        "顔周りハイライト",
+        "フェイスフレームハイライト"
+      ]
+    },
+    {
+      "tag": "fantasy_gradient_hair",
+      "label_ja": "fantasy gradient hair",
+      "label_en": "fantasy gradient hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "fantasy_gradient_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "foilyage_hair",
+      "label_ja": "foilyage hair",
+      "label_en": "foilyage hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "foilyage_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "frame_color_hair",
+      "label_ja": "frame color hair",
+      "label_en": "frame color hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "frame_color_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "front_streaks",
+      "label_ja": "front streaks",
+      "label_en": "front streaks",
+      "source": "knowledge_base",
+      "aliases": [
+        "front_streaks"
+      ]
+    },
+    {
+      "tag": "frosted_tips",
+      "label_ja": "フロステッドティップ",
+      "label_en": "frosted tips",
+      "source": "extended",
+      "aliases": [
+        "frosted_tips",
+        "frosted tips",
+        "毛先だけ明るい髪",
+        "フロステッドティップ"
+      ]
+    },
+    {
+      "tag": "galaxy_gradient_hair",
+      "label_ja": "galaxy gradient hair",
+      "label_en": "galaxy gradient hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "galaxy_gradient_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "galaxy_hair",
+      "label_ja": "galaxy hair",
+      "label_en": "galaxy hair",
+      "source": "extended",
+      "aliases": [
+        "galaxy_hair",
+        "galaxy hair",
+        "galaxy",
+        "galaxy",
+        "galaxy hair",
+        "galaxy hair",
+        "galaxy hair"
+      ]
+    },
+    {
+      "tag": "ghost_roots",
+      "label_ja": "ghost roots",
+      "label_en": "ghost roots",
+      "source": "knowledge_base",
+      "aliases": [
+        "ghost_roots"
+      ]
+    },
+    {
+      "tag": "gradient_hair",
+      "label_ja": "グラデーションカラー",
+      "label_en": "gradient hair",
+      "source": "extended",
+      "aliases": [
+        "gradient_hair",
+        "gradient hair",
+        "グラデ髪",
+        "グラデーションカラー"
+      ]
+    },
+    {
+      "tag": "green_tips",
+      "label_ja": "green tips",
+      "label_en": "green tips",
+      "source": "knowledge_base",
+      "aliases": [
+        "green_tips",
+        "緑髪"
+      ]
+    },
+    {
+      "tag": "half_and_half_hair",
+      "label_ja": "half and half hair",
+      "label_en": "half and half hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "half_and_half_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "halo_highlights",
+      "label_ja": "ハローハイライト",
+      "label_en": "halo highlights",
+      "source": "extended",
+      "aliases": [
+        "halo_highlights",
+        "halo highlights",
+        "ハローハイライト",
+        "halo highlights",
+        "halo highlights"
+      ]
+    },
+    {
+      "tag": "hidden_panel_color",
+      "label_ja": "hidden panel color",
+      "label_en": "hidden panel color",
+      "source": "knowledge_base",
+      "aliases": [
+        "hidden_panel_color"
+      ]
+    },
+    {
+      "tag": "hidden_rainbow_hair",
+      "label_ja": "隠しレインボー髪",
+      "label_en": "hidden rainbow hair",
+      "source": "extended",
+      "aliases": [
+        "hidden_rainbow_hair",
+        "hidden rainbow hair",
+        "hidden_rainbow",
+        "hidden rainbow",
+        "hidden rainbow hair",
+        "隠しレインボー髪",
+        "hidden rainbow hair",
+        "hidden rainbow hair"
+      ]
+    },
+    {
+      "tag": "highlighted_hair",
+      "label_ja": "ハイライト入り",
+      "label_en": "highlighted hair",
+      "source": "extended",
+      "aliases": [
+        "highlighted_hair",
+        "highlighted hair",
+        "ハイライトヘア",
+        "ハイライト入り"
+      ]
+    },
+    {
+      "tag": "holographic_hair",
+      "label_ja": "holographic hair",
+      "label_en": "holographic hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "holographic_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "icy_tips",
+      "label_ja": "icy tips",
+      "label_en": "icy tips",
+      "source": "knowledge_base",
+      "aliases": [
+        "icy_tips"
+      ]
+    },
+    {
+      "tag": "inner_colored_hair",
+      "label_ja": "インナーカラー",
+      "label_en": "inner colored hair",
+      "source": "extended",
+      "aliases": [
+        "inner_colored_hair",
+        "inner colored hair",
+        "inner color",
+        "inner coloured hair",
+        "インナーカラー"
+      ]
+    },
+    {
+      "tag": "inner_highlights",
+      "label_ja": "inner highlights",
+      "label_en": "inner highlights",
+      "source": "knowledge_base",
+      "aliases": [
+        "inner_highlights"
+      ]
+    },
+    {
+      "tag": "inside_panel_color",
+      "label_ja": "inside panel color",
+      "label_en": "inside panel color",
+      "source": "knowledge_base",
+      "aliases": [
+        "inside_panel_color"
+      ]
+    },
+    {
+      "tag": "iridescent_hair",
+      "label_ja": "iridescent hair",
+      "label_en": "iridescent hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "iridescent_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "lowlights_hair",
+      "label_ja": "ローライト入り",
+      "label_en": "lowlights hair",
+      "source": "extended",
+      "aliases": [
+        "lowlights_hair",
+        "lowlights hair",
+        "ローライトヘア",
+        "ローライト入り"
+      ]
+    },
+    {
+      "tag": "mermaid_color_hair",
+      "label_ja": "mermaid color hair",
+      "label_en": "mermaid color hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "mermaid_color_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "metallic_hair",
+      "label_ja": "metallic hair",
+      "label_en": "metallic hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "metallic_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "mid_length_color_shift",
+      "label_ja": "mid length color shift",
+      "label_en": "mid length color shift",
+      "source": "knowledge_base",
+      "aliases": [
+        "mid_length_color_shift"
+      ]
+    },
+    {
+      "tag": "money_piece_hair",
+      "label_ja": "マネーピース",
+      "label_en": "money piece hair",
+      "source": "extended",
+      "aliases": [
+        "money_piece_hair",
+        "money piece hair",
+        "顔周りだけ明るい髪",
+        "マネーピース"
+      ]
+    },
+    {
+      "tag": "monochrome_streaks",
+      "label_ja": "monochrome streaks",
+      "label_en": "monochrome streaks",
+      "source": "extended",
+      "aliases": [
+        "monochrome_streaks",
+        "monochrome streaks",
+        "monochrome streaks",
+        "monochrome streaks"
+      ]
+    },
+    {
+      "tag": "moonlight_sheen_hair",
+      "label_ja": "moonlight sheen hair",
+      "label_en": "moonlight sheen hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "moonlight_sheen_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "nape_color",
+      "label_ja": "nape color",
+      "label_en": "nape color",
+      "source": "knowledge_base",
+      "aliases": [
+        "nape_color"
+      ]
+    },
+    {
+      "tag": "neon_tips",
+      "label_ja": "neon tips",
+      "label_en": "neon tips",
+      "source": "extended",
+      "aliases": [
+        "neon_tips",
+        "neon tips",
+        "neon tips",
+        "neon tips"
+      ]
+    },
+    {
+      "tag": "oil_slick_hair",
+      "label_ja": "オイルスリックカラー",
+      "label_en": "oil slick hair",
+      "source": "extended",
+      "aliases": [
+        "oil_slick_hair",
+        "oil slick hair",
+        "oil_slick",
+        "oil slick",
+        "oil slick hair",
+        "オイルスリックカラー",
+        "oil slick hair",
+        "oil slick hair"
+      ]
+    },
+    {
+      "tag": "ombre_hair",
+      "label_ja": "オンブレヘア",
+      "label_en": "ombre hair",
+      "source": "extended",
+      "aliases": [
+        "ombre_hair",
+        "ombre hair",
+        "オンブレ",
+        "オンブレヘア"
+      ]
+    },
+    {
+      "tag": "opal_hair",
+      "label_ja": "opal hair",
+      "label_en": "opal hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "opal_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "outer_highlights",
+      "label_ja": "outer highlights",
+      "label_en": "outer highlights",
+      "source": "knowledge_base",
+      "aliases": [
+        "outer_highlights"
+      ]
+    },
+    {
+      "tag": "panel_coloring_hair",
+      "label_ja": "panel coloring hair",
+      "label_en": "panel coloring hair",
+      "source": "extended",
+      "aliases": [
+        "panel_coloring_hair",
+        "panel coloring hair",
+        "panel_coloring",
+        "panel coloring",
+        "panel coloring hair",
+        "panel coloring hair",
+        "panel coloring hair"
+      ]
+    },
+    {
+      "tag": "pastel_gradient_hair",
+      "label_ja": "pastel gradient hair",
+      "label_en": "pastel gradient hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "pastel_gradient_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "pastel_tips",
+      "label_ja": "pastel tips",
+      "label_en": "pastel tips",
+      "source": "extended",
+      "aliases": [
+        "pastel_tips",
+        "pastel tips",
+        "pastel tips",
+        "pastel tips"
+      ]
+    },
+    {
+      "tag": "peekaboo_color_hair",
+      "label_ja": "ピーカブーカラー",
+      "label_en": "peekaboo color hair",
+      "source": "extended",
+      "aliases": [
+        "peekaboo_color_hair",
+        "peekaboo color hair",
+        "内側差し色",
+        "ピーカブーカラー"
+      ]
+    },
+    {
+      "tag": "peekaboo_rainbow_hair",
+      "label_ja": "peekaboo rainbow hair",
+      "label_en": "peekaboo rainbow hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "peekaboo_rainbow_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "pink_tips",
+      "label_ja": "pink tips",
+      "label_en": "pink tips",
+      "source": "knowledge_base",
+      "aliases": [
+        "pink_tips",
+        "ピンク髪"
+      ]
+    },
+    {
+      "tag": "prism_hair",
+      "label_ja": "prism hair",
+      "label_en": "prism hair",
+      "source": "extended",
+      "aliases": [
+        "prism_hair",
+        "prism hair",
+        "prism",
+        "prism",
+        "prism hair",
+        "prism hair",
+        "prism hair"
+      ]
+    },
+    {
+      "tag": "purple_tips",
+      "label_ja": "purple tips",
+      "label_en": "purple tips",
+      "source": "knowledge_base",
+      "aliases": [
+        "purple_tips",
+        "紫髪"
+      ]
+    },
+    {
+      "tag": "quad_tone_hair",
+      "label_ja": "quad tone hair",
+      "label_en": "quad tone hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "quad_tone_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "rainbow_hair",
+      "label_ja": "レインボーカラー",
+      "label_en": "rainbow hair",
+      "source": "extended",
+      "aliases": [
+        "rainbow_hair",
+        "rainbow hair",
+        "虹色の髪",
+        "レインボーカラー"
+      ]
+    },
+    {
+      "tag": "reverse_money_piece",
+      "label_ja": "reverse money piece",
+      "label_en": "reverse money piece",
+      "source": "knowledge_base",
+      "aliases": [
+        "reverse_money_piece"
+      ]
+    },
+    {
+      "tag": "reverse_ombre_hair",
+      "label_ja": "逆グラデ髪",
+      "label_en": "reverse ombre hair",
+      "source": "extended",
+      "aliases": [
+        "reverse_ombre_hair",
+        "reverse ombre hair",
+        "reverse_ombre",
+        "reverse ombre",
+        "reverse ombre hair",
+        "逆グラデ髪",
+        "reverse ombre hair",
+        "reverse ombre hair"
+      ]
+    },
+    {
+      "tag": "ribbon_highlights",
+      "label_ja": "ribbon highlights",
+      "label_en": "ribbon highlights",
+      "source": "extended",
+      "aliases": [
+        "ribbon_highlights",
+        "ribbon highlights",
+        "ribbon highlights",
+        "ribbon highlights"
+      ]
+    },
+    {
+      "tag": "root_melt_hair",
+      "label_ja": "root melt hair",
+      "label_en": "root melt hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "root_melt_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "root_to_tip_gradient",
+      "label_ja": "root to tip gradient",
+      "label_en": "root to tip gradient",
+      "source": "knowledge_base",
+      "aliases": [
+        "root_to_tip_gradient"
+      ]
+    },
+    {
+      "tag": "rose_tips",
+      "label_ja": "rose tips",
+      "label_en": "rose tips",
+      "source": "knowledge_base",
+      "aliases": [
+        "rose_tips"
+      ]
+    },
+    {
+      "tag": "shadow_roots",
+      "label_ja": "シャドウルーツ",
+      "label_en": "shadow roots",
+      "source": "extended",
+      "aliases": [
+        "shadow_roots",
+        "shadow roots",
+        "シャドウルーツ",
+        "shadow roots",
+        "shadow roots"
+      ]
+    },
+    {
+      "tag": "side_streaks",
+      "label_ja": "side streaks",
+      "label_en": "side streaks",
+      "source": "knowledge_base",
+      "aliases": [
+        "side_streaks",
+        "サイド"
+      ]
+    },
+    {
+      "tag": "silver_tips",
+      "label_ja": "silver tips",
+      "label_en": "silver tips",
+      "source": "knowledge_base",
+      "aliases": [
+        "silver_tips",
+        "シルバー"
+      ]
+    },
+    {
+      "tag": "skunk_stripe_hair",
+      "label_ja": "スカンクストライプ",
+      "label_en": "skunk stripe hair",
+      "source": "extended",
+      "aliases": [
+        "skunk_stripe_hair",
+        "skunk stripe hair",
+        "太い白メッシュ",
+        "スカンクストライプ"
+      ]
+    },
+    {
+      "tag": "smudged_roots",
+      "label_ja": "smudged roots",
+      "label_en": "smudged roots",
+      "source": "knowledge_base",
+      "aliases": [
+        "smudged_roots"
+      ]
+    },
+    {
+      "tag": "soft_face_frame_highlights",
+      "label_ja": "soft face frame highlights",
+      "label_en": "soft face frame highlights",
+      "source": "knowledge_base",
+      "aliases": [
+        "soft_face_frame_highlights",
+        "顔"
+      ]
+    },
+    {
+      "tag": "soft_ombre_hair",
+      "label_ja": "soft ombre hair",
+      "label_en": "soft ombre hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "soft_ombre_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "split_dye_hair",
+      "label_ja": "split dye hair",
+      "label_en": "split dye hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "split_dye_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "split_dyed_hair",
+      "label_ja": "左右分けカラー",
+      "label_en": "split dyed hair",
+      "source": "extended",
+      "aliases": [
+        "split_dyed_hair",
+        "split dyed hair",
+        "左右で色違いの髪",
+        "左右分けカラー"
+      ]
+    },
+    {
+      "tag": "split_front_color",
+      "label_ja": "split front color",
+      "label_en": "split front color",
+      "source": "extended",
+      "aliases": [
+        "split_front_color",
+        "split front color",
+        "split front color",
+        "split front color"
+      ]
+    },
+    {
+      "tag": "split_twintails_color",
+      "label_ja": "split twintails color",
+      "label_en": "split twintails color",
+      "source": "knowledge_base",
+      "aliases": [
+        "split_twintails_color",
+        "ツインテール"
+      ]
+    },
+    {
+      "tag": "streaked_hair",
+      "label_ja": "メッシュ",
+      "label_en": "streaked hair",
+      "source": "extended",
+      "aliases": [
+        "streaked_hair",
+        "streaked hair",
+        "筋状カラー",
+        "メッシュ"
+      ]
+    },
+    {
+      "tag": "subtle_baleyage_hair",
+      "label_ja": "subtle baleyage hair",
+      "label_en": "subtle baleyage hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "subtle_baleyage_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "sun_kissed_highlights",
+      "label_ja": "sun kissed highlights",
+      "label_en": "sun kissed highlights",
+      "source": "knowledge_base",
+      "aliases": [
+        "sun_kissed_highlights"
+      ]
+    },
+    {
+      "tag": "sunset_gradient_hair",
+      "label_ja": "sunset gradient hair",
+      "label_en": "sunset gradient hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "sunset_gradient_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "temple_streaks",
+      "label_ja": "temple streaks",
+      "label_en": "temple streaks",
+      "source": "knowledge_base",
+      "aliases": [
+        "temple_streaks",
+        "こめかみ"
+      ]
+    },
+    {
+      "tag": "three_tone_hair",
+      "label_ja": "three tone hair",
+      "label_en": "three tone hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "three_tone_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "tipped_bangs",
+      "label_ja": "tipped bangs",
+      "label_en": "tipped bangs",
+      "source": "knowledge_base",
+      "aliases": [
+        "tipped_bangs",
+        "前髪"
+      ]
+    },
+    {
+      "tag": "triple_highlights",
+      "label_ja": "triple highlights",
+      "label_en": "triple highlights",
+      "source": "knowledge_base",
+      "aliases": [
+        "triple_highlights"
+      ]
+    },
+    {
+      "tag": "two_tone_hair",
+      "label_ja": "ツートンカラー",
+      "label_en": "two tone hair",
+      "source": "extended",
+      "aliases": [
+        "two_tone_hair",
+        "two tone hair",
+        "two-tone hair",
+        "ツートン髪",
+        "ツートンカラー"
+      ]
+    },
+    {
+      "tag": "under_color",
+      "label_ja": "under color",
+      "label_en": "under color",
+      "source": "knowledge_base",
+      "aliases": [
+        "under_color"
+      ]
+    },
+    {
+      "tag": "underbang_color",
+      "label_ja": "underbang color",
+      "label_en": "underbang color",
+      "source": "extended",
+      "aliases": [
+        "underbang_color",
+        "underbang color",
+        "underbang color",
+        "underbang color"
+      ]
+    },
+    {
+      "tag": "underlayer_color_hair",
+      "label_ja": "アンダーレイヤーカラー",
+      "label_en": "underlayer color hair",
+      "source": "extended",
+      "aliases": [
+        "underlayer_color_hair",
+        "underlayer color hair",
+        "下段カラー",
+        "アンダーレイヤーカラー"
+      ]
+    },
+    {
+      "tag": "underlight_hair",
+      "label_ja": "underlight hair",
+      "label_en": "underlight hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "underlight_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "white_face_frame",
+      "label_ja": "white face frame",
+      "label_en": "white face frame",
+      "source": "knowledge_base",
+      "aliases": [
+        "white_face_frame",
+        "白髪顔"
+      ]
+    },
+    {
+      "tag": "zebra_streaks",
+      "label_ja": "zebra streaks",
+      "label_en": "zebra streaks",
+      "source": "extended",
+      "aliases": [
+        "zebra_streaks",
+        "zebra streaks",
+        "zebra streaks",
+        "zebra streaks"
+      ]
+    }
+  ]
+}

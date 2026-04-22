@@ -1,0 +1,16 @@
+{
+  "order": [
+    "style.length",
+    "style.arrangement",
+    "style.shape",
+    "style.front",
+    "style.parting",
+    "style.extra",
+    "texture.surface",
+    "texture.volume",
+    "texture.state",
+    "texture.irregularity",
+    "color.base",
+    "color.pattern"
+  ]
+}

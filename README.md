@@ -1,7 +1,7 @@
 # ComfyUI-LLM-Text-Workflow
 
 ComfyUI 用のローカル LLM テキストワークフローです。  
-ローカルの `.gguf` モデルを直接読み込み、物語生成、カット分割、タグ化、動画プロンプト化、モデル別プロンプト変換、歌詞生成、キャラクター生成、服装生成、簡易翻訳までを ComfyUI 上でまとめて扱えます。
+ローカルの `.gguf` モデルを直接読み込み、物語生成、カット分割、タグ化、動画プロンプト化、モデル別プロンプト変換、歌詞生成、キャラクター生成、髪型生成、服装生成、簡易翻訳までを ComfyUI 上でまとめて扱えます。
 
 ![](ui1.png)
 
@@ -63,7 +63,7 @@ Story -> Story Cuts -> Video Prompt
 
 ```text
 Story -> Story To Lyrics
-Character Generator -> Outfit Generator -> Outfit Color -> Outfit Texture
+Character Generator -> Hair Generator -> Outfit Generator -> Outfit Color -> Outfit Texture
 Any Text -> Simple Translate
 ```
 
@@ -376,7 +376,61 @@ Any Text -> Simple Translate
 
 ---
 
-### 8. LLM Outfit Generator
+### 8. LLM Hair Generator
+
+髪型文を生成するノードです。  
+キャラクター文や任意の補助テキストをもとに、髪の長さ、質感、前髪、結び方、色などを整理し、単体の髪設定として出力します。
+
+**入力**
+- `character_text`
+- `gender`
+- `age`
+- `hair_length`
+- `hair_texture`
+- `bangs`
+- `tied_or_untied`
+- `hair_color_mode`
+- `hair_color`
+- `extra_requirements`
+- `language`
+- `save_dir`
+- `save_name`
+- `model_path`
+- `load_strategy`
+- `max_tokens`
+- `temperature`
+- `top_p`
+
+**出力**
+- `hair_text`
+- `hair_json`
+- `save_name_out`
+- `hair_json_path`
+
+髪型だけを独立して詰めたい時に使います。  
+ランダム生成と固定指定を混ぜられるため、たとえば「長さだけ指定して、質感と前髪はランダム」のような使い方ができます。
+
+**主な特徴**
+- 髪の長さ、質感、前髪、結び方を個別に制御
+- ヘアカラーを固定指定またはランダム化
+- キャラクター文の雰囲気を参照して髪型文を補強
+- キャラクターノードから髪を分離して、再利用しやすい構成にできる
+
+推奨例:
+
+```text
+Character Generator -> Hair Generator
+```
+
+または
+
+```text
+Character Generator -> Hair Generator -> Outfit Generator
+```
+
+---
+
+### 9. LLM Outfit Generator
 
 服装案を生成するノードです。  
 性別、季節、スタイル、職業、年齢帯、気分、靴、靴下、アウター条件などから、実用寄りにも創作寄りにも服装を組み立てられます。
@@ -423,7 +477,7 @@ Any Text -> Simple Translate
 
 ---
 
-### 9. LLM Outfit Color
+### 10. LLM Outfit Color
 
 既存の服装文に配色情報を加えるノードです。
 
@@ -460,7 +514,7 @@ Any Text -> Simple Translate
 
 ---
 
-### 10. LLM Outfit Texture
+### 11. LLM Outfit Texture
 
 既存の服装文に素材感や表面感を加えるノードです。  
 色ではなく、編み地、光沢、厚み、乾いた質感、滑らかさなどの情報を補います。
@@ -495,7 +549,7 @@ Outfit Generator -> Outfit Color -> Outfit Texture
 
 ---
 
-### 11. LLM Story To Lyrics
+### 12. LLM Story To Lyrics
 
 物語や設定文から、歌詞とセクション時間を生成するノードです。  
 歌える形を優先し、単なるあらすじ列挙になりにくいように設計されています。
@@ -550,7 +604,7 @@ Outfit Generator -> Outfit Color -> Outfit Texture
 
 ---
 
-### 12. LLM Simple Translate
+### 13. LLM Simple Translate
 
 シンプルな翻訳ノードです。  
 長いワークフローを挟まず、単体テキストを軽く翻訳したい時に使います。
@@ -606,6 +660,7 @@ Outfit Generator -> Outfit Color -> Outfit Texture
 - `LLMPromptConverter8`
 - `LLMVideoPromptNode`
 - `LLMCharacterGeneratorNode`
+- `LLMHairGeneratorNode`
 - `LLMRandomPersonaSpeechNode`
 - `LLMOutfitGeneratorNode`
 - `LLMStoryToLyricsNode`
@@ -620,6 +675,7 @@ Outfit Generator -> Outfit Color -> Outfit Texture
 - `LLM Prompt Converter` → `save_name_out`, `prompt_json_path`
 - `LLM Prompt Converter 8` → `save_name_out`, `prompt_json_path`
 - `LLM Character Generator` → `save_name_out`, `character_json_path`
+- `LLM Hair Generator` → `save_name_out`, `hair_json_path`
 - `LLM Random Persona Speech` → `save_name_out`, `persona_json_path`
 - `LLM Outfit Generator` → `save_name_out`, `outfit_json_path`
 - `LLM Story To Lyrics` → `save_name_out`, `lyrics_json_path`
@@ -637,7 +693,7 @@ Outfit Generator -> Outfit Color -> Outfit Texture
 キャラクター系の例:
 
 ```text
-Character Generator -> Outfit Generator -> Outfit Color -> Outfit Texture
+Character Generator -> Hair Generator -> Outfit Generator -> Outfit Color -> Outfit Texture
 ```
 
 ## 表示ノード
@@ -679,3 +735,4 @@ Character Generator -> Outfit Generator -> Outfit Color -> Outfit Texture
 - `LLM Story To Lyrics` はセクションごとの秒数を内部で再配分します。
 - `section_label_style = ace_suno` と `include_section_labels = true` を使うと、歌詞生成後の整形が楽です。
 - `LLM Outfit Color` と `LLM Outfit Texture` は服の種類を変えるためのノードではなく、既存の服装文を補強するノードです。
+- `LLM Hair Generator` はキャラクター設定から髪を分離して再利用したい時に向いています。

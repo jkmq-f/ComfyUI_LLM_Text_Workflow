@@ -1,0 +1,34 @@
+{
+  "name": "Knowledge-based maximal bundled hair dictionary",
+  "source_type": "knowledge_base",
+  "note": "Directly bundled hair dictionary assembled from model knowledge and prior curated vocabularies. Not an official Danbooru mirror.",
+  "counts": {
+    "style": {
+      "length": 18,
+      "front": 107,
+      "parting": 36,
+      "arrangement": 289,
+      "shape": 274,
+      "extra": 117
+    },
+    "texture": {
+      "surface": 83,
+      "volume": 56,
+      "state": 48,
+      "irregularity": 57
+    },
+    "color": {
+      "base": 168,
+      "pattern": 104
+    },
+    "canonical_total": 1357,
+    "alias_total": 3118
+  },
+  "features": [
+    "No external CSV required",
+    "Direct bundled JSON dictionaries",
+    "Curated canonical tags with aliases",
+    "Works with existing hair builder node",
+    "Knowledge-based maximal vocabulary"
+  ]
+}

@@ -973,11 +973,29 @@ class LLMOutfitGeneratorNode:
             return ""
         if p in _EXTERNAL_PROFESSION_INDEX:
             return _EXTERNAL_PROFESSION_INDEX[p]
+
+        def _resolve_alias_target(target: str) -> str:
+            token = _normalize_profession_token(target)
+            if not token:
+                return ""
+            if token in _EXTERNAL_PROFESSION_INDEX:
+                return _EXTERNAL_PROFESSION_INDEX[token]
+            if token in PROFESSION_LIBRARY:
+                return token
+            if token in PROFESSION_ALIAS_LIBRARY:
+                alias_target = _normalize_profession_token(PROFESSION_ALIAS_LIBRARY[token])
+                if alias_target in _EXTERNAL_PROFESSION_INDEX:
+                    return _EXTERNAL_PROFESSION_INDEX[alias_target]
+                if alias_target in PROFESSION_LIBRARY:
+                    return alias_target
+                return alias_target
+            return token
+
         aliases = {
             "大工": "carpenter",
-            "木工": "cabinet_maker",
-            "建設作業員": "construction_worker",
-            "整備士": "fleet_technician",
+            "木工": "carpenter",
+            "建設作業員": "construction worker",
+            "整備士": "mechanic",
             "電気工事士": "electrician",
             "配管工": "plumber",
             "シェフ": "chef",
@@ -986,41 +1004,42 @@ class LLMOutfitGeneratorNode:
             "医師": "doctor",
             "教師": "teacher",
             "先生": "teacher",
-            "会社員": "office_worker",
-            "事務職": "office_worker",
+            "会社員": "office worker",
+            "事務職": "office worker",
             "カメラマン": "photographer",
             "写真家": "photographer",
-            "警備員": "security_guard",
-            "エンジニア": "project_manager",
-            "プログラマー": "data_analyst",
-            "デザイナー": "graphic_designer",
+            "警備員": "security guard",
+            "エンジニア": "engineer",
+            "プログラマー": "programmer",
+            "デザイナー": "designer",
             "農家": "farmer",
-            "酪農家": "dairyman",
-            "配達員": "delivery_driver",
+            "酪農家": "farmer",
+            "配達員": "delivery driver",
             "宅配": "courier",
-            "倉庫作業員": "warehouse_worker",
-            "物流": "logistics_coordinator",
-            "販売員": "retail_staff",
-            "店員": "retail_staff",
+            "倉庫作業員": "warehouse worker",
+            "物流": "warehouse worker",
+            "販売員": "retail staff",
+            "店員": "retail staff",
             "バリスタ": "barista",
-            "アーティスト": "illustrator",
-            "画家": "graphic_designer",
+            "アーティスト": "artist",
+            "画家": "artist",
             "科学者": "scientist",
             "研究者": "researcher",
-            "警察官": "police_officer",
+            "警察官": "police officer",
+            "警官": "police officer",
             "消防士": "firefighter",
             "介護士": "caregiver",
             "介護職": "caregiver",
             "薬剤師": "pharmacist",
             "歯科医": "dentist",
             "療法士": "therapist",
-            "整備工": "fleet_technician",
-            "技術者": "lab_technician",
+            "整備工": "mechanic",
+            "技術者": "technician",
             "溶接工": "welder",
-            "左官": "plasterer",
+            "左官": "construction worker",
             "庭師": "gardener",
             "ウェイター": "waiter",
-            "接客": "retail_staff",
+            "接客": "retail staff",
             "パン職人": "baker",
             "映像作家": "filmmaker",
             "映像撮影": "videographer",
@@ -1029,17 +1048,19 @@ class LLMOutfitGeneratorNode:
             "作家": "writer",
             "会計士": "accountant",
             "銀行員": "banker",
-            "建築士": "project_manager",
+            "建築士": "architect",
         }
         direct = aliases.get(raw) or aliases.get(p)
         if direct:
-            return direct
+            resolved = _resolve_alias_target(direct)
+            if resolved:
+                return resolved
         raw_lower = raw.lower()
         if raw_lower in PROFESSION_LIBRARY:
             return raw_lower
         if p in PROFESSION_LIBRARY:
             return p
-        return p
+        return _resolve_alias_target(p) or p
 
     def _gender_profile_key(self, gender: str) -> str:
         g = (gender or "").strip().lower()

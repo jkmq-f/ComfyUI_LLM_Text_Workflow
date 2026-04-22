@@ -13,6 +13,7 @@ from .nodes.outfit_texture_node import LLMOutfitTextureNode
 from .nodes.outfit_color_node import LLMOutfitColorNode
 from .nodes.story_to_lyrics_node import LLMStoryToLyricsNode
 from .nodes.translate_simple_node import LLMSimpleTranslateNode
+from .nodes.hair_builder_node import LLMHairBuilderNode
 
 WEB_DIRECTORY = "./js"
 
@@ -34,6 +35,7 @@ NODE_CLASS_MAPPINGS = {
     "LLMOutfitColor": LLMOutfitColorNode,
     "LLMStoryToLyrics": LLMStoryToLyricsNode,
     "LLMSimpleTranslate": LLMSimpleTranslateNode,
+    "LLMHairBuilder": LLMHairBuilderNode,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
@@ -54,6 +56,7 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "LLMOutfitColor": "LLM Outfit Color",
     "LLMStoryToLyrics": "LLM Story To Lyrics",
     "LLMSimpleTranslate": "LLM Simple Translate",
+    "LLMHairBuilder": "LLM Hair Builder",
 }
 
 __all__ = ["NODE_CLASS_MAPPINGS", "NODE_DISPLAY_NAME_MAPPINGS", "WEB_DIRECTORY"]

@@ -1,0 +1,2688 @@
+{
+  "surface": [
+    {
+      "tag": "air_touched_hair",
+      "label_ja": "air touched hair",
+      "label_en": "air touched hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "air_touched_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "airy_smooth_hair",
+      "label_ja": "airy smooth hair",
+      "label_en": "airy smooth hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "airy_smooth_hair",
+        "エアリーなめらか髪"
+      ]
+    },
+    {
+      "tag": "brushed_smooth_hair",
+      "label_ja": "brushed smooth hair",
+      "label_en": "brushed smooth hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "brushed_smooth_hair",
+        "なめらか髪"
+      ]
+    },
+    {
+      "tag": "buttery_hair",
+      "label_ja": "buttery hair",
+      "label_en": "buttery hair",
+      "source": "extended",
+      "aliases": [
+        "buttery_hair",
+        "buttery hair",
+        "buttery",
+        "buttery",
+        "buttery hair",
+        "buttery hair",
+        "buttery hair"
+      ]
+    },
+    {
+      "tag": "buttery_smooth_hair",
+      "label_ja": "buttery smooth hair",
+      "label_en": "buttery smooth hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "buttery_smooth_hair",
+        "なめらか髪"
+      ]
+    },
+    {
+      "tag": "cashmere_hair",
+      "label_ja": "cashmere hair",
+      "label_en": "cashmere hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "cashmere_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "clean_shine_hair",
+      "label_ja": "clean shine hair",
+      "label_en": "clean shine hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "clean_shine_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "cloud_soft_hair",
+      "label_ja": "cloud soft hair",
+      "label_en": "cloud soft hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "cloud_soft_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "coarse_hair",
+      "label_ja": "硬めの髪",
+      "label_en": "coarse hair",
+      "source": "extended",
+      "aliases": [
+        "coarse_hair",
+        "coarse hair",
+        "硬い髪",
+        "硬めの髪"
+      ]
+    },
+    {
+      "tag": "cold_shine_hair",
+      "label_ja": "cold shine hair",
+      "label_en": "cold shine hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "cold_shine_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "combed_smooth_hair",
+      "label_ja": "combed smooth hair",
+      "label_en": "combed smooth hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "combed_smooth_hair",
+        "なめらか髪"
+      ]
+    },
+    {
+      "tag": "conditioned_hair",
+      "label_ja": "conditioned hair",
+      "label_en": "conditioned hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "conditioned_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "cotton_soft_hair",
+      "label_ja": "cotton soft hair",
+      "label_en": "cotton soft hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "cotton_soft_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "cottony_hair",
+      "label_ja": "cottony hair",
+      "label_en": "cottony hair",
+      "source": "extended",
+      "aliases": [
+        "cottony_hair",
+        "cottony hair",
+        "cottony",
+        "cottony",
+        "cottony hair",
+        "cottony hair",
+        "cottony hair"
+      ]
+    },
+    {
+      "tag": "cream_smooth_hair",
+      "label_ja": "cream smooth hair",
+      "label_en": "cream smooth hair",
+      "source": "extended",
+      "aliases": [
+        "cream_smooth_hair",
+        "cream smooth hair",
+        "cream_smooth",
+        "cream smooth",
+        "cream smooth hair",
+        "cream smooth hair",
+        "cream smooth hair"
+      ]
+    },
+    {
+      "tag": "cream_texture_hair",
+      "label_ja": "cream texture hair",
+      "label_en": "cream texture hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "cream_texture_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "crisp_texture_hair",
+      "label_ja": "crisp texture hair",
+      "label_en": "crisp texture hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "crisp_texture_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "defined_texture_hair",
+      "label_ja": "defined texture hair",
+      "label_en": "defined texture hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "defined_texture_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "dense_texture_hair",
+      "label_ja": "dense texture hair",
+      "label_en": "dense texture hair",
+      "source": "extended",
+      "aliases": [
+        "dense_texture_hair",
+        "dense texture hair",
+        "dense_texture",
+        "dense texture",
+        "dense texture hair",
+        "dense texture hair",
+        "dense texture hair"
+      ]
+    },
+    {
+      "tag": "dry_texture_hair",
+      "label_ja": "ドライ質感",
+      "label_en": "dry texture hair",
+      "source": "extended",
+      "aliases": [
+        "dry_texture_hair",
+        "dry texture hair",
+        "乾いた質感の髪",
+        "ドライ質感"
+      ]
+    },
+    {
+      "tag": "feather_smooth_hair",
+      "label_ja": "feather smooth hair",
+      "label_en": "feather smooth hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "feather_smooth_hair",
+        "なめらか髪"
+      ]
+    },
+    {
+      "tag": "feather_soft_hair",
+      "label_ja": "feather soft hair",
+      "label_en": "feather soft hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "feather_soft_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "fine_hair",
+      "label_ja": "細い髪",
+      "label_en": "fine hair",
+      "source": "extended",
+      "aliases": [
+        "fine_hair",
+        "fine hair",
+        "細毛",
+        "細い髪"
+      ]
+    },
+    {
+      "tag": "fine_silky_hair",
+      "label_ja": "fine silky hair",
+      "label_en": "fine silky hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "fine_silky_hair",
+        "さらさら髪"
+      ]
+    },
+    {
+      "tag": "fine_texture_hair",
+      "label_ja": "fine texture hair",
+      "label_en": "fine texture hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "fine_texture_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "fragile_strand_hair",
+      "label_ja": "fragile strand hair",
+      "label_en": "fragile strand hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "fragile_strand_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "fresh_cuticle_hair",
+      "label_ja": "fresh cuticle hair",
+      "label_en": "fresh cuticle hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "fresh_cuticle_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "fresh_salon_hair",
+      "label_ja": "fresh salon hair",
+      "label_en": "fresh salon hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "fresh_salon_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "gelled_smooth_hair",
+      "label_ja": "gelled smooth hair",
+      "label_en": "gelled smooth hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "gelled_smooth_hair",
+        "なめらか髪"
+      ]
+    },
+    {
+      "tag": "glass_hair",
+      "label_ja": "グラスヘア",
+      "label_en": "glass hair",
+      "source": "extended",
+      "aliases": [
+        "glass_hair",
+        "glass hair",
+        "ガラスヘア",
+        "グラスヘア"
+      ]
+    },
+    {
+      "tag": "glassy_smooth_hair",
+      "label_ja": "glassy smooth hair",
+      "label_en": "glassy smooth hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "glassy_smooth_hair",
+        "なめらか髪"
+      ]
+    },
+    {
+      "tag": "glossy_hair",
+      "label_ja": "グロッシーヘア",
+      "label_en": "glossy hair",
+      "source": "extended",
+      "aliases": [
+        "glossy_hair",
+        "glossy hair",
+        "つやの強い髪",
+        "グロッシーヘア"
+      ]
+    },
+    {
+      "tag": "healthy_shine_hair",
+      "label_ja": "healthy shine hair",
+      "label_en": "healthy shine hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "healthy_shine_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "hydrated_hair",
+      "label_ja": "hydrated hair",
+      "label_en": "hydrated hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "hydrated_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "light_gloss_hair",
+      "label_ja": "light gloss hair",
+      "label_en": "light gloss hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "light_gloss_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "light_reflective_hair",
+      "label_ja": "light reflective hair",
+      "label_en": "light reflective hair",
+      "source": "extended",
+      "aliases": [
+        "light_reflective_hair",
+        "light reflective hair",
+        "light_reflective",
+        "light reflective",
+        "light reflective hair",
+        "light reflective hair",
+        "light reflective hair"
+      ]
+    },
+    {
+      "tag": "lightweight_hair",
+      "label_ja": "lightweight hair",
+      "label_en": "lightweight hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "lightweight_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "lustrous_hair",
+      "label_ja": "lustrous hair",
+      "label_en": "lustrous hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "lustrous_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "luxury_sheen_hair",
+      "label_ja": "luxury sheen hair",
+      "label_en": "luxury sheen hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "luxury_sheen_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "matte_hair",
+      "label_ja": "マット質感",
+      "label_en": "matte hair",
+      "source": "extended",
+      "aliases": [
+        "matte_hair",
+        "matte hair",
+        "マットな髪",
+        "マット質感"
+      ]
+    },
+    {
+      "tag": "mirror_shine_hair",
+      "label_ja": "mirror shine hair",
+      "label_en": "mirror shine hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "mirror_shine_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "mochi_soft_hair",
+      "label_ja": "mochi soft hair",
+      "label_en": "mochi soft hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "mochi_soft_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "moist_hair",
+      "label_ja": "moist hair",
+      "label_en": "moist hair",
+      "source": "extended",
+      "aliases": [
+        "moist_hair",
+        "moist hair",
+        "moist",
+        "moist",
+        "moist hair",
+        "moist hair",
+        "moist hair"
+      ]
+    },
+    {
+      "tag": "moisturized_hair",
+      "label_ja": "moisturized hair",
+      "label_en": "moisturized hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "moisturized_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "natural_sheen_hair",
+      "label_ja": "natural sheen hair",
+      "label_en": "natural sheen hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "natural_sheen_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "nourished_hair",
+      "label_ja": "nourished hair",
+      "label_en": "nourished hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "nourished_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "oil_sheen_hair",
+      "label_ja": "oil sheen hair",
+      "label_en": "oil sheen hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "oil_sheen_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "pearl_shine_hair",
+      "label_ja": "pearl shine hair",
+      "label_en": "pearl shine hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "pearl_shine_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "piecey_smooth_hair",
+      "label_ja": "piecey smooth hair",
+      "label_en": "piecey smooth hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "piecey_smooth_hair",
+        "なめらか髪"
+      ]
+    },
+    {
+      "tag": "pillowy_hair",
+      "label_ja": "pillowy hair",
+      "label_en": "pillowy hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "pillowy_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "plush_hair",
+      "label_ja": "plush hair",
+      "label_en": "plush hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "plush_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "polished_hair",
+      "label_ja": "磨かれた髪",
+      "label_en": "polished hair",
+      "source": "extended",
+      "aliases": [
+        "polished_hair",
+        "polished hair",
+        "polished",
+        "polished",
+        "polished hair",
+        "磨かれた髪",
+        "polished hair",
+        "polished hair"
+      ]
+    },
+    {
+      "tag": "powder_soft_hair",
+      "label_ja": "powder soft hair",
+      "label_en": "powder soft hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "powder_soft_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "powdery_hair",
+      "label_ja": "powdery hair",
+      "label_en": "powdery hair",
+      "source": "extended",
+      "aliases": [
+        "powdery_hair",
+        "powdery hair",
+        "powdery",
+        "powdery",
+        "powdery hair",
+        "powdery hair",
+        "powdery hair"
+      ]
+    },
+    {
+      "tag": "powdery_texture_hair",
+      "label_ja": "powdery texture hair",
+      "label_en": "powdery texture hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "powdery_texture_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "refined_texture_hair",
+      "label_ja": "refined texture hair",
+      "label_en": "refined texture hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "refined_texture_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "rough_texture_hair",
+      "label_ja": "rough texture hair",
+      "label_en": "rough texture hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "rough_texture_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "satin_hair",
+      "label_ja": "サテン質感ヘア",
+      "label_en": "satin hair",
+      "source": "extended",
+      "aliases": [
+        "satin_hair",
+        "satin hair",
+        "satin",
+        "satin",
+        "satin hair",
+        "サテン質感ヘア",
+        "satin hair",
+        "satin hair"
+      ]
+    },
+    {
+      "tag": "satin_smooth_hair",
+      "label_ja": "satin smooth hair",
+      "label_en": "satin smooth hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "satin_smooth_hair",
+        "なめらか髪"
+      ]
+    },
+    {
+      "tag": "shiny_hair",
+      "label_ja": "艶髪",
+      "label_en": "shiny hair",
+      "source": "extended",
+      "aliases": [
+        "shiny_hair",
+        "shiny hair",
+        "光沢のある髪",
+        "つやつや",
+        "艶髪"
+      ]
+    },
+    {
+      "tag": "silk_press_hair",
+      "label_ja": "silk press hair",
+      "label_en": "silk press hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "silk_press_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "silken_hair",
+      "label_ja": "silken hair",
+      "label_en": "silken hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "silken_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "silky_hair",
+      "label_ja": "さらさらヘア",
+      "label_en": "silky hair",
+      "source": "extended",
+      "aliases": [
+        "silky_hair",
+        "silky hair",
+        "絹のような髪",
+        "サラサラ",
+        "さらさらヘア"
+      ]
+    },
+    {
+      "tag": "sleek_hair",
+      "label_ja": "すっきり整った髪",
+      "label_en": "sleek hair",
+      "source": "extended",
+      "aliases": [
+        "sleek_hair",
+        "sleek hair",
+        "スリークヘア",
+        "すっきり整った髪"
+      ]
+    },
+    {
+      "tag": "sleek_texture_hair",
+      "label_ja": "sleek texture hair",
+      "label_en": "sleek texture hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "sleek_texture_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "smooth_cuticle_hair",
+      "label_ja": "smooth cuticle hair",
+      "label_en": "smooth cuticle hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "smooth_cuticle_hair",
+        "なめらか髪"
+      ]
+    },
+    {
+      "tag": "smooth_hair",
+      "label_ja": "なめらかヘア",
+      "label_en": "smooth hair",
+      "source": "extended",
+      "aliases": [
+        "smooth_hair",
+        "smooth hair",
+        "滑らかな髪",
+        "なめらかヘア"
+      ]
+    },
+    {
+      "tag": "soft_defined_hair",
+      "label_ja": "soft defined hair",
+      "label_en": "soft defined hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "soft_defined_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "soft_matte_hair",
+      "label_ja": "soft matte hair",
+      "label_en": "soft matte hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "soft_matte_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "soft_silky_hair",
+      "label_ja": "soft silky hair",
+      "label_en": "soft silky hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "soft_silky_hair",
+        "さらさら髪"
+      ]
+    },
+    {
+      "tag": "soft_texture_hair",
+      "label_ja": "やわらかい質感",
+      "label_en": "soft texture hair",
+      "source": "extended",
+      "aliases": [
+        "soft_texture_hair",
+        "soft texture hair",
+        "柔らかい髪",
+        "やわらかい質感"
+      ]
+    },
+    {
+      "tag": "softly_separated_hair",
+      "label_ja": "softly separated hair",
+      "label_en": "softly separated hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "softly_separated_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "straightened_hair",
+      "label_ja": "straightened hair",
+      "label_en": "straightened hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "straightened_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "strong_strand_hair",
+      "label_ja": "strong strand hair",
+      "label_en": "strong strand hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "strong_strand_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "subtle_shine_hair",
+      "label_ja": "subtle shine hair",
+      "label_en": "subtle shine hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "subtle_shine_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "thick_strand_hair",
+      "label_ja": "thick strand hair",
+      "label_en": "thick strand hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "thick_strand_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "thin_strand_hair",
+      "label_ja": "thin strand hair",
+      "label_en": "thin strand hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "thin_strand_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "translucent_hair",
+      "label_ja": "透け感ヘア",
+      "label_en": "translucent hair",
+      "source": "extended",
+      "aliases": [
+        "translucent_hair",
+        "translucent hair",
+        "translucent",
+        "translucent",
+        "translucent hair",
+        "透け感ヘア",
+        "translucent hair",
+        "translucent hair"
+      ]
+    },
+    {
+      "tag": "velvet_hair",
+      "label_ja": "velvet hair",
+      "label_en": "velvet hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "velvet_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "velvety_hair",
+      "label_ja": "ベルベット質感",
+      "label_en": "velvety hair",
+      "source": "extended",
+      "aliases": [
+        "velvety_hair",
+        "velvety hair",
+        "ベルベットのような髪",
+        "ベルベット質感"
+      ]
+    },
+    {
+      "tag": "well_conditioned_hair",
+      "label_ja": "well conditioned hair",
+      "label_en": "well conditioned hair",
+      "source": "extended",
+      "aliases": [
+        "well_conditioned_hair",
+        "well conditioned hair",
+        "well_conditioned",
+        "well conditioned",
+        "well conditioned hair",
+        "well conditioned hair",
+        "well conditioned hair"
+      ]
+    },
+    {
+      "tag": "wet_shine_hair",
+      "label_ja": "wet shine hair",
+      "label_en": "wet shine hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "wet_shine_hair",
+        "濡れ髪"
+      ]
+    },
+    {
+      "tag": "wispy_texture_hair",
+      "label_ja": "wispy texture hair",
+      "label_en": "wispy texture hair",
+      "source": "extended",
+      "aliases": [
+        "wispy_texture_hair",
+        "wispy texture hair",
+        "wispy_texture",
+        "wispy texture",
+        "wispy texture hair",
+        "wispy texture hair",
+        "wispy texture hair"
+      ]
+    }
+  ],
+  "volume": [
+    {
+      "tag": "airy_crown_hair",
+      "label_ja": "airy crown hair",
+      "label_en": "airy crown hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "airy_crown_hair",
+        "エアリー髪"
+      ]
+    },
+    {
+      "tag": "airy_hair",
+      "label_ja": "エアリー",
+      "label_en": "airy hair",
+      "source": "extended",
+      "aliases": [
+        "airy_hair",
+        "airy hair",
+        "エアリーな髪",
+        "エアリー"
+      ]
+    },
+    {
+      "tag": "backcombed_hair",
+      "label_ja": "backcombed hair",
+      "label_en": "backcombed hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "backcombed_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "balanced_silhouette_hair",
+      "label_ja": "balanced silhouette hair",
+      "label_en": "balanced silhouette hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "balanced_silhouette_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "balanced_volume_hair",
+      "label_ja": "balanced volume hair",
+      "label_en": "balanced volume hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "balanced_volume_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "blown_out_hair",
+      "label_ja": "blown out hair",
+      "label_en": "blown out hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "blown_out_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "bottom_heavy_hair",
+      "label_ja": "bottom heavy hair",
+      "label_en": "bottom heavy hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "bottom_heavy_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "bouncy_hair",
+      "label_ja": "弾む髪",
+      "label_en": "bouncy hair",
+      "source": "extended",
+      "aliases": [
+        "bouncy_hair",
+        "bouncy hair",
+        "弾力のある髪",
+        "弾む髪"
+      ]
+    },
+    {
+      "tag": "bridal_volume_hair",
+      "label_ja": "bridal volume hair",
+      "label_en": "bridal volume hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "bridal_volume_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "cheek_volume_hair",
+      "label_ja": "cheek volume hair",
+      "label_en": "cheek volume hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "cheek_volume_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "compact_silhouette_hair",
+      "label_ja": "compact silhouette hair",
+      "label_en": "compact silhouette hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "compact_silhouette_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "compact_volume_hair",
+      "label_ja": "compact volume hair",
+      "label_en": "compact volume hair",
+      "source": "extended",
+      "aliases": [
+        "compact_volume_hair",
+        "compact volume hair",
+        "compact_volume",
+        "compact volume",
+        "compact volume hair",
+        "compact volume hair",
+        "compact volume hair"
+      ]
+    },
+    {
+      "tag": "crown_lift_hair",
+      "label_ja": "crown lift hair",
+      "label_en": "crown lift hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "crown_lift_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "crown_pouf_hair",
+      "label_ja": "crown pouf hair",
+      "label_en": "crown pouf hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "crown_pouf_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "crown_volume_hair",
+      "label_ja": "crown volume hair",
+      "label_en": "crown volume hair",
+      "source": "extended",
+      "aliases": [
+        "crown_volume_hair",
+        "crown volume hair",
+        "crown_volume",
+        "crown volume",
+        "crown volume hair",
+        "crown volume hair",
+        "crown volume hair"
+      ]
+    },
+    {
+      "tag": "cushioned_hair",
+      "label_ja": "cushioned hair",
+      "label_en": "cushioned hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "cushioned_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "dense_hair",
+      "label_ja": "密度高めヘア",
+      "label_en": "dense hair",
+      "source": "extended",
+      "aliases": [
+        "dense_hair",
+        "dense hair",
+        "dense",
+        "dense",
+        "dense hair",
+        "密度高めヘア",
+        "dense hair",
+        "dense hair"
+      ]
+    },
+    {
+      "tag": "dense_volume_hair",
+      "label_ja": "dense volume hair",
+      "label_en": "dense volume hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "dense_volume_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "expanded_volume_hair",
+      "label_ja": "expanded volume hair",
+      "label_en": "expanded volume hair",
+      "source": "extended",
+      "aliases": [
+        "expanded_volume_hair",
+        "expanded volume hair",
+        "expanded_volume",
+        "expanded volume",
+        "expanded volume hair",
+        "expanded volume hair",
+        "expanded volume hair"
+      ]
+    },
+    {
+      "tag": "feather_light_hair",
+      "label_ja": "feather light hair",
+      "label_en": "feather light hair",
+      "source": "extended",
+      "aliases": [
+        "feather_light_hair",
+        "feather light hair",
+        "feather_light",
+        "feather light",
+        "feather light hair",
+        "feather light hair",
+        "feather light hair"
+      ]
+    },
+    {
+      "tag": "flat_hair",
+      "label_ja": "ぺたんこ髪",
+      "label_en": "flat hair",
+      "source": "extended",
+      "aliases": [
+        "flat_hair",
+        "flat hair",
+        "ボリュームの少ない髪",
+        "ぺたんこ髪"
+      ]
+    },
+    {
+      "tag": "fluffed_hair",
+      "label_ja": "fluffed hair",
+      "label_en": "fluffed hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "fluffed_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "fluffy_hair",
+      "label_ja": "ふんわりヘア",
+      "label_en": "fluffy hair",
+      "source": "extended",
+      "aliases": [
+        "fluffy_hair",
+        "fluffy hair",
+        "ふわふわ髪",
+        "ふんわりヘア"
+      ]
+    },
+    {
+      "tag": "full_volume_hair",
+      "label_ja": "full volume hair",
+      "label_en": "full volume hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "full_volume_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "halo_volume_hair",
+      "label_ja": "halo volume hair",
+      "label_en": "halo volume hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "halo_volume_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "idol_volume_hair",
+      "label_ja": "idol volume hair",
+      "label_en": "idol volume hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "idol_volume_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "korean_root_volume",
+      "label_ja": "korean root volume",
+      "label_en": "korean root volume",
+      "source": "knowledge_base",
+      "aliases": [
+        "korean_root_volume"
+      ]
+    },
+    {
+      "tag": "layered_volume_hair",
+      "label_ja": "layered volume hair",
+      "label_en": "layered volume hair",
+      "source": "extended",
+      "aliases": [
+        "layered_volume_hair",
+        "layered volume hair",
+        "layered_volume",
+        "layered volume",
+        "layered volume hair",
+        "layered volume hair",
+        "layered volume hair"
+      ]
+    },
+    {
+      "tag": "lifted_crown_hair",
+      "label_ja": "lifted crown hair",
+      "label_en": "lifted crown hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "lifted_crown_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "light_as_air_hair",
+      "label_ja": "light as air hair",
+      "label_en": "light as air hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "light_as_air_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "light_hair_texture",
+      "label_ja": "light hair texture",
+      "label_en": "light hair texture",
+      "source": "extended",
+      "aliases": [
+        "light_hair_texture",
+        "light hair texture",
+        "light hair texture",
+        "light hair texture"
+      ]
+    },
+    {
+      "tag": "light_volume_hair",
+      "label_ja": "light volume hair",
+      "label_en": "light volume hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "light_volume_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "medium_volume_hair",
+      "label_ja": "medium volume hair",
+      "label_en": "medium volume hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "medium_volume_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "mega_volume_hair",
+      "label_ja": "mega volume hair",
+      "label_en": "mega volume hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "mega_volume_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "nape_volume_hair",
+      "label_ja": "nape volume hair",
+      "label_en": "nape volume hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "nape_volume_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "narrow_silhouette_hair",
+      "label_ja": "narrow silhouette hair",
+      "label_en": "narrow silhouette hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "narrow_silhouette_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "puffy_hair",
+      "label_ja": "パフヘア",
+      "label_en": "puffy hair",
+      "source": "extended",
+      "aliases": [
+        "puffy_hair",
+        "puffy hair",
+        "ふくらんだ髪",
+        "パフヘア"
+      ]
+    },
+    {
+      "tag": "retro_volume_hair",
+      "label_ja": "retro volume hair",
+      "label_en": "retro volume hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "retro_volume_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "root_lift_hair",
+      "label_ja": "root lift hair",
+      "label_en": "root lift hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "root_lift_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "root_volume_hair",
+      "label_ja": "根元ボリュームヘア",
+      "label_en": "root volume hair",
+      "source": "extended",
+      "aliases": [
+        "root_volume_hair",
+        "root volume hair",
+        "root_volume",
+        "root volume",
+        "root volume hair",
+        "根元ボリュームヘア",
+        "root volume hair",
+        "root volume hair"
+      ]
+    },
+    {
+      "tag": "rounded_volume_hair",
+      "label_ja": "rounded volume hair",
+      "label_en": "rounded volume hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "rounded_volume_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "side_volume_hair",
+      "label_ja": "side volume hair",
+      "label_en": "side volume hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "side_volume_hair",
+        "サイド髪"
+      ]
+    },
+    {
+      "tag": "sleek_volume_hair",
+      "label_ja": "sleek volume hair",
+      "label_en": "sleek volume hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "sleek_volume_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "soft_bounce_hair",
+      "label_ja": "soft bounce hair",
+      "label_en": "soft bounce hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "soft_bounce_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "soft_root_lift",
+      "label_ja": "soft root lift",
+      "label_en": "soft root lift",
+      "source": "knowledge_base",
+      "aliases": [
+        "soft_root_lift"
+      ]
+    },
+    {
+      "tag": "soft_volume_hair",
+      "label_ja": "soft volume hair",
+      "label_en": "soft volume hair",
+      "source": "extended",
+      "aliases": [
+        "soft_volume_hair",
+        "soft volume hair",
+        "soft_volume",
+        "soft volume",
+        "soft volume hair",
+        "soft volume hair",
+        "soft volume hair"
+      ]
+    },
+    {
+      "tag": "teased_hair",
+      "label_ja": "teased hair",
+      "label_en": "teased hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "teased_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "temple_volume_hair",
+      "label_ja": "temple volume hair",
+      "label_en": "temple volume hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "temple_volume_hair",
+        "こめかみ髪"
+      ]
+    },
+    {
+      "tag": "thick_hair",
+      "label_ja": "量の多い髪",
+      "label_en": "thick hair",
+      "source": "extended",
+      "aliases": [
+        "thick_hair",
+        "thick hair",
+        "毛量多め",
+        "量の多い髪"
+      ]
+    },
+    {
+      "tag": "thin_hair",
+      "label_ja": "量の少ない髪",
+      "label_en": "thin hair",
+      "source": "extended",
+      "aliases": [
+        "thin_hair",
+        "thin hair",
+        "毛量少なめ",
+        "量の少ない髪"
+      ]
+    },
+    {
+      "tag": "top_heavy_hair",
+      "label_ja": "top heavy hair",
+      "label_en": "top heavy hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "top_heavy_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "triangular_volume_hair",
+      "label_ja": "triangular volume hair",
+      "label_en": "triangular volume hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "triangular_volume_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "voluminous_curls",
+      "label_ja": "voluminous curls",
+      "label_en": "voluminous curls",
+      "source": "knowledge_base",
+      "aliases": [
+        "voluminous_curls"
+      ]
+    },
+    {
+      "tag": "voluminous_hair",
+      "label_ja": "ボリュームヘア",
+      "label_en": "voluminous hair",
+      "source": "extended",
+      "aliases": [
+        "voluminous_hair",
+        "voluminous hair",
+        "ボリュームのある髪",
+        "ボリュームヘア"
+      ]
+    },
+    {
+      "tag": "voluminous_waves",
+      "label_ja": "voluminous waves",
+      "label_en": "voluminous waves",
+      "source": "knowledge_base",
+      "aliases": [
+        "voluminous_waves"
+      ]
+    },
+    {
+      "tag": "wide_silhouette_hair",
+      "label_ja": "wide silhouette hair",
+      "label_en": "wide silhouette hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "wide_silhouette_hair",
+        "髪"
+      ]
+    }
+  ],
+  "state": [
+    {
+      "tag": "air_dried_hair",
+      "label_ja": "air dried hair",
+      "label_en": "air dried hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "air_dried_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "bedhead_hair",
+      "label_ja": "寝ぐせヘア",
+      "label_en": "bedhead hair",
+      "source": "extended",
+      "aliases": [
+        "bedhead_hair",
+        "bedhead hair",
+        "寝ぐせ",
+        "寝ぐせヘア"
+      ]
+    },
+    {
+      "tag": "blow_dried_hair",
+      "label_ja": "blow dried hair",
+      "label_en": "blow dried hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "blow_dried_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "braid_imprint_hair",
+      "label_ja": "braid imprint hair",
+      "label_en": "braid imprint hair",
+      "source": "extended",
+      "aliases": [
+        "braid_imprint_hair",
+        "braid imprint hair",
+        "braid_imprint",
+        "braid imprint",
+        "braid imprint hair",
+        "braid imprint hair",
+        "braid imprint hair"
+      ]
+    },
+    {
+      "tag": "damp_hair",
+      "label_ja": "湿った髪",
+      "label_en": "damp hair",
+      "source": "extended",
+      "aliases": [
+        "damp_hair",
+        "damp hair",
+        "少し湿った髪",
+        "湿った髪"
+      ]
+    },
+    {
+      "tag": "day_two_hair",
+      "label_ja": "day two hair",
+      "label_en": "day two hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "day_two_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "dry_ends_hair",
+      "label_ja": "dry ends hair",
+      "label_en": "dry ends hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "dry_ends_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "flat_ironed_hair",
+      "label_ja": "flat ironed hair",
+      "label_en": "flat ironed hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "flat_ironed_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "fresh_out_of_shower_hair",
+      "label_ja": "fresh out of shower hair",
+      "label_en": "fresh out of shower hair",
+      "source": "extended",
+      "aliases": [
+        "fresh_out_of_shower_hair",
+        "fresh out of shower hair",
+        "fresh_out_of_shower",
+        "fresh out of shower",
+        "fresh out of shower hair",
+        "fresh out of shower hair",
+        "fresh out of shower hair"
+      ]
+    },
+    {
+      "tag": "fresh_salon_blowout",
+      "label_ja": "fresh salon blowout",
+      "label_en": "fresh salon blowout",
+      "source": "knowledge_base",
+      "aliases": [
+        "fresh_salon_blowout"
+      ]
+    },
+    {
+      "tag": "freshly_brushed_hair",
+      "label_ja": "とかしたての髪",
+      "label_en": "freshly brushed hair",
+      "source": "extended",
+      "aliases": [
+        "freshly_brushed_hair",
+        "freshly brushed hair",
+        "ブラッシングした髪",
+        "とかしたての髪"
+      ]
+    },
+    {
+      "tag": "freshly_curled_hair",
+      "label_ja": "freshly curled hair",
+      "label_en": "freshly curled hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "freshly_curled_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "freshly_styled_hair",
+      "label_ja": "freshly styled hair",
+      "label_en": "freshly styled hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "freshly_styled_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "freshly_washed_hair",
+      "label_ja": "freshly washed hair",
+      "label_en": "freshly washed hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "freshly_washed_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "frizz_prone_hair",
+      "label_ja": "frizz prone hair",
+      "label_en": "frizz prone hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "frizz_prone_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "frost_touched_hair",
+      "label_ja": "frost touched hair",
+      "label_en": "frost touched hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "frost_touched_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "hat_flattened_hair",
+      "label_ja": "hat flattened hair",
+      "label_en": "hat flattened hair",
+      "source": "extended",
+      "aliases": [
+        "hat_flattened_hair",
+        "hat flattened hair",
+        "hat_flattened",
+        "hat flattened",
+        "hat flattened hair",
+        "hat flattened hair",
+        "hat flattened hair"
+      ]
+    },
+    {
+      "tag": "heat_styled_hair",
+      "label_ja": "heat styled hair",
+      "label_en": "heat styled hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "heat_styled_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "helmet_afterwear_hair",
+      "label_ja": "helmet afterwear hair",
+      "label_en": "helmet afterwear hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "helmet_afterwear_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "humid_day_hair",
+      "label_ja": "humid day hair",
+      "label_en": "humid day hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "humid_day_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "humid_hair",
+      "label_ja": "湿気を含んだ髪",
+      "label_en": "humid hair",
+      "source": "extended",
+      "aliases": [
+        "humid_hair",
+        "humid hair",
+        "湿気髪",
+        "湿気を含んだ髪"
+      ]
+    },
+    {
+      "tag": "misty_hair",
+      "label_ja": "misty hair",
+      "label_en": "misty hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "misty_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "oily_roots_hair",
+      "label_ja": "oily roots hair",
+      "label_en": "oily roots hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "oily_roots_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "partially_dried_hair",
+      "label_ja": "partially dried hair",
+      "label_en": "partially dried hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "partially_dried_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "post_braid_waves",
+      "label_ja": "post braid waves",
+      "label_en": "post braid waves",
+      "source": "knowledge_base",
+      "aliases": [
+        "post_braid_waves",
+        "三つ編み"
+      ]
+    },
+    {
+      "tag": "post_bun_waves",
+      "label_ja": "post bun waves",
+      "label_en": "post bun waves",
+      "source": "knowledge_base",
+      "aliases": [
+        "post_bun_waves",
+        "お団子"
+      ]
+    },
+    {
+      "tag": "post_perm_hair",
+      "label_ja": "post perm hair",
+      "label_en": "post perm hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "post_perm_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "post_shower_hair",
+      "label_ja": "post shower hair",
+      "label_en": "post shower hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "post_shower_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "rain_touched_hair",
+      "label_ja": "rain touched hair",
+      "label_en": "rain touched hair",
+      "source": "extended",
+      "aliases": [
+        "rain_touched_hair",
+        "rain touched hair",
+        "rain_touched",
+        "rain touched",
+        "rain touched hair",
+        "rain touched hair",
+        "rain touched hair"
+      ]
+    },
+    {
+      "tag": "salty_hair",
+      "label_ja": "salty hair",
+      "label_en": "salty hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "salty_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "sea_breeze_hair",
+      "label_ja": "sea breeze hair",
+      "label_en": "sea breeze hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "sea_breeze_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "set_with_rollers_hair",
+      "label_ja": "set with rollers hair",
+      "label_en": "set with rollers hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "set_with_rollers_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "sleep_tousled_hair",
+      "label_ja": "sleep tousled hair",
+      "label_en": "sleep tousled hair",
+      "source": "extended",
+      "aliases": [
+        "sleep_tousled_hair",
+        "sleep tousled hair",
+        "sleep_tousled",
+        "sleep tousled",
+        "sleep tousled hair",
+        "sleep tousled hair",
+        "sleep tousled hair"
+      ]
+    },
+    {
+      "tag": "sleepy_hair",
+      "label_ja": "sleepy hair",
+      "label_en": "sleepy hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "sleepy_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "snow_dusted_hair",
+      "label_ja": "snow dusted hair",
+      "label_en": "snow dusted hair",
+      "source": "extended",
+      "aliases": [
+        "snow_dusted_hair",
+        "snow dusted hair",
+        "snow_dusted",
+        "snow dusted",
+        "snow dusted hair",
+        "snow dusted hair",
+        "snow dusted hair"
+      ]
+    },
+    {
+      "tag": "snow_touched_hair",
+      "label_ja": "snow touched hair",
+      "label_en": "snow touched hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "snow_touched_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "softly_wet_hair",
+      "label_ja": "softly wet hair",
+      "label_en": "softly wet hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "softly_wet_hair",
+        "濡れ髪"
+      ]
+    },
+    {
+      "tag": "static_hair",
+      "label_ja": "static hair",
+      "label_en": "static hair",
+      "source": "extended",
+      "aliases": [
+        "static_hair",
+        "static hair",
+        "static",
+        "static",
+        "static hair",
+        "static hair",
+        "static hair"
+      ]
+    },
+    {
+      "tag": "styled_with_cream",
+      "label_ja": "styled with cream",
+      "label_en": "styled with cream",
+      "source": "knowledge_base",
+      "aliases": [
+        "styled_with_cream"
+      ]
+    },
+    {
+      "tag": "styled_with_gel",
+      "label_ja": "styled with gel",
+      "label_en": "styled with gel",
+      "source": "knowledge_base",
+      "aliases": [
+        "styled_with_gel"
+      ]
+    },
+    {
+      "tag": "styled_with_mousse",
+      "label_ja": "styled with mousse",
+      "label_en": "styled with mousse",
+      "source": "knowledge_base",
+      "aliases": [
+        "styled_with_mousse"
+      ]
+    },
+    {
+      "tag": "styled_with_wax",
+      "label_ja": "styled with wax",
+      "label_en": "styled with wax",
+      "source": "knowledge_base",
+      "aliases": [
+        "styled_with_wax"
+      ]
+    },
+    {
+      "tag": "sweat_damp_hair",
+      "label_ja": "sweat damp hair",
+      "label_en": "sweat damp hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "sweat_damp_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "towel_dried_hair",
+      "label_ja": "towel dried hair",
+      "label_en": "towel dried hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "towel_dried_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "wet_hair",
+      "label_ja": "濡れ髪",
+      "label_en": "wet hair",
+      "source": "danbooru",
+      "aliases": [
+        "wet_hair",
+        "wet hair",
+        "濡れた髪",
+        "濡れ髪"
+      ]
+    },
+    {
+      "tag": "wind_lifted_hair",
+      "label_ja": "wind lifted hair",
+      "label_en": "wind lifted hair",
+      "source": "extended",
+      "aliases": [
+        "wind_lifted_hair",
+        "wind lifted hair",
+        "wind_lifted",
+        "wind lifted",
+        "wind lifted hair",
+        "wind lifted hair",
+        "wind lifted hair"
+      ]
+    },
+    {
+      "tag": "windblown_hair",
+      "label_ja": "windblown hair",
+      "label_en": "windblown hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "windblown_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "windswept_hair",
+      "label_ja": "風になびく髪",
+      "label_en": "windswept hair",
+      "source": "extended",
+      "aliases": [
+        "windswept_hair",
+        "windswept hair",
+        "風で流れた髪",
+        "風になびく髪"
+      ]
+    }
+  ],
+  "irregularity": [
+    {
+      "tag": "anime_piecey_hair",
+      "label_ja": "anime piecey hair",
+      "label_en": "anime piecey hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "anime_piecey_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "beach_tousle_hair",
+      "label_ja": "beach tousle hair",
+      "label_en": "beach tousle hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "beach_tousle_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "broken_bangs_texture",
+      "label_ja": "broken bangs texture",
+      "label_en": "broken bangs texture",
+      "source": "knowledge_base",
+      "aliases": [
+        "broken_bangs_texture",
+        "前髪"
+      ]
+    },
+    {
+      "tag": "broken_up_strands",
+      "label_ja": "broken up strands",
+      "label_en": "broken up strands",
+      "source": "extended",
+      "aliases": [
+        "broken_up_strands",
+        "broken up strands",
+        "broken up strands",
+        "broken up strands"
+      ]
+    },
+    {
+      "tag": "broken_up_texture_hair",
+      "label_ja": "broken up texture hair",
+      "label_en": "broken up texture hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "broken_up_texture_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "choppy_texture_hair",
+      "label_ja": "choppy texture hair",
+      "label_en": "choppy texture hair",
+      "source": "extended",
+      "aliases": [
+        "choppy_texture_hair",
+        "choppy texture hair",
+        "choppy_texture",
+        "choppy texture",
+        "choppy texture hair",
+        "choppy texture hair",
+        "choppy texture hair"
+      ]
+    },
+    {
+      "tag": "chunky_waves",
+      "label_ja": "chunky waves",
+      "label_en": "chunky waves",
+      "source": "knowledge_base",
+      "aliases": [
+        "chunky_waves"
+      ]
+    },
+    {
+      "tag": "clumped_strands",
+      "label_ja": "clumped strands",
+      "label_en": "clumped strands",
+      "source": "extended",
+      "aliases": [
+        "clumped_strands",
+        "clumped strands",
+        "clumped strands",
+        "clumped strands"
+      ]
+    },
+    {
+      "tag": "deliberately_messy_hair",
+      "label_ja": "deliberately messy hair",
+      "label_en": "deliberately messy hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "deliberately_messy_hair",
+        "ラフ髪"
+      ]
+    },
+    {
+      "tag": "disheveled_hair",
+      "label_ja": "disheveled hair",
+      "label_en": "disheveled hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "disheveled_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "edgy_texture_hair",
+      "label_ja": "edgy texture hair",
+      "label_en": "edgy texture hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "edgy_texture_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "flyaway_hair",
+      "label_ja": "flyaway hair",
+      "label_en": "flyaway hair",
+      "source": "extended",
+      "aliases": [
+        "flyaway_hair",
+        "flyaway hair",
+        "flyaway",
+        "flyaway",
+        "flyaway hair",
+        "flyaway hair",
+        "flyaway hair"
+      ]
+    },
+    {
+      "tag": "frayed_ends_hair",
+      "label_ja": "frayed ends hair",
+      "label_en": "frayed ends hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "frayed_ends_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "freeform_hair",
+      "label_ja": "freeform hair",
+      "label_en": "freeform hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "freeform_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "frizzy_hair",
+      "label_ja": "広がる髪",
+      "label_en": "frizzy hair",
+      "source": "extended",
+      "aliases": [
+        "frizzy_hair",
+        "frizzy hair",
+        "広がった髪",
+        "広がる髪"
+      ]
+    },
+    {
+      "tag": "front_separated_hair",
+      "label_ja": "front separated hair",
+      "label_en": "front separated hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "front_separated_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "fuzzy_hair",
+      "label_ja": "fuzzy hair",
+      "label_en": "fuzzy hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "fuzzy_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "grunge_texture_hair",
+      "label_ja": "grunge texture hair",
+      "label_en": "grunge texture hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "grunge_texture_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "halo_frizz_hair",
+      "label_ja": "halo frizz hair",
+      "label_en": "halo frizz hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "halo_frizz_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "lightly_messy_hair",
+      "label_ja": "lightly messy hair",
+      "label_en": "lightly messy hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "lightly_messy_hair",
+        "ラフ髪"
+      ]
+    },
+    {
+      "tag": "messy_crown_hair",
+      "label_ja": "messy crown hair",
+      "label_en": "messy crown hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "messy_crown_hair",
+        "ラフ髪"
+      ]
+    },
+    {
+      "tag": "messy_face_frame",
+      "label_ja": "messy face frame",
+      "label_en": "messy face frame",
+      "source": "knowledge_base",
+      "aliases": [
+        "messy_face_frame",
+        "ラフ顔"
+      ]
+    },
+    {
+      "tag": "messy_hair",
+      "label_ja": "ラフヘア",
+      "label_en": "messy hair",
+      "source": "danbooru",
+      "aliases": [
+        "messy_hair",
+        "messy hair",
+        "ラフな髪",
+        "ラフヘア"
+      ]
+    },
+    {
+      "tag": "messy_nape_hair",
+      "label_ja": "messy nape hair",
+      "label_en": "messy nape hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "messy_nape_hair",
+        "ラフ髪"
+      ]
+    },
+    {
+      "tag": "piecey_curls",
+      "label_ja": "piecey curls",
+      "label_en": "piecey curls",
+      "source": "knowledge_base",
+      "aliases": [
+        "piecey_curls"
+      ]
+    },
+    {
+      "tag": "piecey_hair",
+      "label_ja": "束感ヘア",
+      "label_en": "piecey hair",
+      "source": "extended",
+      "aliases": [
+        "piecey_hair",
+        "piecey hair",
+        "束感のある髪",
+        "束感ヘア"
+      ]
+    },
+    {
+      "tag": "piecey_waves",
+      "label_ja": "piecey waves",
+      "label_en": "piecey waves",
+      "source": "knowledge_base",
+      "aliases": [
+        "piecey_waves"
+      ]
+    },
+    {
+      "tag": "ragged_layers",
+      "label_ja": "ragged layers",
+      "label_en": "ragged layers",
+      "source": "knowledge_base",
+      "aliases": [
+        "ragged_layers",
+        "レイヤー"
+      ]
+    },
+    {
+      "tag": "ribboned_texture_hair",
+      "label_ja": "ribboned texture hair",
+      "label_en": "ribboned texture hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "ribboned_texture_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "rockstar_texture_hair",
+      "label_ja": "rockstar texture hair",
+      "label_en": "rockstar texture hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "rockstar_texture_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "rough_tips",
+      "label_ja": "rough tips",
+      "label_en": "rough tips",
+      "source": "extended",
+      "aliases": [
+        "rough_tips",
+        "rough tips",
+        "rough tips",
+        "rough tips"
+      ]
+    },
+    {
+      "tag": "roughened_hair",
+      "label_ja": "roughened hair",
+      "label_en": "roughened hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "roughened_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "ruffled_hair",
+      "label_ja": "ruffled hair",
+      "label_en": "ruffled hair",
+      "source": "extended",
+      "aliases": [
+        "ruffled_hair",
+        "ruffled hair",
+        "ruffled",
+        "ruffled",
+        "ruffled hair",
+        "ruffled hair",
+        "ruffled hair"
+      ]
+    },
+    {
+      "tag": "scrunched_texture_hair",
+      "label_ja": "scrunched texture hair",
+      "label_en": "scrunched texture hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "scrunched_texture_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "seaside_tousle_hair",
+      "label_ja": "seaside tousle hair",
+      "label_en": "seaside tousle hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "seaside_tousle_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "separated_curls",
+      "label_ja": "separated curls",
+      "label_en": "separated curls",
+      "source": "knowledge_base",
+      "aliases": [
+        "separated_curls"
+      ]
+    },
+    {
+      "tag": "separated_locks_hair",
+      "label_ja": "separated locks hair",
+      "label_en": "separated locks hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "separated_locks_hair",
+        "おくれ毛髪"
+      ]
+    },
+    {
+      "tag": "separated_strands",
+      "label_ja": "毛束分離",
+      "label_en": "separated strands",
+      "source": "extended",
+      "aliases": [
+        "separated_strands",
+        "separated strands",
+        "分離した毛束",
+        "毛束分離"
+      ]
+    },
+    {
+      "tag": "shaggy_texture_hair",
+      "label_ja": "shaggy texture hair",
+      "label_en": "shaggy texture hair",
+      "source": "extended",
+      "aliases": [
+        "shaggy_texture_hair",
+        "shaggy texture hair",
+        "shaggy_texture",
+        "shaggy texture",
+        "shaggy texture hair",
+        "shaggy texture hair",
+        "shaggy texture hair"
+      ]
+    },
+    {
+      "tag": "side_separated_hair",
+      "label_ja": "side separated hair",
+      "label_en": "side separated hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "side_separated_hair",
+        "サイド髪"
+      ]
+    },
+    {
+      "tag": "soft_disarray_hair",
+      "label_ja": "soft disarray hair",
+      "label_en": "soft disarray hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "soft_disarray_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "soft_messy_hair",
+      "label_ja": "soft messy hair",
+      "label_en": "soft messy hair",
+      "source": "extended",
+      "aliases": [
+        "soft_messy_hair",
+        "soft messy hair",
+        "soft_messy",
+        "soft messy",
+        "soft messy hair",
+        "soft messy hair",
+        "soft messy hair"
+      ]
+    },
+    {
+      "tag": "softly_spiky_hair",
+      "label_ja": "softly spiky hair",
+      "label_en": "softly spiky hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "softly_spiky_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "spidery_ends_hair",
+      "label_ja": "spidery ends hair",
+      "label_en": "spidery ends hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "spidery_ends_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "spiky_hair",
+      "label_ja": "スパイキーヘア",
+      "label_en": "spiky hair",
+      "source": "extended",
+      "aliases": [
+        "spiky_hair",
+        "spiky hair",
+        "尖った髪",
+        "スパイキーヘア"
+      ]
+    },
+    {
+      "tag": "stray_crown_hairs",
+      "label_ja": "stray crown hairs",
+      "label_en": "stray crown hairs",
+      "source": "knowledge_base",
+      "aliases": [
+        "stray_crown_hairs"
+      ]
+    },
+    {
+      "tag": "stray_face_hairs",
+      "label_ja": "stray face hairs",
+      "label_en": "stray face hairs",
+      "source": "knowledge_base",
+      "aliases": [
+        "stray_face_hairs",
+        "顔"
+      ]
+    },
+    {
+      "tag": "stray_hairs",
+      "label_ja": "stray hairs",
+      "label_en": "stray hairs",
+      "source": "knowledge_base",
+      "aliases": [
+        "stray_hairs"
+      ]
+    },
+    {
+      "tag": "tangled_hair",
+      "label_ja": "絡まった髪",
+      "label_en": "tangled hair",
+      "source": "extended",
+      "aliases": [
+        "tangled_hair",
+        "tangled hair",
+        "もつれ髪",
+        "絡まった髪"
+      ]
+    },
+    {
+      "tag": "tousled_hair",
+      "label_ja": "無造作ヘア",
+      "label_en": "tousled hair",
+      "source": "extended",
+      "aliases": [
+        "tousled_hair",
+        "tousled hair",
+        "無造作",
+        "無造作ヘア"
+      ]
+    },
+    {
+      "tag": "uneven_texture_hair",
+      "label_ja": "uneven texture hair",
+      "label_en": "uneven texture hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "uneven_texture_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "unkempt_hair",
+      "label_ja": "整っていない髪",
+      "label_en": "unkempt hair",
+      "source": "extended",
+      "aliases": [
+        "unkempt_hair",
+        "unkempt hair",
+        "ぼさぼさ",
+        "整っていない髪"
+      ]
+    },
+    {
+      "tag": "untamed_hair",
+      "label_ja": "untamed hair",
+      "label_en": "untamed hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "untamed_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "wild_hair",
+      "label_ja": "wild hair",
+      "label_en": "wild hair",
+      "source": "extended",
+      "aliases": [
+        "wild_hair",
+        "wild hair",
+        "wild",
+        "wild",
+        "wild hair",
+        "wild hair",
+        "wild hair"
+      ]
+    },
+    {
+      "tag": "wind_tossed_hair",
+      "label_ja": "wind tossed hair",
+      "label_en": "wind tossed hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "wind_tossed_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "windswept_texture_hair",
+      "label_ja": "windswept texture hair",
+      "label_en": "windswept texture hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "windswept_texture_hair",
+        "髪"
+      ]
+    },
+    {
+      "tag": "wispy_texture_hair",
+      "label_ja": "wispy texture hair",
+      "label_en": "wispy texture hair",
+      "source": "knowledge_base",
+      "aliases": [
+        "wispy_texture_hair",
+        "薄め髪"
+      ]
+    }
+  ]
+}
